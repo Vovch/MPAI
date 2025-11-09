@@ -24,3 +24,14 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.gemini-stage {
+  position: relative;
+  isolation: isolate;
+  width: 100%;
+}
+
+.manual-panel {
+  position: relative;
+  z-index: 2;
+}

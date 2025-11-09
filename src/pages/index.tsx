@@ -1,5 +1,11 @@
-import Image from "next/image";
+import { FormEvent, useCallback, useEffect, useRef, useState } from "react";
+import { GetStaticProps } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+
+import { generateStylePayload } from "@/lib/gemini";
+import { loadMovies } from "@/lib/movies";
+import { getPrompt } from "@/lib/styleState";
+import type { GeminiComposition, NationalFilm } from "@/types/movies";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -11,68 +17,222 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export default function Home() {
+interface HomeProps {
+  movies: NationalFilm[];
+  composition: GeminiComposition;
+  revalidatedAt: string;
+  initialHighlight: NationalFilm | null;
+}
+
+export default function Home({ movies, composition, revalidatedAt, initialHighlight }: HomeProps) {
+  const [highlight, setHighlight] = useState<NationalFilm | null>(() => initialHighlight ?? movies[0] ?? null);
+  const [customPrompt, setCustomPrompt] = useState("");
+  const [statusMessage, setStatusMessage] = useState<string | null>(null);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [hasRandomButton, setHasRandomButton] = useState(true);
+  const panelRef = useRef<HTMLElement | null>(null);
+
+  const pickRandomMovie = useCallback((): NationalFilm | null => {
+    if (!movies.length) {
+      return null;
+    }
+    const randomIndex = Math.floor(Math.random() * movies.length);
+    return movies[randomIndex] ?? null;
+  }, [movies]);
+
+  useEffect(() => {
+    if (!movies.length) {
+      setHasRandomButton(false);
+      return;
+    }
+
+    panelRef.current = document.querySelector<HTMLElement>("[data-random-panel]");
+    const button = document.querySelector<HTMLButtonElement>("[data-random-button]");
+
+    if (!button) {
+      setHasRandomButton(false);
+      return;
+    }
+
+    setHasRandomButton(true);
+    const handleClick = () => {
+      const nextMovie = pickRandomMovie();
+      if (nextMovie) {
+        setHighlight(nextMovie);
+      }
+    };
+
+    button.addEventListener("click", handleClick);
+    return () => {
+      button.removeEventListener("click", handleClick);
+    };
+  }, [composition.html, movies.length, pickRandomMovie]);
+
+  useEffect(() => {
+    if (!highlight) {
+      return;
+    }
+
+    if (!panelRef.current) {
+      panelRef.current = document.querySelector<HTMLElement>("[data-random-panel]");
+    }
+
+    const panel = panelRef.current;
+    if (!panel) {
+      return;
+    }
+
+    const titleNode = panel.querySelector<HTMLElement>("[data-random-title]");
+    const metaNode = panel.querySelector<HTMLElement>("[data-random-meta]");
+    const loglineNode = panel.querySelector<HTMLElement>("[data-random-logline]");
+    const linkNode = panel.querySelector<HTMLAnchorElement>("[data-random-link]");
+
+    if (titleNode) {
+      titleNode.textContent = highlight.title;
+    }
+    if (metaNode) {
+      metaNode.textContent = `${highlight.releaseYear} | Registry ${highlight.registryYear} | ${highlight.runtimeMinutes} min`;
+    }
+    if (loglineNode) {
+      loglineNode.textContent = highlight.logline;
+    }
+    if (linkNode) {
+      linkNode.href = `/movies/${highlight.slug}`;
+      linkNode.textContent = "Explore dossier";
+      linkNode.setAttribute("aria-label", `Read more about ${highlight.title}`);
+    }
+  }, [highlight]);
+
+  const handlePromptSubmit = async (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    if (!customPrompt.trim()) {
+      setStatusMessage("Describe a tone or style before regenerating.");
+      return;
+    }
+
+    setIsSubmitting(true);
+    setStatusMessage(null);
+
+    try {
+      const response = await fetch("/api/regenerate", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ prompt: customPrompt }),
+      });
+
+      if (!response.ok) {
+        throw new Error(await response.text());
+      }
+
+      setStatusMessage("Prompt sent! Give ISR a few seconds, then refresh to see the new layout.");
+      setCustomPrompt("");
+    } catch (error) {
+      setStatusMessage(
+        error instanceof Error ? error.message : "Something went wrong. Please try a different prompt."
+      );
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
+  const handleManualSpin = () => {
+    const randomMovie = pickRandomMovie();
+    if (randomMovie) {
+      setHighlight(randomMovie);
+    }
+  };
+
   return (
-    <div
-      className={`${geistSans.className} ${geistMono.className} flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black`}
-    >
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the index.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <div className={`${geistSans.variable} ${geistMono.variable} flex min-h-screen flex-col`}>
+      <style dangerouslySetInnerHTML={{ __html: composition.css }} />
+      <div
+        className="gemini-stage flex-1 px-4 py-6 sm:px-8"
+        key={revalidatedAt}
+        data-gemini-html
+        suppressHydrationWarning
+        dangerouslySetInnerHTML={{ __html: composition.html }}
+      />
+
+      <section className="manual-panel mx-auto my-8 flex w-full max-w-5xl flex-col gap-4 rounded-3xl border border-neutral-900/40 bg-black/80 px-6 py-8 text-white shadow-2xl backdrop-blur">
+        <div className="flex flex-col gap-2">
+          <p className="text-xs uppercase tracking-[0.4em] text-white/40">Live controls</p>
+          <h2 className="text-2xl font-semibold">Regenerate this page with your own prompt</h2>
+          <p className="text-sm text-white/70">
+            Gemini authored every bit of CSS and markup inside the experience above. Send a mood or design direction to
+            re-run Gemini 2.0 Flash now, or simply wait for the five-minute ISR window for an automatic refresh.
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+        <form className="flex flex-col gap-3 md:flex-row" onSubmit={handlePromptSubmit}>
+          <label htmlFor="prompt" className="sr-only">
+            Style prompt
+          </label>
+          <input
+            id="prompt"
+            value={customPrompt}
+            onChange={(event) => setCustomPrompt(event.target.value)}
+            placeholder="e.g. Brutalist newsprint collage or Neon CRT scanlines"
+            className="flex-1 rounded-full border border-white/20 bg-white/10 px-5 py-3 text-white placeholder:text-white/50 focus:border-amber-300 focus:outline-none"
+          />
+          <button
+            type="submit"
+            disabled={isSubmitting}
+            className="rounded-full bg-amber-300 px-6 py-3 text-sm font-semibold text-black transition enabled:hover:bg-amber-200 disabled:cursor-not-allowed disabled:opacity-70"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs/pages/getting-started?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+            {isSubmitting ? "Sending..." : "Regenerate now"}
+          </button>
+        </form>
+        {statusMessage && <p className="text-sm text-white/70">{statusMessage}</p>}
+        <div className="flex flex-col gap-2 rounded-2xl bg-white/5 p-4 text-sm text-white/70 md:flex-row md:items-center md:justify-between">
+          <p>
+            Last regenerated at:{" "}
+            <span className="font-mono text-emerald-300">{new Date(revalidatedAt).toLocaleString('ru')}</span>
+          </p>
+          {!hasRandomButton && movies.length > 0 && (
+            <button
+              type="button"
+              onClick={handleManualSpin}
+              className="rounded-full border border-white/30 px-4 py-2 text-xs uppercase tracking-[0.3em] text-white hover:border-white"
+            >
+              Spin random film (fallback)
+            </button>
+          )}
         </div>
-      </main>
+        {composition.notes.length > 0 && (
+          <div>
+            <p className="text-xs uppercase tracking-[0.4em] text-white/40">Gemini notes</p>
+            <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-white/70">
+              {composition.notes.map((note) => (
+                <li key={note}>{note}</li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </section>
     </div>
   );
 }
+
+export const getStaticProps: GetStaticProps<HomeProps> = async () => {
+  const movies = await loadMovies();
+  const prompt = getPrompt("list");
+  const initialHighlight =
+    movies.length > 0 ? movies[Math.floor(Math.random() * movies.length)] : null;
+  const composition = await generateStylePayload({
+    scope: "list",
+    prompt,
+    movies,
+    highlight: initialHighlight,
+  });
+
+  return {
+    props: {
+      movies,
+      composition,
+      initialHighlight,
+      revalidatedAt: new Date().toISOString(),
+    },
+    revalidate: 300,
+  };
+};
