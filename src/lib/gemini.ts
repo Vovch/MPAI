@@ -1,7 +1,7 @@
 import type { GeminiComposition, NationalFilm } from "@/types/movies";
 
 const GEMINI_ENDPOINT =
-  "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent";
+  "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent";
 
 type GeminiScope = "list" | "detail";
 
@@ -11,6 +11,22 @@ interface StyleOptions {
   movies?: NationalFilm[];
   highlight?: NationalFilm | null;
   movie?: NationalFilm | null;
+}
+
+interface GeminiTextPart {
+  text?: string;
+}
+
+interface GeminiCandidateContent {
+  parts?: GeminiTextPart[];
+}
+
+interface GeminiCandidate {
+  content?: GeminiCandidateContent;
+}
+
+interface GeminiSuccessResponse {
+  candidates: GeminiCandidate[];
 }
 
 const MAX_MOVIES_FOR_PROMPT = 12;
@@ -133,19 +149,23 @@ function normalizeHtmlFragment(html: string): string {
     .replace(/\sdata-([\w]+)=/g, (match) => match.toLowerCase());
 }
 
+function isGeminiResponse(body: unknown): body is GeminiSuccessResponse {
+  if (!body || typeof body !== "object" || !("candidates" in body)) {
+    return false;
+  }
+
+  const { candidates } = body as { candidates?: unknown };
+  return Array.isArray(candidates);
+}
+
 function parseGeminiResponse(body: unknown): GeminiComposition | null {
-  if (
-    !body ||
-    typeof body !== "object" ||
-    !("candidates" in body) ||
-    !Array.isArray((body as any).candidates)
-  ) {
+  if (!isGeminiResponse(body)) {
     return null;
   }
 
   const text =
-    (body as any).candidates?.[0]?.content?.parts
-      ?.map((part: { text?: string }) => part?.text ?? "")
+    body.candidates?.[0]?.content?.parts
+      ?.map((part) => part?.text ?? "")
       .join(" ")
       .trim() ?? "";
 
@@ -159,19 +179,30 @@ function parseGeminiResponse(body: unknown): GeminiComposition | null {
   }
 
   try {
-    const parsed = JSON.parse(sanitized);
+    const parsed: unknown = JSON.parse(sanitized);
     if (
       parsed &&
-      typeof parsed.html === "string" &&
-      typeof parsed.css === "string" &&
-      Array.isArray(parsed.notes)
+      typeof parsed === "object" &&
+      "html" in parsed &&
+      "css" in parsed &&
+      "notes" in parsed
     ) {
-      const notes = parsed.notes.filter((note: unknown) => typeof note === "string");
+      const { html, css, notes } = parsed as {
+        html: unknown;
+        css: unknown;
+        notes: unknown;
+      };
+
+      if (typeof html !== "string" || typeof css !== "string" || !Array.isArray(notes)) {
+        return null;
+      }
+
+      const filteredNotes = notes.filter((note): note is string => typeof note === "string");
       return {
-        html: normalizeHtmlFragment(parsed.html),
-        css: parsed.css,
-        notes,
-      } as GeminiComposition;
+        html: normalizeHtmlFragment(html),
+        css,
+        notes: filteredNotes,
+      };
     }
   } catch (error) {
     console.warn("Failed to parse Gemini JSON. Raw text:", text, error);

@@ -1,4 +1,4 @@
-import { FormEvent, useCallback, useEffect, useRef, useState } from "react";
+import { ChangeEvent, FormEvent, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { GetStaticProps } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 
@@ -27,10 +27,12 @@ interface HomeProps {
 export default function Home({ movies, composition, revalidatedAt, initialHighlight }: HomeProps) {
   const [highlight, setHighlight] = useState<NationalFilm | null>(() => initialHighlight ?? movies[0] ?? null);
   const [customPrompt, setCustomPrompt] = useState("");
+  const [searchQuery, setSearchQuery] = useState("");
   const [statusMessage, setStatusMessage] = useState<string | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [hasRandomButton, setHasRandomButton] = useState(true);
   const panelRef = useRef<HTMLElement | null>(null);
+  const normalizedQuery = searchQuery.trim().toLowerCase();
 
   const pickRandomMovie = useCallback((): NationalFilm | null => {
     if (!movies.length) {
@@ -144,6 +146,30 @@ export default function Home({ movies, composition, revalidatedAt, initialHighli
     }
   };
 
+  const handleSearchChange = (event: ChangeEvent<HTMLInputElement>) => {
+    setSearchQuery(event.target.value);
+  };
+
+  const filteredMovies = useMemo(() => {
+    if (!normalizedQuery) {
+      return movies;
+    }
+
+    return movies.filter((movie) => {
+      const haystack = [
+        movie.title,
+        movie.directors.join(" "),
+        movie.genres.join(" "),
+        movie.releaseYear ? String(movie.releaseYear) : "",
+        movie.registryYear ? String(movie.registryYear) : "",
+      ]
+        .join(" ")
+        .toLowerCase();
+
+      return haystack.includes(normalizedQuery);
+    });
+  }, [movies, normalizedQuery]);
+
   return (
     <div className={`${geistSans.variable} ${geistMono.variable} flex min-h-screen flex-col`}>
       <style dangerouslySetInnerHTML={{ __html: composition.css }} />
@@ -210,6 +236,70 @@ export default function Home({ movies, composition, revalidatedAt, initialHighli
           </div>
         )}
       </section>
+      {movies.length > 0 && (
+        <section className="mx-auto mb-12 mt-4 w-full max-w-6xl rounded-3xl border border-white/5 bg-black/60 px-6 py-8 text-white shadow-2xl backdrop-blur">
+          <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+            <div>
+              <p className="text-xs uppercase tracking-[0.4em] text-white/40">Complete registry index</p>
+              <h2 className="text-2xl font-semibold">Browse all {movies.length} films</h2>
+              <p className="text-sm text-white/70">
+                Search titles, directors, or genres below. Results update instantly so the full catalog is always within reach.
+              </p>
+            </div>
+            <div className="w-full max-w-md">
+              <label htmlFor="movie-search" className="sr-only">
+                Search registry films
+              </label>
+              <input
+                id="movie-search"
+                type="search"
+                value={searchQuery}
+                onChange={handleSearchChange}
+                placeholder="Search by title, director, year, or genre"
+                className="w-full rounded-2xl border border-white/20 bg-white/10 px-5 py-3 text-sm text-white placeholder:text-white/50 focus:border-amber-300 focus:outline-none"
+              />
+              <p className="mt-2 text-xs uppercase tracking-[0.3em] text-white/40">
+                {normalizedQuery
+                  ? `Showing ${filteredMovies.length} match${filteredMovies.length === 1 ? "" : "es"}`
+                  : `Showing all ${movies.length} films`}
+              </p>
+            </div>
+          </div>
+          <div className="mt-6 grid gap-4 sm:grid-cols-2">
+            {filteredMovies.length > 0 ? (
+              filteredMovies.map((movie) => (
+                <article
+                  key={movie.slug}
+                  className="flex flex-col rounded-2xl border border-white/10 bg-white/5 p-5 transition hover:border-amber-200/40"
+                >
+                  <div className="text-xs uppercase tracking-[0.3em] text-white/40">
+                    <span>{movie.releaseYear || "Year N/A"}</span>
+                    <span className="px-2 text-white/20">|</span>
+                    <span>Registry {movie.registryYear || "—"}</span>
+                  </div>
+                  <h3 className="mt-2 text-lg font-semibold text-white">{movie.title}</h3>
+                  <p className="text-sm text-white/60">
+                    {movie.directors.length > 0 ? movie.directors.join(", ") : "Director information unavailable"}
+                  </p>
+                  <p className="mt-2 text-sm text-white/70">
+                    {movie.summary || movie.logline || "Visit the dossier for synopsis and preservation notes."}
+                  </p>
+                  <a
+                    className="mt-4 text-sm font-semibold text-amber-300 hover:text-amber-100"
+                    href={`/movies/${movie.slug}`}
+                  >
+                    Open dossier →
+                  </a>
+                </article>
+              ))
+            ) : (
+              <p className="rounded-2xl border border-white/10 bg-white/5 p-6 text-sm text-white/70">
+                No films match “{searchQuery}”. Try another title, director, or genre.
+              </p>
+            )}
+          </div>
+        </section>
+      )}
     </div>
   );
 }

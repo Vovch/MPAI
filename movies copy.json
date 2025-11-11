@@ -1,0 +1,7202 @@
+[
+    {
+        "name": "4 маленькие девочки",
+        "originalName": "4 Little Girls",
+        "director": "Спайк Ли",
+        "yearProduced": "1997",
+        "yearAdded": "2017",
+        "id": 3
+    },
+    {
+        "name": "12 лет рабства",
+        "originalName": "12 Years a Slave",
+        "director": "Стив Маккуин",
+        "yearProduced": "2013",
+        "yearAdded": "2023",
+        "id": 1751
+    },
+    {
+        "name": "12 разгневанных мужчин",
+        "originalName": "12 Angry Men",
+        "director": "Сидни Люмет",
+        "yearProduced": "1957",
+        "yearAdded": "2007",
+        "id": 0
+    },
+    {
+        "name": "13 озёр",
+        "originalName": "13 Lakes",
+        "director": "Джеймс Беннинг",
+        "yearProduced": "2004",
+        "yearAdded": "2014",
+        "id": 1
+    },
+    {
+        "name": "20 000 лье под водой",
+        "originalName": "20,000 Leagues Under the Sea",
+        "director": "Стюарт Пэйтон",
+        "yearProduced": "1916",
+        "yearAdded": "2016",
+        "id": 2
+    },
+    {
+        "name": "42-я улица",
+        "originalName": "42nd Street",
+        "director": "Ллойд Бэкон",
+        "yearProduced": "1933",
+        "yearAdded": "1998",
+        "id": 4
+    },
+    {
+        "name": "Авантюра леди Хелен",
+        "originalName": "Lady Helen’s Escapade",
+        "director": "Дэвид Уорк Гриффит",
+        "yearProduced": "1909",
+        "yearAdded": "2004",
+        "id": 6
+    },
+    {
+        "name": "Адская петля",
+        "originalName": "Hell’s Hinges",
+        "director": "Чарльз Суикард, Уильям Харт и Клиффорд Смит",
+        "yearProduced": "1916",
+        "yearAdded": "1994",
+        "id": 7
+    },
+    {
+        "name": "Адский поезд",
+        "originalName": "Hellbound Train",
+        "director": "Элойс и Джеймс Гисты",
+        "yearProduced": "1930",
+        "yearAdded": "2021",
+        "id": 468
+    },
+    {
+        "name": "Академия Рашмор",
+        "originalName": "Rushmore",
+        "director": "Уэс Андерсон",
+        "yearProduced": "1998",
+        "yearAdded": "2016",
+        "id": 8
+    },
+    {
+        "name": "Аламбриста!",
+        "originalName": "Alambrista!",
+        "director": "Роберт Янг",
+        "yearProduced": "1977",
+        "yearAdded": "2023",
+        "id": 1760
+    },
+    {
+        "name": "Аллилуйя",
+        "originalName": "Hallelujah",
+        "director": "Кинг Видор",
+        "yearProduced": "1929",
+        "yearAdded": "2008",
+        "id": 9
+    },
+    {
+        "name": "Алчность",
+        "originalName": "Greed",
+        "director": "Эрих фон Штрогейм",
+        "yearProduced": "1924",
+        "yearAdded": "1991",
+        "id": 10
+    },
+    {
+        "name": "Амадей",
+        "originalName": "Amadeus",
+        "director": "Милош Форман",
+        "yearProduced": "1984",
+        "yearAdded": "2019",
+        "id": 11
+    },
+    {
+        "name": "Америка, Америка",
+        "originalName": "America America",
+        "director": "Элиа Казан",
+        "yearProduced": "1963",
+        "yearAdded": "2001",
+        "id": 12
+    },
+    {
+        "name": "Американец в Париже",
+        "originalName": "An American in Paris",
+        "director": "Винсент Миннелли",
+        "yearProduced": "1951",
+        "yearAdded": "1993",
+        "id": 13
+    },
+    {
+        "name": "Американизируй меня",
+        "originalName": "American Me",
+        "director": "Эдвард Джеймс Олмос",
+        "yearProduced": "1992",
+        "yearAdded": "2024",
+        "id": 2513
+    },
+    {
+        "name": "Американские граффити",
+        "originalName": "American Graffiti",
+        "director": "Джордж Лукас",
+        "yearProduced": "1973",
+        "yearAdded": "1995",
+        "id": 14
+    },
+    {
+        "name": "Анатомия убийства",
+        "originalName": "Anatomy of a Murder",
+        "director": "Отто Премингер",
+        "yearProduced": "1959",
+        "yearAdded": "2012",
+        "id": 15
+    },
+    {
+        "name": "Ангелы с грязными лицами",
+        "originalName": "Angels with Dirty Faces",
+        "director": "Майкл Кёртис",
+        "yearProduced": "1938",
+        "yearAdded": "2024",
+        "id": 2496
+    },
+    {
+        "name": "Анимированная компьютерная рука",
+        "originalName": "A Computer Animated Hand",
+        "director": "Эд Катмулл и Фредерик Парк",
+        "yearProduced": "1972",
+        "yearAdded": "2011",
+        "id": 739
+    },
+    {
+        "name": "Антония: Портрет женщины",
+        "originalName": "Antonia: A Portrait of the Woman",
+        "director": "Джуди Коллинз и Джилл Годмилоу",
+        "yearProduced": "1974",
+        "yearAdded": "2003",
+        "id": 16
+    },
+    {
+        "name": "Аплодисменты",
+        "originalName": "Applause",
+        "director": "Рубен Мамулян",
+        "yearProduced": "1929",
+        "yearAdded": "2006",
+        "id": 17
+    },
+    {
+        "name": "Апокалипсис сегодня",
+        "originalName": "Apocalypse Now",
+        "director": "Фрэнсис Форд Коппола",
+        "yearProduced": "1979",
+        "yearAdded": "2000",
+        "id": 18
+    },
+    {
+        "name": "Аполлон-13",
+        "originalName": "Apollo 13",
+        "director": "Рон Ховард",
+        "yearProduced": "1995",
+        "yearAdded": "2023",
+        "id": 1772
+    },
+    {
+        "name": "Асфальтовые джунгли",
+        "originalName": "The Asphalt Jungle",
+        "director": "Джон Хьюстон",
+        "yearProduced": "1950",
+        "yearAdded": "2008",
+        "id": 19
+    },
+    {
+        "name": "Атлантик-Сити",
+        "originalName": "Atlantic City",
+        "director": "Луи Маль",
+        "yearProduced": "1980",
+        "yearAdded": "2003",
+        "id": 20
+    },
+    {
+        "name": "Атомное кафе",
+        "originalName": "The Atomic Cafe",
+        "director": "Кевин Рафферти, Джейн Лоудер и Пирс Рафферти",
+        "yearProduced": "1982",
+        "yearAdded": "2016",
+        "id": 21
+    },
+    {
+        "name": "Аттика",
+        "originalName": "Attica",
+        "director": "Синда Файерстоун",
+        "yearProduced": "1974",
+        "yearAdded": "2022",
+        "id": 848
+    },
+    {
+        "name": "Афера",
+        "originalName": "The Sting",
+        "director": "Джордж Рой Хилл",
+        "yearProduced": "1973",
+        "yearAdded": "2005",
+        "id": 22
+    },
+    {
+        "name": "Африканская королева",
+        "originalName": "The African Queen",
+        "director": "Джон Хьюстон",
+        "yearProduced": "1951",
+        "yearAdded": "1994",
+        "id": 23
+    },
+    {
+        "name": "Аэроплан!",
+        "originalName": "Airplane!",
+        "director": "Джим Абрахамс, Дэвид Цукер и Джерри Цукер",
+        "yearProduced": "1980",
+        "yearAdded": "2010",
+        "id": 24
+    },
+    {
+        "name": "Багдадский вор",
+        "originalName": "The Thief of Bagdad",
+        "director": "Рауль Уолш",
+        "yearProduced": "1924",
+        "yearAdded": "1996",
+        "id": 25
+    },
+    {
+        "name": "Балбесы",
+        "originalName": "The Goonies",
+        "director": "Ричард Доннер",
+        "yearProduced": "1985",
+        "yearAdded": "2017",
+        "id": 26
+    },
+    {
+        "name": "Баллада о Грегорио Кортесе",
+        "originalName": "The Ballad of Gregorio Cortez",
+        "director": "Роберт Янг",
+        "yearProduced": "1982",
+        "yearAdded": "2022",
+        "id": 854
+    },
+    {
+        "name": "Банковский сыщик",
+        "originalName": "The Bank Dick",
+        "director": "Эдвард Клайн",
+        "yearProduced": "1940",
+        "yearAdded": "1992",
+        "id": 27
+    },
+    {
+        "name": "Барабаны зимы",
+        "originalName": "Uksuum Cauyai: The Drums of Winter",
+        "director": "Сара Элдер и Леонард Камерлинг",
+        "yearProduced": "1988",
+        "yearAdded": "2006",
+        "id": 28
+    },
+    {
+        "name": "Бараньи отбивные",
+        "originalName": "Lambchops",
+        "director": "Мюррэй Рот",
+        "yearProduced": "1929",
+        "yearAdded": "1999",
+        "id": 29
+    },
+    {
+        "name": "Беглый взгляд на сад",
+        "originalName": "Glimpse of the Garden",
+        "director": "Мэри Менкен",
+        "yearProduced": "1957",
+        "yearAdded": "2007",
+        "id": 755
+    },
+    {
+        "name": "Бегущий по лезвию",
+        "originalName": "Blade Runner",
+        "director": "Ридли Скотт",
+        "yearProduced": "1982",
+        "yearAdded": "1993",
+        "id": 30
+    },
+    {
+        "name": "Бедная маленькая богатая девочка",
+        "originalName": "The Poor Little Rich Girl",
+        "director": "Морис Турнёр",
+        "yearProduced": "1917",
+        "yearAdded": "1991",
+        "id": 31
+    },
+    {
+        "name": "Без ума от оружия",
+        "originalName": "Gun Crazy",
+        "director": "Джозеф Х. Льюис",
+        "yearProduced": "1950",
+        "yearAdded": "1998",
+        "id": 32
+    },
+    {
+        "name": "Безмятежная скорость",
+        "originalName": "Serene Velocity",
+        "director": "Эрни Гер",
+        "yearProduced": "1970",
+        "yearAdded": "2001",
+        "id": 33
+    },
+    {
+        "name": "Безопасность прениже всего!",
+        "originalName": "Safety Last!",
+        "director": "Фред Ньюмейер и Сэм Тейлор",
+        "yearProduced": "1923",
+        "yearAdded": "1994",
+        "id": 34
+    },
+    {
+        "name": "Безумцы Титиката",
+        "originalName": "Titicut Follies",
+        "director": "Фредерик Уайзман",
+        "yearProduced": "1967",
+        "yearAdded": "2022",
+        "id": 864
+    },
+    {
+        "name": "Бекки Шарп",
+        "originalName": "Becky Sharp",
+        "director": "Рубен Мамулян",
+        "yearProduced": "1935",
+        "yearAdded": "2019",
+        "id": 35
+    },
+    {
+        "name": "Белая горячка",
+        "originalName": "White Heat",
+        "director": "Рауль Уолш",
+        "yearProduced": "1949",
+        "yearAdded": "2003",
+        "id": 36
+    },
+    {
+        "name": "Белоснежка",
+        "originalName": "Snow-White",
+        "director": "Дэйв Флейшер",
+        "yearProduced": "1933",
+        "yearAdded": "1994",
+        "id": 37
+    },
+    {
+        "name": "Белоснежка и семь гномов",
+        "originalName": "Snow White and the Seven Dwarfs",
+        "director": "Дэвид Хэнд",
+        "yearProduced": "1937",
+        "yearAdded": "1989",
+        "id": 38
+    },
+    {
+        "name": "Бен-Гур",
+        "originalName": "Ben-Hur",
+        "director": "Уильям Уайлер",
+        "yearProduced": "1959",
+        "yearAdded": "2004",
+        "id": 40
+    },
+    {
+        "name": "Бен-Гур: история Христа",
+        "originalName": "Ben-Hur: A Tale of the Christ",
+        "director": "Фред Нибло и Чарлз Брэбин",
+        "yearProduced": "1925",
+        "yearAdded": "1997",
+        "id": 39
+    },
+    {
+        "name": "Бесконечное лето",
+        "originalName": "The Endless Summer",
+        "director": "Брюс Браун",
+        "yearProduced": "1966",
+        "yearAdded": "2002",
+        "id": 41
+    },
+    {
+        "name": "Беспечный ездок",
+        "originalName": "Easy Rider",
+        "director": "Деннис Хоппер",
+        "yearProduced": "1969",
+        "yearAdded": "1998",
+        "id": 42
+    },
+    {
+        "name": "Бетти рассказывает свою историю",
+        "originalName": "Betty Tells Her Story",
+        "director": "Лиэн Брэндон",
+        "yearProduced": "1972",
+        "yearAdded": "2022",
+        "id": 873
+    },
+    {
+        "name": "Бешеная утка",
+        "originalName": "Duck Amuck",
+        "director": "Чак Джонс",
+        "yearProduced": "1953",
+        "yearAdded": "1999",
+        "id": 43
+    },
+    {
+        "name": "Бешеный бык",
+        "originalName": "Raging Bull",
+        "director": "Мартин Скорсезе",
+        "yearProduced": "1980",
+        "yearAdded": "1990",
+        "id": 44
+    },
+    {
+        "name": "Битва под Сан-Пьетро",
+        "originalName": "The Battle of San Pietro",
+        "director": "Джон Хьюстон",
+        "yearProduced": "1945",
+        "yearAdded": "1991",
+        "id": 46
+    },
+    {
+        "name": "Битва столетия",
+        "originalName": "The Battle of the Century",
+        "director": "Клайд Брукмен",
+        "yearProduced": "1927",
+        "yearAdded": "2020",
+        "id": 45
+    },
+    {
+        "name": "Благослови их маленькие сердца",
+        "originalName": "Bless Their Little Hearts",
+        "director": "Билли Вудберри",
+        "yearProduced": "1984",
+        "yearAdded": "2013",
+        "id": 734
+    },
+    {
+        "name": "Близкие контакты третьей степени",
+        "originalName": "Close Encounters of the Third Kind",
+        "director": "Стивен Спилберг",
+        "yearProduced": "1977",
+        "yearAdded": "2007",
+        "id": 47
+    },
+    {
+        "name": "Бо Браммелы",
+        "originalName": "The Beau Brummels",
+        "director": "Эл Шоу и Сэм Ли",
+        "yearProduced": "1928",
+        "yearAdded": "2016",
+        "id": 730
+    },
+    {
+        "name": "Бог ей судья",
+        "originalName": "Leave Her to Heaven",
+        "director": "Джон М. Стал",
+        "yearProduced": "1945",
+        "yearAdded": "2018",
+        "id": 48
+    },
+    {
+        "name": "Богоматерь Сферы",
+        "originalName": "Our Lady of the Sphere",
+        "director": "Ларри Джордан",
+        "yearProduced": "1969",
+        "yearAdded": "2010",
+        "id": 788
+    },
+    {
+        "name": "Бой Джеффрис—Джонсон за звание чемпиона мира по боксу",
+        "originalName": "Jeffries-Johnson World’s Championship Boxing Contest",
+        "director": "",
+        "yearProduced": "1910",
+        "yearAdded": "2005",
+        "id": 49
+    },
+    {
+        "name": "Бой Корбетта и Фитцсиммонса",
+        "originalName": "The Corbett-Fitzsimmons Fight",
+        "director": "Энок Ректор",
+        "yearProduced": "1897",
+        "yearAdded": "2012",
+        "id": 50
+    },
+    {
+        "name": "Более странно, чем в раю",
+        "originalName": "Stranger Than Paradise",
+        "director": "Джим Джармуш",
+        "yearProduced": "1984",
+        "yearAdded": "2002",
+        "id": 51
+    },
+    {
+        "name": "Больница",
+        "originalName": "The Hospital",
+        "director": "Артур Хиллер",
+        "yearProduced": "1971",
+        "yearAdded": "1995",
+        "id": 53
+    },
+    {
+        "name": "Больница",
+        "originalName": "Hospital",
+        "director": "Фредерик Уайзман",
+        "yearProduced": "1970",
+        "yearAdded": "1994",
+        "id": 52
+    },
+    {
+        "name": "Большая тропа",
+        "originalName": "The Big Trail",
+        "director": "Рауль Уолш",
+        "yearProduced": "1930",
+        "yearAdded": "2006",
+        "id": 54
+    },
+    {
+        "name": "Большое ограбление поезда",
+        "originalName": "The Great Train Robbery",
+        "director": "Эдвин Портер",
+        "yearProduced": "1903",
+        "yearAdded": "1990",
+        "id": 55
+    },
+    {
+        "name": "Большой Лебовски",
+        "originalName": "The Big Lebowski",
+        "director": "Братья Коэн",
+        "yearProduced": "1998",
+        "yearAdded": "2014",
+        "id": 56
+    },
+    {
+        "name": "Большой парад",
+        "originalName": "The Big Parade",
+        "director": "Кинг Видор",
+        "yearProduced": "1925",
+        "yearAdded": "1992",
+        "id": 57
+    },
+    {
+        "name": "Большой страх",
+        "originalName": "The Tall T",
+        "director": "Бадд Беттикер",
+        "yearProduced": "1957",
+        "yearAdded": "2000",
+        "id": 58
+    },
+    {
+        "name": "Бонни и Клайд",
+        "originalName": "Bonnie and Clyde",
+        "director": "Артур Пенн",
+        "yearProduced": "1967",
+        "yearAdded": "1992",
+        "id": 59
+    },
+    {
+        "name": "Братья Блюз",
+        "originalName": "The Blues Brothers",
+        "director": "Джон Лэндис",
+        "yearProduced": "1980",
+        "yearAdded": "2020",
+        "id": 60
+    },
+    {
+        "name": "Брачные ограничения",
+        "originalName": "Matrimony’s Speed Limit",
+        "director": "Алис Ги-Блаше",
+        "yearProduced": "1913",
+        "yearAdded": "2003",
+        "id": 61
+    },
+    {
+        "name": "Бриолин",
+        "originalName": "Grease",
+        "director": "Рэндал Клайзер",
+        "yearProduced": "1978",
+        "yearAdded": "2020",
+        "id": 62
+    },
+    {
+        "name": "Брэнди в глуши",
+        "originalName": "Brandy in the Wilderness",
+        "director": "Стэнтон Кэй",
+        "yearProduced": "1969",
+        "yearAdded": "2013",
+        "id": 736
+    },
+    {
+        "name": "Будучи там",
+        "originalName": "Being There",
+        "director": "Хэл Эшби",
+        "yearProduced": "1979",
+        "yearAdded": "2015",
+        "id": 63
+    },
+    {
+        "name": "Буллит",
+        "originalName": "Bullitt",
+        "director": "Питер Йетс",
+        "yearProduced": "1968",
+        "yearAdded": "2007",
+        "id": 64
+    },
+    {
+        "name": "Бульвар Сансет",
+        "originalName": "Sunset Boulevard",
+        "director": "Билли Уайлдер",
+        "yearProduced": "1950",
+        "yearAdded": "1989",
+        "id": 65
+    },
+    {
+        "name": "Бунтарь без причины",
+        "originalName": "Rebel Without a Cause",
+        "director": "Николас Рэй",
+        "yearProduced": "1955",
+        "yearAdded": "1990",
+        "id": 66
+    },
+    {
+        "name": "Бутч Кэссиди и Санденс Кид",
+        "originalName": "Butch Cassidy and the Sundance Kid",
+        "director": "Джордж Рой Хилл",
+        "yearProduced": "1969",
+        "yearAdded": "2003",
+        "id": 67
+    },
+    {
+        "name": "Буш-мама",
+        "originalName": "Bush Mama",
+        "director": "Хайле Герима",
+        "yearProduced": "1979",
+        "yearAdded": "2022",
+        "id": 903
+    },
+    {
+        "name": "Быстрые перемены в школе Риджмонт-Хай",
+        "originalName": "Fast Times at Ridgemont High",
+        "director": "Эми Хекерлинг",
+        "yearProduced": "1982",
+        "yearAdded": "2005",
+        "id": 68
+    },
+    {
+        "name": "Быть или не быть",
+        "originalName": "To Be or Not to Be",
+        "director": "Эрнст Любич",
+        "yearProduced": "1942",
+        "yearAdded": "1996",
+        "id": 69
+    },
+    {
+        "name": "Бэмби",
+        "originalName": "Bambi",
+        "director": "Дэвид Хэнд",
+        "yearProduced": "1942",
+        "yearAdded": "2011",
+        "id": 70
+    },
+    {
+        "name": "В 3:10 на Юму",
+        "originalName": "3:10 to Yuma",
+        "director": "Делмер Дэйвс",
+        "yearProduced": "1957",
+        "yearAdded": "2012",
+        "id": 71
+    },
+    {
+        "name": "В двух шагах от славы",
+        "originalName": "20 Feet from Stardom",
+        "director": "Морган Невилл",
+        "yearProduced": "2013",
+        "yearAdded": "2023",
+        "id": 1836
+    },
+    {
+        "name": "В джазе только девушки",
+        "originalName": "Some Like It Hot",
+        "director": "Билли Уайлдер",
+        "yearProduced": "1959",
+        "yearAdded": "1989",
+        "id": 72
+    },
+    {
+        "name": "В краю охотников за головами",
+        "originalName": "In the Land of the Head Hunters",
+        "director": "Эдвард Кёртис",
+        "yearProduced": "1914",
+        "yearAdded": "1999",
+        "id": 73
+    },
+    {
+        "name": "В нашем дворе",
+        "originalName": "Within Our Gates",
+        "director": "Оскар Мишо",
+        "yearProduced": "1920",
+        "yearAdded": "1992",
+        "id": 74
+    },
+    {
+        "name": "В порту",
+        "originalName": "On the Waterfront",
+        "director": "Элиа Казан",
+        "yearProduced": "1954",
+        "yearAdded": "1989",
+        "id": 75
+    },
+    {
+        "name": "В укромном месте",
+        "originalName": "In a Lonely Place",
+        "director": "Николас Рэй",
+        "yearProduced": "1950",
+        "yearAdded": "2007",
+        "id": 76
+    },
+    {
+        "name": "В чужие руки: Истории Киндертранспорта",
+        "originalName": "Into the Arms of Strangers: Stories of the Kindertransport",
+        "director": "Марк Джонатан Харрис",
+        "yearProduced": "2000",
+        "yearAdded": "2014",
+        "id": 77
+    },
+    {
+        "name": "ВАЛЛ-И",
+        "originalName": "WALL-E",
+        "director": "Эндрю Стэнтон",
+        "yearProduced": "2008",
+        "yearAdded": "2021",
+        "id": 78
+    },
+    {
+        "name": "Ванда",
+        "originalName": "Wanda",
+        "director": "Барбара Лоден",
+        "yearProduced": "1970",
+        "yearAdded": "2017",
+        "id": 79
+    },
+    {
+        "name": "Веер леди Уиндермир",
+        "originalName": "Lady Windermere’s Fan",
+        "director": "Эрнст Любич",
+        "yearProduced": "1925",
+        "yearAdded": "2002",
+        "id": 80
+    },
+    {
+        "name": "Великий диктатор",
+        "originalName": "The Great Dictator",
+        "director": "Чарли Чаплин",
+        "yearProduced": "1940",
+        "yearAdded": "1997",
+        "id": 81
+    },
+    {
+        "name": "Великолепная семёрка",
+        "originalName": "The Magnificent Seven",
+        "director": "Джон Стёрджес",
+        "yearProduced": "1960",
+        "yearAdded": "2013",
+        "id": 82
+    },
+    {
+        "name": "Великолепные Эмберсоны",
+        "originalName": "The Magnificent Ambersons",
+        "director": "Орсон Уэллс",
+        "yearProduced": "1942",
+        "yearAdded": "1991",
+        "id": 83
+    },
+    {
+        "name": "Вертикальный взлёт",
+        "originalName": "Twelve O’Clock High",
+        "director": "Генри Кинг",
+        "yearProduced": "1949",
+        "yearAdded": "1998",
+        "id": 84
+    },
+    {
+        "name": "Веселье в печном клубе",
+        "originalName": "Lime Kiln Club Field Day",
+        "director": "Эдвин Миддлтон и Томас Хэйз Хантер",
+        "yearProduced": "1913",
+        "yearAdded": "2014",
+        "id": 732
+    },
+    {
+        "name": "Вестсайдская история",
+        "originalName": "West Side Story",
+        "director": "Роберт Уайз и Джером Роббинс",
+        "yearProduced": "1961",
+        "yearAdded": "1997",
+        "id": 85
+    },
+    {
+        "name": "Весь этот джаз",
+        "originalName": "All That Jazz",
+        "director": "Боб Фосс",
+        "yearProduced": "1979",
+        "yearAdded": "2001",
+        "id": 86
+    },
+    {
+        "name": "Ветер",
+        "originalName": "The Wind",
+        "director": "Виктор Шёстрём",
+        "yearProduced": "1928",
+        "yearAdded": "1993",
+        "id": 87
+    },
+    {
+        "name": "Вечнозелёный",
+        "originalName": "Evergreen",
+        "director": "Рэй Манзарек",
+        "yearProduced": "1965",
+        "yearAdded": "2021",
+        "id": 747
+    },
+    {
+        "name": "Взвод",
+        "originalName": "Platoon",
+        "director": "Оливер Стоун",
+        "yearProduced": "1986",
+        "yearAdded": "2019",
+        "id": 88
+    },
+    {
+        "name": "Взрослеющая девушка",
+        "originalName": "Growing Up Female",
+        "director": "Джулия Рейхерт и Джим Клайн (нем.)",
+        "yearProduced": "1971",
+        "yearAdded": "2011",
+        "id": 757
+    },
+    {
+        "name": "Вилли Вонка и шоколадная фабрика",
+        "originalName": "Willy Wonka & the Chocolate Factory",
+        "director": "Мел Стюарт",
+        "yearProduced": "1971",
+        "yearAdded": "2014",
+        "id": 89
+    },
+    {
+        "name": "Винчестер 73",
+        "originalName": "Winchester ‘73",
+        "director": "Энтони Манн",
+        "yearProduced": "1950",
+        "yearAdded": "2015",
+        "id": 90
+    },
+    {
+        "name": "Властелин колец: Братство Кольца",
+        "originalName": "The Lord of the Rings: The Fellowship of the Ring",
+        "director": "Питер Джексон",
+        "yearProduced": "2001",
+        "yearAdded": "2021",
+        "id": 91
+    },
+    {
+        "name": "Власть прессы",
+        "originalName": "The Power of the Press",
+        "director": "Фрэнк Капра",
+        "yearProduced": "1928",
+        "yearAdded": "2005",
+        "id": 92
+    },
+    {
+        "name": "Внутренний мир афазии",
+        "originalName": "The Inner World of Aphasia",
+        "director": "Эдвард Фейл и Наоми Фейл",
+        "yearProduced": "1968",
+        "yearAdded": "2015",
+        "id": 765
+    },
+    {
+        "name": "Внутри нацистской Германии",
+        "originalName": "Inside Nazi Germany",
+        "director": "Джек Гленн",
+        "yearProduced": "1938",
+        "yearAdded": "1993",
+        "id": 93
+    },
+    {
+        "name": "Внутри Нью-Йоркского метрополитена, с 14-й по 42-ю улицу",
+        "originalName": "Interior New York Subway, 14th Street to 42nd Street",
+        "director": "Билли Битцер",
+        "yearProduced": "1905",
+        "yearAdded": "2017",
+        "id": 766
+    },
+    {
+        "name": "Вода и энергия",
+        "originalName": "Water and Power",
+        "director": "Пэт О’Нилл",
+        "yearProduced": "1989",
+        "yearAdded": "2008",
+        "id": 819
+    },
+    {
+        "name": "Военно-полевой госпиталь",
+        "originalName": "M*A*S*H",
+        "director": "Роберт Олтмен",
+        "yearProduced": "1970",
+        "yearAdded": "1996",
+        "id": 94
+    },
+    {
+        "name": "Возвращение Секокус-7",
+        "originalName": "Return of the Secaucus 7",
+        "director": "Джон Сэйлз",
+        "yearProduced": "1980",
+        "yearAdded": "1997",
+        "id": 95
+    },
+    {
+        "name": "Возрождение",
+        "originalName": "Regeneration",
+        "director": "Рауль Уолш",
+        "yearProduced": "1915",
+        "yearAdded": "2000",
+        "id": 96
+    },
+    {
+        "name": "Война миров",
+        "originalName": "The War of the Worlds",
+        "director": "Байрон Хэскин",
+        "yearProduced": "1953",
+        "yearAdded": "2011",
+        "id": 97
+    },
+    {
+        "name": "Волшебник страны Оз",
+        "originalName": "The Wizard of Oz",
+        "director": "Виктор Флеминг",
+        "yearProduced": "1939",
+        "yearAdded": "1989",
+        "id": 98
+    },
+    {
+        "name": "Воспитание крошки",
+        "originalName": "Bringing Up Baby",
+        "director": "Говард Хоукс",
+        "yearProduced": "1938",
+        "yearAdded": "1990",
+        "id": 100
+    },
+    {
+        "name": "Воспоминания о поездке в Литву",
+        "originalName": "Reminiscences of a Journey to Lithuania",
+        "director": "Йонас Мекас",
+        "yearProduced": "1972",
+        "yearAdded": "2006",
+        "id": 101
+    },
+    {
+        "name": "Воспоминания одной выжившей",
+        "originalName": "One Survivor Remembers",
+        "director": "Кари Антолис",
+        "yearProduced": "1995",
+        "yearAdded": "2012",
+        "id": 786
+    },
+    {
+        "name": "Восход Скорпиона",
+        "originalName": "Scorpio Rising",
+        "director": "Кеннет Энгер",
+        "yearProduced": "1963",
+        "yearAdded": "2022",
+        "id": 944
+    },
+    {
+        "name": "Восход солнца",
+        "originalName": "Sunrise: A Song of Two Humans",
+        "director": "Фридрих Вильгельм Мурнау",
+        "yearProduced": "1927",
+        "yearAdded": "1989",
+        "id": 102
+    },
+    {
+        "name": "Вот оно что",
+        "originalName": "There It Is",
+        "director": "Харольд Мюллер",
+        "yearProduced": "1928",
+        "yearAdded": "2004",
+        "id": 103
+    },
+    {
+        "name": "Вперёд, путешественник",
+        "originalName": "Now, Voyager",
+        "director": "Ирвинг Рэппер",
+        "yearProduced": "1942",
+        "yearAdded": "2007",
+        "id": 104
+    },
+    {
+        "name": "Враг общества",
+        "originalName": "The Public Enemy",
+        "director": "Уильям Уэллман",
+        "yearProduced": "1931",
+        "yearAdded": "1998",
+        "id": 105
+    },
+    {
+        "name": "Времена Харви Милка",
+        "originalName": "The Times of Harvey Milk",
+        "director": "Роб Эпштейн",
+        "yearProduced": "1984",
+        "yearAdded": "2012",
+        "id": 106
+    },
+    {
+        "name": "Время без войны",
+        "originalName": "A Time Out of War",
+        "director": "Денис Сандерс",
+        "yearProduced": "1954",
+        "yearAdded": "2006",
+        "id": 107
+    },
+    {
+        "name": "Время и мечты",
+        "originalName": "Time and Dreams",
+        "director": "Морт Джордан",
+        "yearProduced": "1976",
+        "yearAdded": "2017",
+        "id": 812
+    },
+    {
+        "name": "Время свинга",
+        "originalName": "Swing Time",
+        "director": "Джордж Стивенс",
+        "yearProduced": "1936",
+        "yearAdded": "2004",
+        "id": 109
+    },
+    {
+        "name": "Время сжигать",
+        "originalName": "A Time for Burning",
+        "director": "Уильям Джерси",
+        "yearProduced": "1966",
+        "yearAdded": "2005",
+        "id": 108
+    },
+    {
+        "name": "Все мои малыши",
+        "originalName": "All My Babies",
+        "director": "Джордж Стоуни",
+        "yearProduced": "1953",
+        "yearAdded": "2002",
+        "id": 110
+    },
+    {
+        "name": "Всё о Еве",
+        "originalName": "All About Eve",
+        "director": "Джозеф Лео Манкевич",
+        "yearProduced": "1950",
+        "yearAdded": "1990",
+        "id": 112
+    },
+    {
+        "name": "Всё, что дозволено небесами",
+        "originalName": "All That Heaven Allows",
+        "director": "Дуглас Сирк",
+        "yearProduced": "1955",
+        "yearAdded": "1995",
+        "id": 113
+    },
+    {
+        "name": "Всего лишь человек",
+        "originalName": "Nothing but a Man",
+        "director": "Майкл Ремер",
+        "yearProduced": "1964",
+        "yearAdded": "1993",
+        "id": 111
+    },
+    {
+        "name": "Встретимся в Сент-Луисе",
+        "originalName": "Meet Me in St. Louis",
+        "director": "Винсент Миннелли",
+        "yearProduced": "1944",
+        "yearAdded": "1994",
+        "id": 114
+    },
+    {
+        "name": "Вся банда в сборе",
+        "originalName": "The Gang’s All Here",
+        "director": "Басби Беркли",
+        "yearProduced": "1943",
+        "yearAdded": "2014",
+        "id": 115
+    },
+    {
+        "name": "Вся королевская рать",
+        "originalName": "All the King’s Men",
+        "director": "Роберт Россен",
+        "yearProduced": "1949",
+        "yearAdded": "2001",
+        "id": 116
+    },
+    {
+        "name": "Вся президентская рать",
+        "originalName": "All the President’s Men",
+        "director": "Алан Пакула",
+        "yearProduced": "1976",
+        "yearAdded": "2010",
+        "id": 117
+    },
+    {
+        "name": "Вторжение похитителей тел",
+        "originalName": "Invasion of the Body Snatchers",
+        "director": "Дон Сигел",
+        "yearProduced": "1956",
+        "yearAdded": "1994",
+        "id": 118
+    },
+    {
+        "name": "Вторые",
+        "originalName": "Seconds",
+        "director": "Джон Франкенхаймер",
+        "yearProduced": "1966",
+        "yearAdded": "2015",
+        "id": 119
+    },
+    {
+        "name": "Вудсток",
+        "originalName": "Woodstock",
+        "director": "Майкл Уодли",
+        "yearProduced": "1970",
+        "yearAdded": "1996",
+        "id": 120
+    },
+    {
+        "name": "ВыклВкл",
+        "originalName": "OffOn",
+        "director": "Скотт Бартлетт",
+        "yearProduced": "1968",
+        "yearAdded": "2004",
+        "id": 122
+    },
+    {
+        "name": "Выпускник",
+        "originalName": "The Graduate",
+        "director": "Майк Николс",
+        "yearProduced": "1967",
+        "yearAdded": "1996",
+        "id": 123
+    },
+    {
+        "name": "Выражать словами: Истории некоторых наших жизней",
+        "originalName": "Word Is Out: Stories of Some of Our Lives",
+        "director": "Нэнси Эдейр, Эндрю Браун и Роб Эпштейн",
+        "yearProduced": "1977",
+        "yearAdded": "2022",
+        "id": 967
+    },
+    {
+        "name": "Высадка эмигрантов на острове Эллис",
+        "originalName": "Emigrants Landing at Ellis Island",
+        "director": "Альфред Абади",
+        "yearProduced": "1903",
+        "yearAdded": "2019",
+        "id": 746
+    },
+    {
+        "name": "Выстоять и добиться",
+        "originalName": "Stand and Deliver",
+        "director": "Рамон Менендес",
+        "yearProduced": "1988",
+        "yearAdded": "2011",
+        "id": 124
+    },
+    {
+        "name": "Выстрел в упор",
+        "originalName": "Point Blank",
+        "director": "Джон Бурмен",
+        "yearProduced": "1967",
+        "yearAdded": "2016",
+        "id": 125
+    },
+    {
+        "name": "Выход дракона",
+        "originalName": "Enter the Dragon",
+        "director": "Роберт Клауз",
+        "yearProduced": "1973",
+        "yearAdded": "2004",
+        "id": 126
+    },
+    {
+        "name": "Газовый свет",
+        "originalName": "Gaslight",
+        "director": "Джордж Кьюкор",
+        "yearProduced": "1944",
+        "yearAdded": "2019",
+        "id": 127
+    },
+    {
+        "name": "Ганга Дин",
+        "originalName": "Gunga Din",
+        "director": "Джордж Стивенс",
+        "yearProduced": "1939",
+        "yearAdded": "1999",
+        "id": 128
+    },
+    {
+        "name": "Ганджа и Хесс",
+        "originalName": "Ganja & Hess",
+        "director": "Билл Ганн",
+        "yearProduced": "1973",
+        "yearAdded": "2024",
+        "id": 2501
+    },
+    {
+        "name": "Гарольд и Мод",
+        "originalName": "Harold and Maude",
+        "director": "Хэл Эшби",
+        "yearProduced": "1971",
+        "yearAdded": "1997",
+        "id": 129
+    },
+    {
+        "name": "Где мои дети?",
+        "originalName": "Where Are My Children?",
+        "director": "Филлипс Смолли и Лоис Уэбер",
+        "yearProduced": "1916",
+        "yearAdded": "1993",
+        "id": 131
+    },
+    {
+        "name": "Генерал",
+        "originalName": "The General",
+        "director": "Клайд Брукмен и Бастер Китон",
+        "yearProduced": "1926",
+        "yearAdded": "1989",
+        "id": 132
+    },
+    {
+        "name": "Герои все",
+        "originalName": "Heroes All",
+        "director": "Энтони Янг",
+        "yearProduced": "1920",
+        "yearAdded": "2009",
+        "id": 759
+    },
+    {
+        "name": "Гибель «Лузитании»",
+        "originalName": "The Sinking of the Lusitania",
+        "director": "Уинзор Маккей",
+        "yearProduced": "1918",
+        "yearAdded": "2017",
+        "id": 133
+    },
+    {
+        "name": "Гигант",
+        "originalName": "Giant",
+        "director": "Джордж Стивенс",
+        "yearProduced": "1956",
+        "yearAdded": "2005",
+        "id": 134
+    },
+    {
+        "name": "Гильда",
+        "originalName": "Gilda",
+        "director": "Чарльз Видор",
+        "yearProduced": "1946",
+        "yearAdded": "2013",
+        "id": 135
+    },
+    {
+        "name": "Глубокий сон",
+        "originalName": "The Big Sleep",
+        "director": "Говард Хоукс",
+        "yearProduced": "1946",
+        "yearAdded": "1997",
+        "id": 137
+    },
+    {
+        "name": "Глупые жёны",
+        "originalName": "Foolish Wives",
+        "director": "Эрих фон Штрогейм",
+        "yearProduced": "1922",
+        "yearAdded": "2008",
+        "id": 138
+    },
+    {
+        "name": "Голова-ластик",
+        "originalName": "Eraserhead",
+        "director": "Дэвид Линч",
+        "yearProduced": "1977",
+        "yearAdded": "2004",
+        "id": 139
+    },
+    {
+        "name": "Головокружение",
+        "originalName": "Vertigo",
+        "director": "Альфред Хичкок",
+        "yearProduced": "1958",
+        "yearAdded": "1989",
+        "id": 140
+    },
+    {
+        "name": "Горбатая гора",
+        "originalName": "Brokeback Mountain",
+        "director": "Энг Ли",
+        "yearProduced": "2005",
+        "yearAdded": "2018",
+        "id": 141
+    },
+    {
+        "name": "Гордость янки",
+        "originalName": "The Pride of the Yankees",
+        "director": "Сэм Вуд",
+        "yearProduced": "1942",
+        "yearAdded": "2024",
+        "id": 2497
+    },
+    {
+        "name": "Город",
+        "originalName": "The City",
+        "director": "Ральф Стайнер и Уиллард Ван Дайк",
+        "yearProduced": "1939",
+        "yearAdded": "1998",
+        "id": 142
+    },
+    {
+        "name": "Гражданин Кейн",
+        "originalName": "Citizen Kane",
+        "director": "Орсон Уэллс",
+        "yearProduced": "1941",
+        "yearAdded": "1989",
+        "id": 143
+    },
+    {
+        "name": "Гранд-отель",
+        "originalName": "Grand Hotel",
+        "director": "Эдмунд Гулдинг",
+        "yearProduced": "1932",
+        "yearAdded": "2007",
+        "id": 144
+    },
+    {
+        "name": "Гроздья гнева",
+        "originalName": "The Grapes of Wrath",
+        "director": "Джон Форд",
+        "yearProduced": "1940",
+        "yearAdded": "1989",
+        "id": 145
+    },
+    {
+        "name": "Грозовой перевал",
+        "originalName": "Wuthering Heights",
+        "director": "Уильям Уайлер",
+        "yearProduced": "1939",
+        "yearAdded": "2007",
+        "id": 146
+    },
+    {
+        "name": "Грязные танцы",
+        "originalName": "Dirty Dancing",
+        "director": "Эмиль Ардолино",
+        "yearProduced": "1987",
+        "yearAdded": "2024",
+        "id": 2509
+    },
+    {
+        "name": "Грязный Гарри",
+        "originalName": "Dirty Harry",
+        "director": "Дон Сигел",
+        "yearProduced": "1971",
+        "yearAdded": "2012",
+        "id": 147
+    },
+    {
+        "name": "Да будет свет",
+        "originalName": "Let There Be Light",
+        "director": "Джон Хьюстон",
+        "yearProduced": "1946",
+        "yearAdded": "2010",
+        "id": 148
+    },
+    {
+        "name": "Даже по-аргентински",
+        "originalName": "Down Argentine Way",
+        "director": "Ирвинг Каммингс",
+        "yearProduced": "1940",
+        "yearAdded": "2014",
+        "id": 149
+    },
+    {
+        "name": "Дама бубен",
+        "originalName": "Queen of Diamonds",
+        "director": "Нина Менкес",
+        "yearProduced": "1991",
+        "yearAdded": "2023",
+        "id": 1923
+    },
+    {
+        "name": "Дамбо",
+        "originalName": "Dumbo",
+        "director": "Бен Шарпстин",
+        "yearProduced": "1941",
+        "yearAdded": "2017",
+        "id": 150
+    },
+    {
+        "name": "Двадцатый век",
+        "originalName": "Twentieth Century",
+        "director": "Говард Хоукс",
+        "yearProduced": "1934",
+        "yearAdded": "2011",
+        "id": 151
+    },
+    {
+        "name": "Движущаяся живопись №1",
+        "originalName": "Motion Painting No. 1",
+        "director": "Оскар Фишингер",
+        "yearProduced": "1947",
+        "yearAdded": "1997",
+        "id": 152
+    },
+    {
+        "name": "Двойная страховка",
+        "originalName": "Double Indemnity",
+        "director": "Билли Уайлдер",
+        "yearProduced": "1944",
+        "yearAdded": "1992",
+        "id": 153
+    },
+    {
+        "name": "Двухполосное шоссе",
+        "originalName": "Two-Lane Blacktop",
+        "director": "Монте Хеллман",
+        "yearProduced": "1971",
+        "yearAdded": "2012",
+        "id": 154
+    },
+    {
+        "name": "Девушка без души",
+        "originalName": "The Girl Without a Soul",
+        "director": "Джон Коллинз",
+        "yearProduced": "1917",
+        "yearAdded": "2018",
+        "id": 155
+    },
+    {
+        "name": "Девушки из «Челси»",
+        "originalName": "Chelsea Girls",
+        "director": "Энди Уорхол и Пол Моррисси",
+        "yearProduced": "1966",
+        "yearAdded": "2024",
+        "id": 2500
+    },
+    {
+        "name": "Деказия",
+        "originalName": "Decasia",
+        "director": "Билл Моррисон",
+        "yearProduced": "2002",
+        "yearAdded": "2013",
+        "id": 156
+    },
+    {
+        "name": "Делай как надо!",
+        "originalName": "Do the Right Thing",
+        "director": "Спайк Ли",
+        "yearProduced": "1989",
+        "yearAdded": "1999",
+        "id": 157
+    },
+    {
+        "name": "День сурка",
+        "originalName": "Groundhog Day",
+        "director": "Гарольд Рамис",
+        "yearProduced": "1993",
+        "yearAdded": "2006",
+        "id": 159
+    },
+    {
+        "name": "День, когда остановилась Земля",
+        "originalName": "The Day the Earth Stood Still",
+        "director": "Роберт Уайз",
+        "yearProduced": "1951",
+        "yearAdded": "1995",
+        "id": 158
+    },
+    {
+        "name": "Дерево науки",
+        "originalName": "The Learning Tree",
+        "director": "Гордон Паркс",
+        "yearProduced": "1969",
+        "yearAdded": "1989",
+        "id": 160
+    },
+    {
+        "name": "Дерево растёт в Бруклине",
+        "originalName": "A Tree Grows in Brooklyn",
+        "director": "Элиа Казан",
+        "yearProduced": "1945",
+        "yearAdded": "2010",
+        "id": 161
+    },
+    {
+        "name": "Дестри снова в седле",
+        "originalName": "Destry Rides Again",
+        "director": "Джордж Маршалл",
+        "yearProduced": "1939",
+        "yearAdded": "1996",
+        "id": 162
+    },
+    {
+        "name": "Десять заповедей",
+        "originalName": "The Ten Commandments",
+        "director": "Сесил Блаунт Демилль",
+        "yearProduced": "1956",
+        "yearAdded": "1999",
+        "id": 164
+    },
+    {
+        "name": "Дети шпионов",
+        "originalName": "Spy Kids",
+        "director": "Роберт Родригес",
+        "yearProduced": "2001",
+        "yearAdded": "2024",
+        "id": 2516
+    },
+    {
+        "name": "Детские автомобильные гонки",
+        "originalName": "Kid Auto Races at Venice",
+        "director": "Генри Лерман",
+        "yearProduced": "1914",
+        "yearAdded": "2020",
+        "id": 165
+    },
+    {
+        "name": "Детский плач",
+        "originalName": "The Cry of the Children",
+        "director": "Джордж Николс",
+        "yearProduced": "1912",
+        "yearAdded": "2011",
+        "id": 742
+    },
+    {
+        "name": "Джаз в летний день",
+        "originalName": "Jazz on a Summer’s Day",
+        "director": "Берт Штерн и Арам Авакян",
+        "yearProduced": "1959",
+        "yearAdded": "1999",
+        "id": 166
+    },
+    {
+        "name": "Джем-сейшен",
+        "originalName": "Jam Session",
+        "director": "Джозеф Берн",
+        "yearProduced": "1942",
+        "yearAdded": "2001",
+        "id": 167
+    },
+    {
+        "name": "Джентльменское соглашение",
+        "originalName": "Gentleman’s Agreement",
+        "director": "Элиа Казан",
+        "yearProduced": "1947",
+        "yearAdded": "2017",
+        "id": 168
+    },
+    {
+        "name": "Джеральд МакБоинг-Боинг",
+        "originalName": "Gerald McBoing-Boing",
+        "director": "Роберт Кэннон и Джон Хьюбли",
+        "yearProduced": "1950",
+        "yearAdded": "1995",
+        "id": 169
+    },
+    {
+        "name": "Джон Генри и Инки-Пу",
+        "originalName": "John Henry and the Inky-Poo",
+        "director": "Джордж Пал",
+        "yearProduced": "1946",
+        "yearAdded": "2015",
+        "id": 767
+    },
+    {
+        "name": "Джонни Гитара",
+        "originalName": "Johnny Guitar",
+        "director": "Николас Рэй",
+        "yearProduced": "1954",
+        "yearAdded": "2008",
+        "id": 170
+    },
+    {
+        "name": "Джордж Вашингтон Карвер в Таскигском институте",
+        "originalName": "George Washington Carver at Tuskegee Institute",
+        "director": "Аллен Александер",
+        "yearProduced": "1937",
+        "yearAdded": "2019",
+        "id": 754
+    },
+    {
+        "name": "Джоси Уэйлс — человек вне закона",
+        "originalName": "The Outlaw Josey Wales",
+        "director": "Клинт Иствуд",
+        "yearProduced": "1976",
+        "yearAdded": "1996",
+        "id": 171
+    },
+    {
+        "name": "Джубило",
+        "originalName": "Jubilo",
+        "director": "Кларенс Бэджер",
+        "yearProduced": "1919",
+        "yearAdded": "2021",
+        "id": 172
+    },
+    {
+        "name": "Джунгли",
+        "originalName": "The Jungle",
+        "director": "Чарли Дэвис, Джимми Робинсон и Дэвид Уильямс",
+        "yearProduced": "1968",
+        "yearAdded": "2009",
+        "id": 173
+    },
+    {
+        "name": "Дикая банда",
+        "originalName": "The Wild Bunch",
+        "director": "Сэм Пекинпа",
+        "yearProduced": "1969",
+        "yearAdded": "1999",
+        "id": 174
+    },
+    {
+        "name": "Дикая река",
+        "originalName": "Wild River",
+        "director": "Элиа Казан",
+        "yearProduced": "1960",
+        "yearAdded": "2002",
+        "id": 175
+    },
+    {
+        "name": "Дикие парни с дороги",
+        "originalName": "Wild Boys of the Road",
+        "director": "Уильям Уэллман",
+        "yearProduced": "1933",
+        "yearAdded": "2013",
+        "id": 176
+    },
+    {
+        "name": "Дикий и дремучий",
+        "originalName": "Wild and Woolly",
+        "director": "Джон Эмерсон",
+        "yearProduced": "1917",
+        "yearAdded": "2002",
+        "id": 177
+    },
+    {
+        "name": "Дилижанс",
+        "originalName": "Stagecoach",
+        "director": "Джон Форд",
+        "yearProduced": "1939",
+        "yearAdded": "1995",
+        "id": 178
+    },
+    {
+        "name": "Динозавр Герти",
+        "originalName": "Gertie the Dinosaur",
+        "director": "Уинзор Маккей",
+        "yearProduced": "1914",
+        "yearAdded": "1991",
+        "id": 179
+    },
+    {
+        "name": "Дневник Дэвида Гольцмана",
+        "originalName": "David Holzman’s Diary",
+        "director": "Джим Макбрайд",
+        "yearProduced": "1967",
+        "yearAdded": "1991",
+        "id": 180
+    },
+    {
+        "name": "Дни вина и роз",
+        "originalName": "Days of Wine and Roses",
+        "director": "Блейк Эдвардс",
+        "yearProduced": "1962",
+        "yearAdded": "2018",
+        "id": 181
+    },
+    {
+        "name": "Дни жатвы",
+        "originalName": "Days of Heaven",
+        "director": "Терренс Малик",
+        "yearProduced": "1978",
+        "yearAdded": "2007",
+        "id": 182
+    },
+    {
+        "name": "До Стоунволлских бунтов",
+        "originalName": "Before Stonewall",
+        "director": "Грета Шиллер и Роберт Розенберг",
+        "yearProduced": "1984",
+        "yearAdded": "2019",
+        "id": 731
+    },
+    {
+        "name": "Добродетельная соблазнительница",
+        "originalName": "A Virtuous Vamp",
+        "director": "Дэвид Кирклэнд и Сидни Франклин",
+        "yearProduced": "1919",
+        "yearAdded": "2013",
+        "id": 818
+    },
+    {
+        "name": "Додсворт",
+        "originalName": "Dodsworth",
+        "director": "Уильям Уайлер",
+        "yearProduced": "1936",
+        "yearAdded": "1990",
+        "id": 184
+    },
+    {
+        "name": "Дождливая погода",
+        "originalName": "Stormy Weather",
+        "director": "Эндрю Л. Стоун",
+        "yearProduced": "1943",
+        "yearAdded": "2001",
+        "id": 185
+    },
+    {
+        "name": "Доказательство съёмки",
+        "originalName": "The Evidence of the Film",
+        "director": "Лоуренс Марстон и Эдвин Танхаузер",
+        "yearProduced": "1913",
+        "yearAdded": "2001",
+        "id": 186
+    },
+    {
+        "name": "Доктор Стрейнджлав, или Как я перестал бояться и полюбил бомбу",
+        "originalName": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+        "director": "Стэнли Кубрик",
+        "yearProduced": "1964",
+        "yearAdded": "1989",
+        "id": 187
+    },
+    {
+        "name": "Долгое прощание",
+        "originalName": "The Long Goodbye",
+        "director": "Роберт Олтмен",
+        "yearProduced": "1973",
+        "yearAdded": "2021",
+        "id": 183
+    },
+    {
+        "name": "Дом восковых фигур",
+        "originalName": "House of Wax",
+        "director": "Андре Де Тот",
+        "yearProduced": "1953",
+        "yearAdded": "2014",
+        "id": 189
+    },
+    {
+        "name": "Дом посередине",
+        "originalName": "The House in the Middle",
+        "director": "",
+        "yearProduced": "1954",
+        "yearAdded": "2001",
+        "id": 190
+    },
+    {
+        "name": "Дом, в котором я живу",
+        "originalName": "The House I Live In",
+        "director": "Мервин Лерой",
+        "yearProduced": "1945",
+        "yearAdded": "2007",
+        "id": 188
+    },
+    {
+        "name": "Домашние фильмы братьев Николас",
+        "originalName": "Nicholas Brothers’ Home Movies",
+        "director": "",
+        "yearProduced": "1930-е — 1940-е",
+        "yearAdded": "2011",
+        "id": 782
+    },
+    {
+        "name": "Домашние фильмы Кэба Кэллоуэя",
+        "originalName": "Cab Calloway Home Movies",
+        "director": "",
+        "yearProduced": "1948—1951",
+        "yearAdded": "2022",
+        "id": 1040
+    },
+    {
+        "name": "Домашняя вечеринка",
+        "originalName": "House Party",
+        "director": "Реджинальд Хадлин",
+        "yearProduced": "1990",
+        "yearAdded": "2022",
+        "id": 1041
+    },
+    {
+        "name": "Дорога в Марокко",
+        "originalName": "Road to Morocco",
+        "director": "Дэвид Батлер",
+        "yearProduced": "1942",
+        "yearAdded": "1996",
+        "id": 191
+    },
+    {
+        "name": "Дорога на пау-вау",
+        "originalName": "Powwow Highway",
+        "director": "Джонатан Уэкс",
+        "yearProduced": "1989",
+        "yearAdded": "2024",
+        "id": 2510
+    },
+    {
+        "name": "Дорогие образы",
+        "originalName": "Precious Images",
+        "director": "Чак Уоркмен",
+        "yearProduced": "1986",
+        "yearAdded": "2009",
+        "id": 790
+    },
+    {
+        "name": "Доходное дело",
+        "originalName": "Big Business",
+        "director": "Джеймс Хорн и Лео Маккэри",
+        "yearProduced": "1929",
+        "yearAdded": "1992",
+        "id": 192
+    },
+    {
+        "name": "Дочери пыли",
+        "originalName": "Daughters of the Dust",
+        "director": "Джули Дэш",
+        "yearProduced": "1991",
+        "yearAdded": "2004",
+        "id": 193
+    },
+    {
+        "name": "Дочь Зари",
+        "originalName": "Daughter of Dawn",
+        "director": "Норберт Майлс",
+        "yearProduced": "1920",
+        "yearAdded": "2013",
+        "id": 194
+    },
+    {
+        "name": "Дочь Шанхая",
+        "originalName": "Daughter of Shanghai",
+        "director": "Роберт Флори",
+        "yearProduced": "1937",
+        "yearAdded": "2006",
+        "id": 195
+    },
+    {
+        "name": "Дочь шахтёра",
+        "originalName": "Coal Miner’s Daughter",
+        "director": "Майкл Эптед",
+        "yearProduced": "1980",
+        "yearAdded": "2019",
+        "id": 196
+    },
+    {
+        "name": "Дракула",
+        "originalName": "Dracula",
+        "director": "Джордж Мелфорд",
+        "yearProduced": "1931",
+        "yearAdded": "2015",
+        "id": 197
+    },
+    {
+        "name": "Дракула",
+        "originalName": "Dracula",
+        "director": "Тод Браунинг и Карл Фройнд",
+        "yearProduced": "1931",
+        "yearAdded": "2000",
+        "id": 198
+    },
+    {
+        "name": "Дурная слава",
+        "originalName": "Notorious",
+        "director": "Альфред Хичкок",
+        "yearProduced": "1946",
+        "yearAdded": "2006",
+        "id": 199
+    },
+    {
+        "name": "Дымовые сигналы",
+        "originalName": "Smoke Signals",
+        "director": "Крис Эйр",
+        "yearProduced": "1998",
+        "yearAdded": "2018",
+        "id": 201
+    },
+    {
+        "name": "Дьявол никогда не спит",
+        "originalName": "The Devil Never Sleeps",
+        "director": "Лурдес Портильо",
+        "yearProduced": "1994",
+        "yearAdded": "2020",
+        "id": 202
+    },
+    {
+        "name": "Его девушка Пятница",
+        "originalName": "His Girl Friday",
+        "director": "Говард Хоукс",
+        "yearProduced": "1940",
+        "yearAdded": "1993",
+        "id": 203
+    },
+    {
+        "name": "Ей это нужно позарез",
+        "originalName": "She’s Gotta Have It",
+        "director": "Спайк Ли",
+        "yearProduced": "1986",
+        "yearAdded": "2019",
+        "id": 204
+    },
+    {
+        "name": "Железный конь",
+        "originalName": "The Iron Horse",
+        "director": "Джон Форд",
+        "yearProduced": "1924",
+        "yearAdded": "2011",
+        "id": 205
+    },
+    {
+        "name": "Железный человек",
+        "originalName": "Iron Man",
+        "director": "Джон Фавро",
+        "yearProduced": "2008",
+        "yearAdded": "2022",
+        "id": 1057
+    },
+    {
+        "name": "Жемчужина",
+        "originalName": "The Pearl",
+        "director": "Эмилио Фернандес",
+        "yearProduced": "1947",
+        "yearAdded": "2002",
+        "id": 206
+    },
+    {
+        "name": "Женщина года",
+        "originalName": "Woman of the Year",
+        "director": "Джордж Стивенс",
+        "yearProduced": "1942",
+        "yearAdded": "1999",
+        "id": 208
+    },
+    {
+        "name": "Женщина под влиянием",
+        "originalName": "A Woman Under the Influence",
+        "director": "Джон Кассаветис",
+        "yearProduced": "1974",
+        "yearAdded": "1990",
+        "id": 209
+    },
+    {
+        "name": "Женщина-арбуз",
+        "originalName": "The Watermelon Woman",
+        "director": "Шерил Дюнье",
+        "yearProduced": "1996",
+        "yearAdded": "2021",
+        "id": 207
+    },
+    {
+        "name": "Женщины",
+        "originalName": "The Women",
+        "director": "Джордж Кьюкор",
+        "yearProduced": "1939",
+        "yearAdded": "2007",
+        "id": 210
+    },
+    {
+        "name": "Живая пустыня",
+        "originalName": "The Living Desert",
+        "director": "Джеймс Алгар",
+        "yearProduced": "1953",
+        "yearAdded": "2000",
+        "id": 211
+    },
+    {
+        "name": "Жижи",
+        "originalName": "Gigi",
+        "director": "Винсент Миннелли",
+        "yearProduced": "1958",
+        "yearAdded": "1991",
+        "id": 212
+    },
+    {
+        "name": "Жизни артистов",
+        "originalName": "Lives of Performers",
+        "director": "Ивонна Райнер",
+        "yearProduced": "1972",
+        "yearAdded": "2017",
+        "id": 772
+    },
+    {
+        "name": "Жизнь американского пожарного",
+        "originalName": "Life of an American Fireman",
+        "director": "Эдвин Портер",
+        "yearProduced": "1903",
+        "yearAdded": "2016",
+        "id": 213
+    },
+    {
+        "name": "Жизнь и времена клепальщицы Рози",
+        "originalName": "The Life and Times of Rosie the Riveter",
+        "director": "Конни Филд",
+        "yearProduced": "1980",
+        "yearAdded": "1996",
+        "id": 214
+    },
+    {
+        "name": "Жизнь и смерть актёра из массовки под номером 9413",
+        "originalName": "The Life and Death of 9413: a Hollywood Extra",
+        "director": "Роберт Флори и Славко Воркапич",
+        "yearProduced": "1928",
+        "yearAdded": "1997",
+        "id": 215
+    },
+    {
+        "name": "Жизнь Эмиля Золя",
+        "originalName": "The Life of Emile Zola",
+        "director": "Уильям Дитерле",
+        "yearProduced": "1937",
+        "yearAdded": "2000",
+        "id": 216
+    },
+    {
+        "name": "Жил-был дурак",
+        "originalName": "A Fool There Was",
+        "director": "Фрэнк Пауэлл",
+        "yearProduced": "1915",
+        "yearAdded": "2015",
+        "id": 217
+    },
+    {
+        "name": "За каждым хорошим человеком",
+        "originalName": "Behind Every Good Man",
+        "director": "Ник Эллиот",
+        "yearProduced": "1967",
+        "yearAdded": "2022",
+        "id": 1071
+    },
+    {
+        "name": "Забойщик овец",
+        "originalName": "Killer of Sheep",
+        "director": "Чарльз Бёрнетт",
+        "yearProduced": "1978",
+        "yearAdded": "1990",
+        "id": 219
+    },
+    {
+        "name": "Забытый фронтир",
+        "originalName": "The Forgotten Frontier",
+        "director": "Мэри Марвин Брекинридж",
+        "yearProduced": "1931",
+        "yearAdded": "1996",
+        "id": 220
+    },
+    {
+        "name": "Завод Вестингауз, 1904",
+        "originalName": "Westinghouse Works, 1904",
+        "director": "Билли Битцер",
+        "yearProduced": "1904",
+        "yearAdded": "1998",
+        "id": 516
+    },
+    {
+        "name": "Заводной апельсин",
+        "originalName": "A Clockwork Orange",
+        "director": "Стэнли Кубрик",
+        "yearProduced": "1971",
+        "yearAdded": "2020",
+        "id": 221
+    },
+    {
+        "name": "Завтрак у Тиффани",
+        "originalName": "Breakfast at Tiffany’s",
+        "director": "Блейк Эдвардс",
+        "yearProduced": "1961",
+        "yearAdded": "2012",
+        "id": 222
+    },
+    {
+        "name": "Заметки о порте Святого Франциска",
+        "originalName": "Notes on the Port of St. Francis",
+        "director": "Фрэнк Стауффачер",
+        "yearProduced": "1951",
+        "yearAdded": "2013",
+        "id": 784
+    },
+    {
+        "name": "Замороченные",
+        "originalName": "Bamboozled",
+        "director": "Спайк Ли",
+        "yearProduced": "2000",
+        "yearAdded": "2023",
+        "id": 2008
+    },
+    {
+        "name": "Запретная планета",
+        "originalName": "Forbidden Planet",
+        "director": "Фред Уилкокс",
+        "yearProduced": "1956",
+        "yearAdded": "2013",
+        "id": 223
+    },
+    {
+        "name": "Заснуть во гневе",
+        "originalName": "To Sleep with Anger",
+        "director": "Чарльз Бёрнетт",
+        "yearProduced": "1990",
+        "yearAdded": "2017",
+        "id": 813
+    },
+    {
+        "name": "Затерянный мир",
+        "originalName": "The Lost World",
+        "director": "Гарри О. Хойт",
+        "yearProduced": "1925",
+        "yearAdded": "1998",
+        "id": 224
+    },
+    {
+        "name": "Захватчики с Марса",
+        "originalName": "Invaders from Mars",
+        "director": "Уильям Кэмерон Мензис",
+        "yearProduced": "1953",
+        "yearAdded": "2024",
+        "id": 2498
+    },
+    {
+        "name": "Звезда родилась",
+        "originalName": "A Star Is Born",
+        "director": "Джордж Кьюкор",
+        "yearProduced": "1954",
+        "yearAdded": "2000",
+        "id": 225
+    },
+    {
+        "name": "Звёздные войны. Эпизод IV: Новая надежда",
+        "originalName": "Star Wars",
+        "director": "Джордж Лукас",
+        "yearProduced": "1977",
+        "yearAdded": "1989",
+        "id": 227
+    },
+    {
+        "name": "Звёздные войны. Эпизод V: Империя наносит ответный удар",
+        "originalName": "The Empire Strikes Back",
+        "director": "Ирвин Кершнер",
+        "yearProduced": "1980",
+        "yearAdded": "2010",
+        "id": 228
+    },
+    {
+        "name": "Звёздные войны. Эпизод VI: Возвращение джедая",
+        "originalName": "Return of the Jedi",
+        "director": "Ричард Маркуанд",
+        "yearProduced": "1983",
+        "yearAdded": "2021",
+        "id": 229
+    },
+    {
+        "name": "Звёздный путь 2: Гнев Хана",
+        "originalName": "Star Trek II: The Wrath of Khan",
+        "director": "Николас Мейер",
+        "yearProduced": "1982",
+        "yearAdded": "2024",
+        "id": 2507
+    },
+    {
+        "name": "Зверинец",
+        "originalName": "National Lampoon’s Animal House",
+        "director": "Джон Лэндис",
+        "yearProduced": "1978",
+        "yearAdded": "2001",
+        "id": 226
+    },
+    {
+        "name": "Звуки музыки",
+        "originalName": "The Sound of Music",
+        "director": "Роберт Уайз",
+        "yearProduced": "1965",
+        "yearAdded": "2001",
+        "id": 230
+    },
+    {
+        "name": "Землетрясение и пожар в Сан-Франциско: 18 апреля 1906 года",
+        "originalName": "San Francisco Earthquake & Fire: April 18, 1906",
+        "director": "",
+        "yearProduced": "1906",
+        "yearAdded": "2005",
+        "id": 231
+    },
+    {
+        "name": "Земля",
+        "originalName": "The Ground",
+        "director": "Роберт Биверс",
+        "yearProduced": "1993—2001",
+        "yearAdded": "2020",
+        "id": 756
+    },
+    {
+        "name": "Земля уходит из-под ног",
+        "originalName": "Losing Ground",
+        "director": "Кэтлин Коллинз",
+        "yearProduced": "1982",
+        "yearAdded": "2020",
+        "id": 773
+    },
+    {
+        "name": "Злые и красивые",
+        "originalName": "The Bad and the Beautiful",
+        "director": "Винсент Миннелли",
+        "yearProduced": "1952",
+        "yearAdded": "2002",
+        "id": 232
+    },
+    {
+        "name": "Злые улицы",
+        "originalName": "Mean Streets",
+        "director": "Мартин Скорсезе",
+        "yearProduced": "1973",
+        "yearAdded": "1997",
+        "id": 233
+    },
+    {
+        "name": "Знак Зорро",
+        "originalName": "The Mark of Zorro",
+        "director": "Фред Нибло",
+        "yearProduced": "1920",
+        "yearAdded": "2015",
+        "id": 234
+    },
+    {
+        "name": "Знак Зорро",
+        "originalName": "The Mark of Zorro",
+        "director": "Рубен Мамулян",
+        "yearProduced": "1940",
+        "yearAdded": "2009",
+        "id": 235
+    },
+    {
+        "name": "Золотая лихорадка",
+        "originalName": "The Gold Rush",
+        "director": "Чарли Чаплин",
+        "yearProduced": "1925",
+        "yearAdded": "1992",
+        "id": 236
+    },
+    {
+        "name": "Золотоискательницы 1933 года",
+        "originalName": "Gold Diggers of 1933",
+        "director": "Мервин Лерой",
+        "yearProduced": "1933",
+        "yearAdded": "2003",
+        "id": 237
+    },
+    {
+        "name": "Золушка",
+        "originalName": "Cinderella",
+        "director": "Хэмилтон Ласк, Уилфред Джексон и Клайд Джероними",
+        "yearProduced": "1950",
+        "yearAdded": "2018",
+        "id": 238
+    },
+    {
+        "name": "Играя блюз",
+        "originalName": "Jammin’ the Blues",
+        "director": "Гьон Мили",
+        "yearProduced": "1944",
+        "yearAdded": "1995",
+        "id": 239
+    },
+    {
+        "name": "Идти своим путём",
+        "originalName": "Going My Way",
+        "director": "Лео Маккэри",
+        "yearProduced": "1944",
+        "yearAdded": "2004",
+        "id": 240
+    },
+    {
+        "name": "Иезавель",
+        "originalName": "Jezebel",
+        "director": "Уильям Уайлер",
+        "yearProduced": "1938",
+        "yearAdded": "2009",
+        "id": 241
+    },
+    {
+        "name": "Из Монтгомери в Мемфис",
+        "originalName": "King: A Filmed Record… Montgomery to Memphis",
+        "director": "Сидни Люмет и Джозеф Лео Манкевич",
+        "yearProduced": "1970",
+        "yearAdded": "1999",
+        "id": 242
+    },
+    {
+        "name": "Из прошлого",
+        "originalName": "Out of the Past",
+        "director": "Жак Турнёр",
+        "yearProduced": "1947",
+        "yearAdded": "1991",
+        "id": 243
+    },
+    {
+        "name": "Избавление",
+        "originalName": "Deliverance",
+        "director": "Джон Бурмен",
+        "yearProduced": "1972",
+        "yearAdded": "2008",
+        "id": 244
+    },
+    {
+        "name": "Изгнанники",
+        "originalName": "The Exiles",
+        "director": "Кент Маккензи",
+        "yearProduced": "1961",
+        "yearAdded": "2009",
+        "id": 245
+    },
+    {
+        "name": "Изгоняющий дьявола",
+        "originalName": "The Exorcist",
+        "director": "Уильям Фридкин",
+        "yearProduced": "1973",
+        "yearAdded": "2010",
+        "id": 246
+    },
+    {
+        "name": "Изучение реки",
+        "originalName": "Study of a River",
+        "director": "Питер Хаттон",
+        "yearProduced": "1997",
+        "yearAdded": "2010",
+        "id": 805
+    },
+    {
+        "name": "Изюминка на солнце",
+        "originalName": "A Raisin in the Sun",
+        "director": "Дэниел Петри",
+        "yearProduced": "1961",
+        "yearAdded": "2005",
+        "id": 247
+    },
+    {
+        "name": "Иллюзии",
+        "originalName": "Illusions",
+        "director": "Джули Дэш",
+        "yearProduced": "1982",
+        "yearAdded": "2020",
+        "id": 248
+    },
+    {
+        "name": "Имитация жизни",
+        "originalName": "Imitation of Life",
+        "director": "Дуглас Сирк",
+        "yearProduced": "1959",
+        "yearAdded": "2015",
+        "id": 250
+    },
+    {
+        "name": "Имитация жизни",
+        "originalName": "Imitation of Life",
+        "director": "Джон М. Стал",
+        "yearProduced": "1934",
+        "yearAdded": "2005",
+        "id": 249
+    },
+    {
+        "name": "Иммигрант",
+        "originalName": "The Immigrant",
+        "director": "Чарли Чаплин",
+        "yearProduced": "1917",
+        "yearAdded": "1998",
+        "id": 251
+    },
+    {
+        "name": "Император Джонс",
+        "originalName": "The Emperor Jones",
+        "director": "Дадли Мёрфи",
+        "yearProduced": "1933",
+        "yearAdded": "1999",
+        "id": 252
+    },
+    {
+        "name": "Индиана Джонс: В поисках утраченного ковчега",
+        "originalName": "Raiders of the Lost Ark",
+        "director": "Стивен Спилберг",
+        "yearProduced": "1981",
+        "yearAdded": "1999",
+        "id": 253
+    },
+    {
+        "name": "Инопланетянин",
+        "originalName": "E.T. the Extra-Terrestrial",
+        "director": "Стивен Спилберг",
+        "yearProduced": "1982",
+        "yearAdded": "1994",
+        "id": 254
+    },
+    {
+        "name": "Интимный разговор",
+        "originalName": "Pillow Talk",
+        "director": "Майкл Гордон",
+        "yearProduced": "1959",
+        "yearAdded": "2009",
+        "id": 256
+    },
+    {
+        "name": "Искатели",
+        "originalName": "The Searchers",
+        "director": "Джон Форд",
+        "yearProduced": "1956",
+        "yearAdded": "1989",
+        "id": 257
+    },
+    {
+        "name": "Искусные руки",
+        "originalName": "Master Hands",
+        "director": "Гордон Эйвил",
+        "yearProduced": "1936",
+        "yearAdded": "1999",
+        "id": 258
+    },
+    {
+        "name": "Искусственные воды",
+        "originalName": "Eaux d’Artifice",
+        "director": "Кеннет Энгер",
+        "yearProduced": "1953",
+        "yearAdded": "1993",
+        "id": 259
+    },
+    {
+        "name": "Испортит ли успех Рока Хантера?",
+        "originalName": "Will Success Spoil Rock Hunter?",
+        "director": "Фрэнк Тэшлин",
+        "yearProduced": "1957",
+        "yearAdded": "2000",
+        "id": 260
+    },
+    {
+        "name": "История в Феникс-сити",
+        "originalName": "The Phenix City Story",
+        "director": "Фил Карлсон",
+        "yearProduced": "1955",
+        "yearAdded": "2019",
+        "id": 261
+    },
+    {
+        "name": "История игрушек",
+        "originalName": "Toy Story",
+        "director": "Джон Лассетер",
+        "yearProduced": "1995",
+        "yearAdded": "2005",
+        "id": 262
+    },
+    {
+        "name": "История о менструации",
+        "originalName": "The Story of Menstruation",
+        "director": "Джек Кинни",
+        "yearProduced": "1946",
+        "yearAdded": "2015",
+        "id": 263
+    },
+    {
+        "name": "История солдата Джо",
+        "originalName": "The Story of G.I. Joe",
+        "director": "Уильям Уэллман",
+        "yearProduced": "1945",
+        "yearAdded": "2009",
+        "id": 264
+    },
+    {
+        "name": "Исцеление игрока в покер",
+        "originalName": "A Cure for Pokeritis",
+        "director": "Лоуренс Тримбл",
+        "yearProduced": "1912",
+        "yearAdded": "2011",
+        "id": 265
+    },
+    {
+        "name": "Итальянец",
+        "originalName": "The Italian",
+        "director": "Реджинальд Баркер",
+        "yearProduced": "1915",
+        "yearAdded": "1991",
+        "id": 266
+    },
+    {
+        "name": "Итам Хаким, хопиит",
+        "originalName": "Itam Hakim, Hopiit",
+        "director": "Виктор Масайесва",
+        "yearProduced": "1984",
+        "yearAdded": "2022",
+        "id": 1125
+    },
+    {
+        "name": "Их собственная лига",
+        "originalName": "A League of Their Own",
+        "director": "Пенни Маршалл",
+        "yearProduced": "1992",
+        "yearAdded": "2012",
+        "id": 267
+    },
+    {
+        "name": "К востоку от рая",
+        "originalName": "East of Eden",
+        "director": "Элиа Казан",
+        "yearProduced": "1955",
+        "yearAdded": "2016",
+        "id": 268
+    },
+    {
+        "name": "К северу через северо-запад",
+        "originalName": "North by Northwest",
+        "director": "Альфред Хичкок",
+        "yearProduced": "1959",
+        "yearAdded": "1995",
+        "id": 269
+    },
+    {
+        "name": "Кабаре",
+        "originalName": "Cabaret",
+        "director": "Боб Фосс",
+        "yearProduced": "1972",
+        "yearAdded": "1995",
+        "id": 270
+    },
+    {
+        "name": "Кадры Второй мировой войны",
+        "originalName": "George Stevens’ World War II Footage",
+        "director": "Джордж Стивенс",
+        "yearProduced": "1943—1946",
+        "yearAdded": "2008",
+        "id": 753
+    },
+    {
+        "name": "Кадры инаугурации президента Мак-Кинли",
+        "originalName": "President McKinley Inauguration Footage",
+        "director": "Томас Эдисон",
+        "yearProduced": "1901",
+        "yearAdded": "2000",
+        "id": 271
+    },
+    {
+        "name": "Как был завоёван Запад",
+        "originalName": "How the West Was Won",
+        "director": "Генри Хэтэуэй, Джон Форд и Джордж Маршалл",
+        "yearProduced": "1962",
+        "yearAdded": "1997",
+        "id": 272
+    },
+    {
+        "name": "Как зелена была моя долина",
+        "originalName": "How Green Was My Valley",
+        "director": "Джон Форд",
+        "yearProduced": "1941",
+        "yearAdded": "1990",
+        "id": 273
+    },
+    {
+        "name": "Как и твой старик",
+        "originalName": "So’s Your Old Man",
+        "director": "Грегори Ла Кава",
+        "yearProduced": "1926",
+        "yearAdded": "2008",
+        "id": 798
+    },
+    {
+        "name": "Как-Бы в Квакадеро",
+        "originalName": "Quasi at the Quackadero",
+        "director": "Салли Круйкшэнк",
+        "yearProduced": "1975",
+        "yearAdded": "2009",
+        "id": 791
+    },
+    {
+        "name": "Каннаполис, Северная Каролина",
+        "originalName": "Kannapolis, N.C.",
+        "director": "Херберт Ли Уотерс",
+        "yearProduced": "1941",
+        "yearAdded": "2004",
+        "id": 274
+    },
+    {
+        "name": "Кармен Джонс",
+        "originalName": "Carmen Jones",
+        "director": "Отто Премингер",
+        "yearProduced": "1954",
+        "yearAdded": "1992",
+        "id": 276
+    },
+    {
+        "name": "Карнавал Марди Гра",
+        "originalName": "Mardi Gras Carnival",
+        "director": "",
+        "yearProduced": "1898",
+        "yearAdded": "2022",
+        "id": 1138
+    },
+    {
+        "name": "Касабланка",
+        "originalName": "Casablanca",
+        "director": "Майкл Кёртис",
+        "yearProduced": "1942",
+        "yearAdded": "1989",
+        "id": 277
+    },
+    {
+        "name": "Кастро-стрит",
+        "originalName": "Castro Street",
+        "director": "Брюс Бэйлли",
+        "yearProduced": "1966",
+        "yearAdded": "1992",
+        "id": 278
+    },
+    {
+        "name": "Квартира",
+        "originalName": "The Apartment",
+        "director": "Билли Уайлдер",
+        "yearProduced": "1960",
+        "yearAdded": "1994",
+        "id": 280
+    },
+    {
+        "name": "Кинг-Конг",
+        "originalName": "King Kong",
+        "director": "Мериан Купер и Эрнест Шидсэк",
+        "yearProduced": "1933",
+        "yearAdded": "1991",
+        "id": 282
+    },
+    {
+        "name": "Кинооператор",
+        "originalName": "The Cameraman",
+        "director": "Эдвард Седжвик и Бастер Китон",
+        "yearProduced": "1928",
+        "yearAdded": "2005",
+        "id": 283
+    },
+    {
+        "name": "Кинопортрет",
+        "originalName": "Film Portrait",
+        "director": "Джером Хилл",
+        "yearProduced": "1972",
+        "yearAdded": "2003",
+        "id": 284
+    },
+    {
+        "name": "Кинопутешествие по Фильмлэнду",
+        "originalName": "A Movie Trip Through Filmland",
+        "director": "Пол Фентон",
+        "yearProduced": "1921",
+        "yearAdded": "2023",
+        "id": 2076
+    },
+    {
+        "name": "Китайский квартал",
+        "originalName": "Chinatown",
+        "director": "Роман Полански",
+        "yearProduced": "1974",
+        "yearAdded": "1991",
+        "id": 285
+    },
+    {
+        "name": "Клерки",
+        "originalName": "Clerks",
+        "director": "Кевин Смит",
+        "yearProduced": "1994",
+        "yearAdded": "2019",
+        "id": 286
+    },
+    {
+        "name": "Клуб «Завтрак»",
+        "originalName": "The Breakfast Club",
+        "director": "Джон Хьюз",
+        "yearProduced": "1985",
+        "yearAdded": "2016",
+        "id": 288
+    },
+    {
+        "name": "Клуб Буэна Виста",
+        "originalName": "Buena Vista Social Club",
+        "director": "Вим Вендерс",
+        "yearProduced": "1999",
+        "yearAdded": "2020",
+        "id": 287
+    },
+    {
+        "name": "Клуб радости и удачи",
+        "originalName": "The Joy Luck Club",
+        "director": "Уэйн Ван",
+        "yearProduced": "1993",
+        "yearAdded": "2020",
+        "id": 768
+    },
+    {
+        "name": "Кнут Рокни, настоящий американец",
+        "originalName": "Knute Rockne, All American",
+        "director": "Ллойд Бэкон и Уильям Ховард",
+        "yearProduced": "1940",
+        "yearAdded": "1997",
+        "id": 289
+    },
+    {
+        "name": "Когда Гарри встретил Салли",
+        "originalName": "When Harry Met Sally…",
+        "director": "Роб Райнер",
+        "yearProduced": "1989",
+        "yearAdded": "2022",
+        "id": 1151
+    },
+    {
+        "name": "Койяанискаци",
+        "originalName": "Koyaanisqatsi",
+        "director": "Годфри Реджио",
+        "yearProduced": "1982",
+        "yearAdded": "2000",
+        "id": 290
+    },
+    {
+        "name": "Коко управляет Землёй",
+        "originalName": "KoKo’s Earth Control",
+        "director": "Макс Флейшер и Дэйв Флейшер",
+        "yearProduced": "1928",
+        "yearAdded": "2024",
+        "id": 2495
+    },
+    {
+        "name": "Коллекция домашних фильмов семьи Фуэнтес",
+        "originalName": "Fuentes Family Home Movies Collection",
+        "director": "",
+        "yearProduced": "1920-е — 1930-е",
+        "yearAdded": "2017",
+        "id": 752
+    },
+    {
+        "name": "Коллекция фильмов семьи Боулано",
+        "originalName": "Bohulano Family Film Collection",
+        "director": "",
+        "yearProduced": "1950—1978",
+        "yearAdded": "2023",
+        "id": 2086
+    },
+    {
+        "name": "Колон: Из дневника Рэя и Эстер",
+        "originalName": "Cologne: From the Diary of Ray and Esther",
+        "director": "Эстер и Рэймонд Довидат",
+        "yearProduced": "1939",
+        "yearAdded": "2001",
+        "id": 281
+    },
+    {
+        "name": "Кольцо желаний: Идиллия старой Англии",
+        "originalName": "The Wishing Ring: An Idyll of Old England",
+        "director": "Морис Турнёр",
+        "yearProduced": "1914",
+        "yearAdded": "2012",
+        "id": 821
+    },
+    {
+        "name": "Команда из штата Индиана",
+        "originalName": "Hoosiers",
+        "director": "Дэвид Анспо",
+        "yearProduced": "1986",
+        "yearAdded": "2001",
+        "id": 291
+    },
+    {
+        "name": "Коммивояжёр",
+        "originalName": "Salesman",
+        "director": "Альберт и Дэвид Мэйслес и Шарлотт Цверин",
+        "yearProduced": "1969",
+        "yearAdded": "1992",
+        "id": 292
+    },
+    {
+        "name": "Компенсация",
+        "originalName": "Compensation",
+        "director": "Зейнабу Айрин Дэвис",
+        "yearProduced": "1999",
+        "yearAdded": "2024",
+        "id": 2515
+    },
+    {
+        "name": "Король джаза",
+        "originalName": "King of Jazz",
+        "director": "Джон Мюррей Андерсон",
+        "yearProduced": "1930",
+        "yearAdded": "2013",
+        "id": 293
+    },
+    {
+        "name": "Король Лев",
+        "originalName": "The Lion King",
+        "director": "Роджер Аллерс и Роб Минкофф",
+        "yearProduced": "1994",
+        "yearAdded": "2016",
+        "id": 294
+    },
+    {
+        "name": "Космическая одиссея 2001 года",
+        "originalName": "2001: A Space Odyssey",
+        "director": "Стэнли Кубрик",
+        "yearProduced": "1968",
+        "yearAdded": "1991",
+        "id": 295
+    },
+    {
+        "name": "Костюм фасона зут",
+        "originalName": "Zoot Suit",
+        "director": "Луис Вальдес",
+        "yearProduced": "1981",
+        "yearAdded": "2019",
+        "id": 296
+    },
+    {
+        "name": "Кошмар на улице Вязов",
+        "originalName": "A Nightmare on Elm Street",
+        "director": "Уэс Крэйвен",
+        "yearProduced": "1984",
+        "yearAdded": "2021",
+        "id": 297
+    },
+    {
+        "name": "Кошмар перед Рождеством",
+        "originalName": "The Nightmare Before Christmas",
+        "director": "Генри Селик",
+        "yearProduced": "1993",
+        "yearAdded": "2023",
+        "id": 2096
+    },
+    {
+        "name": "Красавица и Чудовище",
+        "originalName": "Beauty and the Beast",
+        "director": "Гари Труздейл и Кирк Уайз",
+        "yearProduced": "1991",
+        "yearAdded": "2002",
+        "id": 298
+    },
+    {
+        "name": "Красная книга",
+        "originalName": "The Red Book",
+        "director": "Джейни Гейзер",
+        "yearProduced": "1994",
+        "yearAdded": "2009",
+        "id": 792
+    },
+    {
+        "name": "Красная пыль",
+        "originalName": "Red Dust",
+        "director": "Виктор Флеминг",
+        "yearProduced": "1932",
+        "yearAdded": "2006",
+        "id": 299
+    },
+    {
+        "name": "Красная река",
+        "originalName": "Red River",
+        "director": "Говард Хоукс",
+        "yearProduced": "1948",
+        "yearAdded": "1990",
+        "id": 300
+    },
+    {
+        "name": "Крепкий орешек",
+        "originalName": "Die Hard",
+        "director": "Джон Мактирнан",
+        "yearProduced": "1988",
+        "yearAdded": "2017",
+        "id": 301
+    },
+    {
+        "name": "Крёстный отец",
+        "originalName": "The Godfather",
+        "director": "Фрэнсис Форд Коппола",
+        "yearProduced": "1972",
+        "yearAdded": "1990",
+        "id": 302
+    },
+    {
+        "name": "Крёстный отец 2",
+        "originalName": "The Godfather Part II",
+        "director": "Фрэнсис Форд Коппола",
+        "yearProduced": "1974",
+        "yearAdded": "1993",
+        "id": 303
+    },
+    {
+        "name": "Кризис: После президентских выборов",
+        "originalName": "Crisis: Behind a Presidential Commitment",
+        "director": "Роберт Дрю",
+        "yearProduced": "1963",
+        "yearAdded": "2011",
+        "id": 740
+    },
+    {
+        "name": "Крик джаза",
+        "originalName": "The Cry of Jazz",
+        "director": "Эдвард Блэнд",
+        "yearProduced": "1959",
+        "yearAdded": "2010",
+        "id": 741
+    },
+    {
+        "name": "Криминальное чтиво",
+        "originalName": "Pulp Fiction",
+        "director": "Квентин Тарантино",
+        "yearProduced": "1994",
+        "yearAdded": "2013",
+        "id": 304
+    },
+    {
+        "name": "Кровь Иисуса",
+        "originalName": "The Blood of Jesus",
+        "director": "Спенсер Уильямс",
+        "yearProduced": "1941",
+        "yearAdded": "1991",
+        "id": 305
+    },
+    {
+        "name": "Крутой мир",
+        "originalName": "The Cool World",
+        "director": "Ширли Кларк",
+        "yearProduced": "1963",
+        "yearAdded": "1994",
+        "id": 437
+    },
+    {
+        "name": "Крылья",
+        "originalName": "Wings",
+        "director": "Уильям Уэллман",
+        "yearProduced": "1927",
+        "yearAdded": "1997",
+        "id": 306
+    },
+    {
+        "name": "Кто боится Вирджинии Вулф?",
+        "originalName": "Who’s Afraid of Virginia Woolf?",
+        "director": "Майк Николс",
+        "yearProduced": "1966",
+        "yearAdded": "2013",
+        "id": 307
+    },
+    {
+        "name": "Кто подставил кролика Роджера",
+        "originalName": "Who Framed Roger Rabbit",
+        "director": "Роберт Земекис",
+        "yearProduced": "1988",
+        "yearAdded": "2016",
+        "id": 308
+    },
+    {
+        "name": "Кто убил Винсента Чиня?",
+        "originalName": "Who Killed Vincent Chin?",
+        "director": "Кристин Чхве и Рени Таджима-Пенья",
+        "yearProduced": "1987",
+        "yearAdded": "2021",
+        "id": 309
+    },
+    {
+        "name": "Кэрри",
+        "originalName": "Carrie",
+        "director": "Брайан Де Пальма",
+        "yearProduced": "1976",
+        "yearAdded": "2022",
+        "id": 1180
+    },
+    {
+        "name": "Ла Бамба",
+        "originalName": "La Bamba",
+        "director": "Луис Вальдес",
+        "yearProduced": "1987",
+        "yearAdded": "2017",
+        "id": 310
+    },
+    {
+        "name": "Лак для волос",
+        "originalName": "Hairspray",
+        "director": "Джон Уотерс",
+        "yearProduced": "1988",
+        "yearAdded": "2022",
+        "id": 1182
+    },
+    {
+        "name": "Леди Ева",
+        "originalName": "The Lady Eve",
+        "director": "Престон Стёрджес",
+        "yearProduced": "1941",
+        "yearAdded": "1994",
+        "id": 311
+    },
+    {
+        "name": "Леди и Бродяга",
+        "originalName": "Lady and the Tramp",
+        "director": "Клайд Джероними, Уилфред Джексон и Хэмилтон Ласк",
+        "yearProduced": "1955",
+        "yearAdded": "2023",
+        "id": 2117
+    },
+    {
+        "name": "Леди из Шанхая",
+        "originalName": "The Lady from Shanghai",
+        "director": "Орсон Уэллс",
+        "yearProduced": "1947",
+        "yearAdded": "2018",
+        "id": 312
+    },
+    {
+        "name": "Лесси возвращается домой",
+        "originalName": "Lassie Come Home",
+        "director": "Фред Уилкокс",
+        "yearProduced": "1943",
+        "yearAdded": "1993",
+        "id": 313
+    },
+    {
+        "name": "Летать!",
+        "originalName": "To Fly!",
+        "director": "Грег Макгилливрэй и Джим Фримен",
+        "yearProduced": "1976",
+        "yearAdded": "1995",
+        "id": 314
+    },
+    {
+        "name": "Летающий ас",
+        "originalName": "The Flying Ace",
+        "director": "Ричард Норман",
+        "yearProduced": "1926",
+        "yearAdded": "2021",
+        "id": 750
+    },
+    {
+        "name": "Лихорадка субботнего вечера",
+        "originalName": "Saturday Night Fever",
+        "director": "Джон Бэдэм",
+        "yearProduced": "1977",
+        "yearAdded": "2010",
+        "id": 315
+    },
+    {
+        "name": "Лица",
+        "originalName": "Faces",
+        "director": "Джон Кассаветис",
+        "yearProduced": "1968",
+        "yearAdded": "2011",
+        "id": 316
+    },
+    {
+        "name": "Лицо в толпе",
+        "originalName": "A Face in the Crowd",
+        "director": "Элиа Казан",
+        "yearProduced": "1957",
+        "yearAdded": "2008",
+        "id": 317
+    },
+    {
+        "name": "Лицо со шрамом",
+        "originalName": "Scarface",
+        "director": "Говард Хоукс",
+        "yearProduced": "1932",
+        "yearAdded": "1994",
+        "id": 318
+    },
+    {
+        "name": "Лора",
+        "originalName": "Laura",
+        "director": "Отто Премингер",
+        "yearProduced": "1944",
+        "yearAdded": "1999",
+        "id": 319
+    },
+    {
+        "name": "Лоуренс Аравийский",
+        "originalName": "Lawrence of Arabia",
+        "director": "Дэвид Лин",
+        "yearProduced": "1962",
+        "yearAdded": "1991",
+        "id": 320
+    },
+    {
+        "name": "Луизианская история",
+        "originalName": "Louisiana Story",
+        "director": "Роберт Флаэрти",
+        "yearProduced": "1948",
+        "yearAdded": "1994",
+        "id": 321
+    },
+    {
+        "name": "Лучшие годы нашей жизни",
+        "originalName": "The Best Years of Our Lives",
+        "director": "Уильям Уайлер",
+        "yearProduced": "1946",
+        "yearAdded": "1989",
+        "id": 322
+    },
+    {
+        "name": "Лучший стрелок",
+        "originalName": "Top Gun",
+        "director": "Тони Скотт",
+        "yearProduced": "1986",
+        "yearAdded": "2015",
+        "id": 323
+    },
+    {
+        "name": "Люби меня сегодня",
+        "originalName": "Love Me Tonight",
+        "director": "Рубен Мамулян",
+        "yearProduced": "1932",
+        "yearAdded": "1990",
+        "id": 324
+    },
+    {
+        "name": "Любовь и баскетбол",
+        "originalName": "Love & Basketball",
+        "director": "Джина Принс-Байтвуд",
+        "yearProduced": "2000",
+        "yearAdded": "2023",
+        "id": 2132
+    },
+    {
+        "name": "Любовь находит Энди Харди",
+        "originalName": "Love Finds Andy Hardy",
+        "director": "Джордж Сайтц",
+        "yearProduced": "1938",
+        "yearAdded": "2000",
+        "id": 325
+    },
+    {
+        "name": "Люди и пыль",
+        "originalName": "Men and Dust",
+        "director": "Шелдон Дик",
+        "yearProduced": "1940",
+        "yearAdded": "2013",
+        "id": 777
+    },
+    {
+        "name": "Люди искусства",
+        "originalName": "Show People",
+        "director": "Кинг Видор",
+        "yearProduced": "1928",
+        "yearAdded": "2003",
+        "id": 326
+    },
+    {
+        "name": "Люди-кошки",
+        "originalName": "Cat People",
+        "director": "Жак Турнёр",
+        "yearProduced": "1942",
+        "yearAdded": "1993",
+        "id": 327
+    },
+    {
+        "name": "Люксо-младший",
+        "originalName": "Luxo Jr.",
+        "director": "Джон Лассетер",
+        "yearProduced": "1986",
+        "yearAdded": "2014",
+        "id": 328
+    },
+    {
+        "name": "Магазинчик за углом",
+        "originalName": "The Shop Around the Corner",
+        "director": "Эрнст Любич",
+        "yearProduced": "1940",
+        "yearAdded": "1999",
+        "id": 329
+    },
+    {
+        "name": "Майя Лин: Сильный чистый взгляд",
+        "originalName": "Maya Lin: A Strong Clear Vision",
+        "director": "Фрида Ли Мок",
+        "yearProduced": "1994",
+        "yearAdded": "2023",
+        "id": 2139
+    },
+    {
+        "name": "Маккейб и миссис Миллер",
+        "originalName": "McCabe & Mrs. Miller",
+        "director": "Роберт Олтмен",
+        "yearProduced": "1971",
+        "yearAdded": "2010",
+        "id": 330
+    },
+    {
+        "name": "Маленькая мисс Маркер",
+        "originalName": "Little Miss Marker",
+        "director": "Александр Холл",
+        "yearProduced": "1934",
+        "yearAdded": "1998",
+        "id": 331
+    },
+    {
+        "name": "Маленький беглец",
+        "originalName": "Little Fugitive",
+        "director": "Рэймонд Абрашкин, Моррис Энгел и Рут Оркин",
+        "yearProduced": "1953",
+        "yearAdded": "1997",
+        "id": 332
+    },
+    {
+        "name": "Маленький большой человек",
+        "originalName": "Little Big Man",
+        "director": "Артур Пенн",
+        "yearProduced": "1970",
+        "yearAdded": "2014",
+        "id": 333
+    },
+    {
+        "name": "Маленький Немо",
+        "originalName": "Little Nemo",
+        "director": "Уинзор Маккей",
+        "yearProduced": "1911",
+        "yearAdded": "2009",
+        "id": 334
+    },
+    {
+        "name": "Маленький Цезарь",
+        "originalName": "Little Caesar",
+        "director": "Мервин Лерой",
+        "yearProduced": "1931",
+        "yearAdded": "2000",
+        "id": 335
+    },
+    {
+        "name": "Малкольм Икс",
+        "originalName": "Malcolm X",
+        "director": "Спайк Ли",
+        "yearProduced": "1992",
+        "yearAdded": "2010",
+        "id": 336
+    },
+    {
+        "name": "Малыш",
+        "originalName": "The Kid",
+        "director": "Чарли Чаплин",
+        "yearProduced": "1921",
+        "yearAdded": "2011",
+        "id": 337
+    },
+    {
+        "name": "Мальтийский сокол",
+        "originalName": "The Maltese Falcon",
+        "director": "Джон Хьюстон",
+        "yearProduced": "1941",
+        "yearAdded": "1989",
+        "id": 338
+    },
+    {
+        "name": "Мама и папа",
+        "originalName": "Mom and Dad",
+        "director": "Уильям Бодайн",
+        "yearProduced": "1945",
+        "yearAdded": "2005",
+        "id": 349
+    },
+    {
+        "name": "Манзанар",
+        "originalName": "Manzanar",
+        "director": "Роберт Накамура",
+        "yearProduced": "1971",
+        "yearAdded": "2022",
+        "id": 1214
+    },
+    {
+        "name": "Манхатта",
+        "originalName": "Manhatta",
+        "director": "Чарлз Шилер и Пол Стренд",
+        "yearProduced": "1921",
+        "yearAdded": "1995",
+        "id": 339
+    },
+    {
+        "name": "Манхэттен",
+        "originalName": "Manhattan",
+        "director": "Вуди Аллен",
+        "yearProduced": "1979",
+        "yearAdded": "2001",
+        "id": 340
+    },
+    {
+        "name": "Маньчжурский кандидат",
+        "originalName": "The Manchurian Candidate",
+        "director": "Джон Франкенхаймер",
+        "yearProduced": "1962",
+        "yearAdded": "1994",
+        "id": 341
+    },
+    {
+        "name": "Маппеты",
+        "originalName": "The Muppet Movie",
+        "director": "Джеймс Фроули",
+        "yearProduced": "1979",
+        "yearAdded": "2009",
+        "id": 342
+    },
+    {
+        "name": "Мариан Андерсон: Концерт в мемориале Линкольну",
+        "originalName": "Marian Anderson: The Lincoln Memorial Concert",
+        "director": "",
+        "yearProduced": "1939",
+        "yearAdded": "2001",
+        "id": 343
+    },
+    {
+        "name": "Марокко",
+        "originalName": "Morocco",
+        "director": "Джозеф фон Штернберг",
+        "yearProduced": "1930",
+        "yearAdded": "1992",
+        "id": 344
+    },
+    {
+        "name": "Марти",
+        "originalName": "Marty",
+        "director": "Делберт Манн",
+        "yearProduced": "1955",
+        "yearAdded": "1994",
+        "id": 345
+    },
+    {
+        "name": "Марш",
+        "originalName": "The March",
+        "director": "Джеймс Блю",
+        "yearProduced": "1964",
+        "yearAdded": "2008",
+        "id": 346
+    },
+    {
+        "name": "Марш в Сисеро",
+        "originalName": "Cicero March",
+        "director": "",
+        "yearProduced": "1966",
+        "yearAdded": "2013",
+        "id": 738
+    },
+    {
+        "name": "Марш Шермана",
+        "originalName": "Sherman’s March",
+        "director": "Росс Макэлви",
+        "yearProduced": "1986",
+        "yearAdded": "2000",
+        "id": 347
+    },
+    {
+        "name": "Матрица",
+        "originalName": "The Matrix",
+        "director": "Энди и Ларри Вачовски",
+        "yearProduced": "1999",
+        "yearAdded": "2012",
+        "id": 348
+    },
+    {
+        "name": "Мауна-Кеа: Храм в осаде",
+        "originalName": "Mauna Kea: Temple Under Siege",
+        "director": "Джоан Ландер и Пухипау",
+        "yearProduced": "2006",
+        "yearAdded": "2020",
+        "id": 776
+    },
+    {
+        "name": "Маэстро магии",
+        "originalName": "Magical Maestro",
+        "director": "Текс Эйвери",
+        "yearProduced": "1952",
+        "yearAdded": "1993",
+        "id": 350
+    },
+    {
+        "name": "Мелодии ранчо",
+        "originalName": "Melody Ranch",
+        "director": "Джозеф Сэнтли",
+        "yearProduced": "1940",
+        "yearAdded": "2002",
+        "id": 351
+    },
+    {
+        "name": "Мемфис Белль: История летающей крепости",
+        "originalName": "Memphis Belle: A Story of a Flying Fortress",
+        "director": "Уильям Уайлер",
+        "yearProduced": "1944",
+        "yearAdded": "2001",
+        "id": 352
+    },
+    {
+        "name": "Меня зовут Уна",
+        "originalName": "My Name Is Oona",
+        "director": "Гунвор Нельсон",
+        "yearProduced": "1969",
+        "yearAdded": "2019",
+        "id": 353
+    },
+    {
+        "name": "Мёртв по прибытии",
+        "originalName": "D.O.A.",
+        "director": "Рудольф Мате",
+        "yearProduced": "1950",
+        "yearAdded": "2004",
+        "id": 356
+    },
+    {
+        "name": "Мёртвые птицы",
+        "originalName": "Dead Birds",
+        "director": "Роберт Гарднер",
+        "yearProduced": "1963",
+        "yearAdded": "1998",
+        "id": 357
+    },
+    {
+        "name": "Место под солнцем",
+        "originalName": "A Place in the Sun",
+        "director": "Джордж Стивенс",
+        "yearProduced": "1951",
+        "yearAdded": "1991",
+        "id": 354
+    },
+    {
+        "name": "Месть Панчо Вильи",
+        "originalName": "The Revenge of Pancho Villa",
+        "director": "Эдмундо и Феликс Падилья",
+        "yearProduced": "1930—1936",
+        "yearAdded": "2009",
+        "id": 793
+    },
+    {
+        "name": "Мечта о Диснейленде",
+        "originalName": "Disneyland Dream",
+        "director": "Роббинс Барстоу",
+        "yearProduced": "1956",
+        "yearAdded": "2008",
+        "id": 743
+    },
+    {
+        "name": "Мечты о баскетболе",
+        "originalName": "Hoop Dreams",
+        "director": "Стив Джеймс",
+        "yearProduced": "1994",
+        "yearAdded": "2005",
+        "id": 355
+    },
+    {
+        "name": "Милдред Пирс",
+        "originalName": "Mildred Pierce",
+        "director": "Майкл Кёртис",
+        "yearProduced": "1945",
+        "yearAdded": "1996",
+        "id": 358
+    },
+    {
+        "name": "Мингус: Чарли Мингус 1968",
+        "originalName": "Mingus: Charlie Mingus 1968",
+        "director": "Томас Рейкман",
+        "yearProduced": "1968",
+        "yearAdded": "2022",
+        "id": 1238
+    },
+    {
+        "name": "Мирный путь",
+        "originalName": "The Way of Peace",
+        "director": "Фрэнк Тэшлин",
+        "yearProduced": "1947",
+        "yearAdded": "2014",
+        "id": 514
+    },
+    {
+        "name": "Мисс Лулу Бетт",
+        "originalName": "Miss Lulu Bett",
+        "director": "Вильям Демилль",
+        "yearProduced": "1921",
+        "yearAdded": "2001",
+        "id": 359
+    },
+    {
+        "name": "Миссис Минивер",
+        "originalName": "Mrs. Miniver",
+        "director": "Уильям Уайлер",
+        "yearProduced": "1942",
+        "yearAdded": "2009",
+        "id": 360
+    },
+    {
+        "name": "Мистер Смит едет в Вашингтон",
+        "originalName": "Mr. Smith Goes to Washington",
+        "director": "Фрэнк Капра",
+        "yearProduced": "1939",
+        "yearAdded": "1989",
+        "id": 361
+    },
+    {
+        "name": "Множественный СИДозис",
+        "originalName": "Multiple SIDosis",
+        "director": "Сид Лэверентс",
+        "yearProduced": "1970",
+        "yearAdded": "2000",
+        "id": 362
+    },
+    {
+        "name": "Могучий как лось",
+        "originalName": "Mighty Like a Moose",
+        "director": "Лео Маккэри",
+        "yearProduced": "1926",
+        "yearAdded": "2007",
+        "id": 779
+    },
+    {
+        "name": "Модеста",
+        "originalName": "Modesta",
+        "director": "Бенджамин Донигер",
+        "yearProduced": "1956",
+        "yearAdded": "1998",
+        "id": 363
+    },
+    {
+        "name": "Мой личный штат Айдахо",
+        "originalName": "My Own Private Idaho",
+        "director": "Гас Ван Сент",
+        "yearProduced": "1991",
+        "yearAdded": "2024",
+        "id": 2512
+    },
+    {
+        "name": "Мой слуга Годфри",
+        "originalName": "My Man Godfrey",
+        "director": "Грегори Ла Кава",
+        "yearProduced": "1936",
+        "yearAdded": "1999",
+        "id": 364
+    },
+    {
+        "name": "Молодой мистер Линкольн",
+        "originalName": "Young Mr. Lincoln",
+        "director": "Джон Форд",
+        "yearProduced": "1939",
+        "yearAdded": "2003",
+        "id": 365
+    },
+    {
+        "name": "Молодой Франкенштейн",
+        "originalName": "Young Frankenstein",
+        "director": "Мел Брукс",
+        "yearProduced": "1974",
+        "yearAdded": "2003",
+        "id": 366
+    },
+    {
+        "name": "Молодчина Дэвид",
+        "originalName": "Tol’able David",
+        "director": "Генри Кинг",
+        "yearProduced": "1921",
+        "yearAdded": "2007",
+        "id": 814
+    },
+    {
+        "name": "Молчание ягнят",
+        "originalName": "The Silence of the Lambs",
+        "director": "Джонатан Демми",
+        "yearProduced": "1991",
+        "yearAdded": "2011",
+        "id": 367
+    },
+    {
+        "name": "Монтерей-Поп",
+        "originalName": "Monterey Pop",
+        "director": "Донн Пеннебейкер",
+        "yearProduced": "1968",
+        "yearAdded": "2018",
+        "id": 780
+    },
+    {
+        "name": "Мордашка",
+        "originalName": "Baby Face",
+        "director": "Альфред Грин",
+        "yearProduced": "1933",
+        "yearAdded": "2005",
+        "id": 368
+    },
+    {
+        "name": "Моряк Попай встречается с Синдбадом-мореходом",
+        "originalName": "Popeye the Sailor Meets Sindbad the Sailor",
+        "director": "Дэйв Флейшер",
+        "yearProduced": "1936",
+        "yearAdded": "2004",
+        "id": 477
+    },
+    {
+        "name": "Мост через реку Квай",
+        "originalName": "The Bridge on the River Kwai",
+        "director": "Дэвид Лин",
+        "yearProduced": "1957",
+        "yearAdded": "1997",
+        "id": 369
+    },
+    {
+        "name": "Мошенник",
+        "originalName": "The Hustler",
+        "director": "Роберт Россен",
+        "yearProduced": "1961",
+        "yearAdded": "1997",
+        "id": 370
+    },
+    {
+        "name": "Моя дорогая Клементина",
+        "originalName": "My Darling Clementine",
+        "director": "Джон Форд",
+        "yearProduced": "1946",
+        "yearAdded": "1991",
+        "id": 371
+    },
+    {
+        "name": "Моя прекрасная леди",
+        "originalName": "My Fair Lady",
+        "director": "Джордж Кьюкор",
+        "yearProduced": "1964",
+        "yearAdded": "2018",
+        "id": 372
+    },
+    {
+        "name": "Моя семья",
+        "originalName": "Mi Familia",
+        "director": "Грегори Нава",
+        "yearProduced": "1995",
+        "yearAdded": "2024",
+        "id": 2514
+    },
+    {
+        "name": "Музыкальный ящик",
+        "originalName": "The Music Box",
+        "director": "Джеймс Пэрротт",
+        "yearProduced": "1932",
+        "yearAdded": "1997",
+        "id": 373
+    },
+    {
+        "name": "Музыкант",
+        "originalName": "El Mariachi",
+        "director": "Роберт Родригес",
+        "yearProduced": "1992",
+        "yearAdded": "2011",
+        "id": 375
+    },
+    {
+        "name": "Музыкант",
+        "originalName": "The Music Man",
+        "director": "Мортон Дакоста",
+        "yearProduced": "1962",
+        "yearAdded": "2005",
+        "id": 374
+    },
+    {
+        "name": "Мушкетёры аллеи Пиг",
+        "originalName": "The Musketeers of Pig Alley",
+        "director": "Дэвид Уорк Гриффит",
+        "yearProduced": "1912",
+        "yearAdded": "2016",
+        "id": 376
+    },
+    {
+        "name": "Мы живые",
+        "originalName": "We’re Alive",
+        "director": "",
+        "yearProduced": "1974",
+        "yearAdded": "2023",
+        "id": 2198
+    },
+    {
+        "name": "Мэри Поппинс",
+        "originalName": "Mary Poppins",
+        "director": "Роберт Стивенсон",
+        "yearProduced": "1964",
+        "yearAdded": "2013",
+        "id": 377
+    },
+    {
+        "name": "Мэтуон",
+        "originalName": "Matewan",
+        "director": "Джон Сэйлз",
+        "yearProduced": "1987",
+        "yearAdded": "2023",
+        "id": 2200
+    },
+    {
+        "name": "На Бауэри",
+        "originalName": "On the Bowery",
+        "director": "Лайонел Рогозин",
+        "yearProduced": "1956",
+        "yearAdded": "2008",
+        "id": 785
+    },
+    {
+        "name": "На Западном фронте без перемен",
+        "originalName": "All Quiet on the Western Front",
+        "director": "Льюис Майлстоун",
+        "yearProduced": "1930",
+        "yearAdded": "1990",
+        "id": 378
+    },
+    {
+        "name": "На окраине города",
+        "originalName": "Edge of the City",
+        "director": "Мартин Ритт",
+        "yearProduced": "1957",
+        "yearAdded": "2023",
+        "id": 2203
+    },
+    {
+        "name": "На улице",
+        "originalName": "In the Street",
+        "director": "Элен Левитт, Дженис Лоб и Джеймс Эйджи",
+        "yearProduced": "1948",
+        "yearAdded": "2006",
+        "id": 379
+    },
+    {
+        "name": "Навахо снимают себя",
+        "originalName": "Navajo Film Themselves",
+        "director": "Майк Андерсон, Сьюзи Бенэлли, Альта Кан, Эл Клах, Джон Нельсон, Максин Тсоси, Мэри Тсоси",
+        "yearProduced": "1966",
+        "yearAdded": "2002",
+        "id": 136
+    },
+    {
+        "name": "Навигатор",
+        "originalName": "The Navigator",
+        "director": "Бастер Китон и Дональд Крисп",
+        "yearProduced": "1924",
+        "yearAdded": "2018",
+        "id": 380
+    },
+    {
+        "name": "Наводнение в Буффало-Крик: Деяние человека",
+        "originalName": "The Buffalo Creek Flood: An Act of Man",
+        "director": "Мими Пикеринг",
+        "yearProduced": "1975",
+        "yearAdded": "2005",
+        "id": 488
+    },
+    {
+        "name": "Наездники свободы",
+        "originalName": "Freedom Riders",
+        "director": "Стэнли Нельсон-младший",
+        "yearProduced": "2010",
+        "yearAdded": "2020",
+        "id": 751
+    },
+    {
+        "name": "Назад в будущее",
+        "originalName": "Back to the Future",
+        "director": "Роберт Земекис",
+        "yearProduced": "1985",
+        "yearAdded": "2007",
+        "id": 381
+    },
+    {
+        "name": "Нанук с севера",
+        "originalName": "Nanook of the North",
+        "director": "Роберт Флаэрти",
+        "yearProduced": "1922",
+        "yearAdded": "1989",
+        "id": 382
+    },
+    {
+        "name": "Наследница",
+        "originalName": "The Heiress",
+        "director": "Уильям Уайлер",
+        "yearProduced": "1949",
+        "yearAdded": "1996",
+        "id": 383
+    },
+    {
+        "name": "Настоящие женщины всегда в теле",
+        "originalName": "Real Women Have Curves",
+        "director": "Патриция Кардозо",
+        "yearProduced": "2002",
+        "yearAdded": "2019",
+        "id": 384
+    },
+    {
+        "name": "Национальный бархат",
+        "originalName": "National Velvet",
+        "director": "Кларенс Браун",
+        "yearProduced": "1944",
+        "yearAdded": "2003",
+        "id": 385
+    },
+    {
+        "name": "Наш день",
+        "originalName": "Our Day",
+        "director": "Уоллес Келли",
+        "yearProduced": "1938",
+        "yearAdded": "2007",
+        "id": 787
+    },
+    {
+        "name": "Не ищи смысла",
+        "originalName": "Stop Making Sense",
+        "director": "Джонатан Демми",
+        "yearProduced": "1984",
+        "yearAdded": "2021",
+        "id": 803
+    },
+    {
+        "name": "Не смотри назад",
+        "originalName": "Dont Look Back",
+        "director": "Донн Пеннебейкер",
+        "yearProduced": "1967",
+        "yearAdded": "1998",
+        "id": 386
+    },
+    {
+        "name": "Небосвод",
+        "originalName": "Sky High",
+        "director": "Линн Рейнольдс",
+        "yearProduced": "1922",
+        "yearAdded": "1998",
+        "id": 387
+    },
+    {
+        "name": "Невероятно уменьшающийся человек",
+        "originalName": "The Incredible Shrinking Man",
+        "director": "Джек Арнольд",
+        "yearProduced": "1957",
+        "yearAdded": "2009",
+        "id": 388
+    },
+    {
+        "name": "Невеста Франкенштейна",
+        "originalName": "Bride of Frankenstein",
+        "director": "Джеймс Уэйл",
+        "yearProduced": "1935",
+        "yearAdded": "1998",
+        "id": 389
+    },
+    {
+        "name": "Незнакомцы в поезде",
+        "originalName": "Strangers on a Train",
+        "director": "Альфред Хичкок",
+        "yearProduced": "1951",
+        "yearAdded": "2021",
+        "id": 390
+    },
+    {
+        "name": "Непобеждённая",
+        "originalName": "Helen Keller in Her Story",
+        "director": "Нэнси Хэмилтон",
+        "yearProduced": "1954",
+        "yearAdded": "2023",
+        "id": 2221
+    },
+    {
+        "name": "Неприятности в раю",
+        "originalName": "Trouble in Paradise",
+        "director": "Эрнст Любич",
+        "yearProduced": "1932",
+        "yearAdded": "1991",
+        "id": 391
+    },
+    {
+        "name": "Непрощённый",
+        "originalName": "Unforgiven",
+        "director": "Клинт Иствуд",
+        "yearProduced": "1992",
+        "yearAdded": "2004",
+        "id": 392
+    },
+    {
+        "name": "Нетерпимость",
+        "originalName": "Intolerance",
+        "director": "Дэвид Уорк Гриффит",
+        "yearProduced": "1916",
+        "yearAdded": "1989",
+        "id": 393
+    },
+    {
+        "name": "Неудачливые похитители",
+        "originalName": "The Kidnappers Foil",
+        "director": "Мелтон Баркер",
+        "yearProduced": "1930-е — 1970-е",
+        "yearAdded": "2012",
+        "id": 769
+    },
+    {
+        "name": "Нечто из иного мира",
+        "originalName": "The Thing from Another World",
+        "director": "Кристиан Ниби",
+        "yearProduced": "1951",
+        "yearAdded": "2001",
+        "id": 394
+    },
+    {
+        "name": "Никакой лжи",
+        "originalName": "No Lies",
+        "director": "Митчелл Блок",
+        "yearProduced": "1973",
+        "yearAdded": "2008",
+        "id": 783
+    },
+    {
+        "name": "Ниночка",
+        "originalName": "Ninotchka",
+        "director": "Эрнст Любич",
+        "yearProduced": "1939",
+        "yearAdded": "1990",
+        "id": 395
+    },
+    {
+        "name": "Новые времена",
+        "originalName": "Modern Times",
+        "director": "Чарли Чаплин",
+        "yearProduced": "1936",
+        "yearAdded": "1989",
+        "id": 396
+    },
+    {
+        "name": "Новый лист",
+        "originalName": "A New Leaf",
+        "director": "Элейн Мэй",
+        "yearProduced": "1971",
+        "yearAdded": "2019",
+        "id": 397
+    },
+    {
+        "name": "Норма Рэй",
+        "originalName": "Norma Rae",
+        "director": "Мартин Ритт",
+        "yearProduced": "1979",
+        "yearAdded": "2011",
+        "id": 398
+    },
+    {
+        "name": "Ностальгия",
+        "originalName": "Nostalgia",
+        "director": "Холлис Фрэмптон",
+        "yearProduced": "1971",
+        "yearAdded": "2003",
+        "id": 399
+    },
+    {
+        "name": "Ночи на бульваре",
+        "originalName": "Boulevard Nights",
+        "director": "Майкл Прессман",
+        "yearProduced": "1979",
+        "yearAdded": "2017",
+        "id": 735
+    },
+    {
+        "name": "Ночь в опере",
+        "originalName": "A Night at the Opera",
+        "director": "Сэм Вуд",
+        "yearProduced": "1935",
+        "yearAdded": "1993",
+        "id": 400
+    },
+    {
+        "name": "Ночь живых мертвецов",
+        "originalName": "Night of the Living Dead",
+        "director": "Джордж Ромеро",
+        "yearProduced": "1968",
+        "yearAdded": "1999",
+        "id": 401
+    },
+    {
+        "name": "Ночь охотника",
+        "originalName": "The Night of the Hunter",
+        "director": "Чарльз Лоутон",
+        "yearProduced": "1955",
+        "yearAdded": "1992",
+        "id": 402
+    },
+    {
+        "name": "Ньюаркский атлет",
+        "originalName": "Newark Athlete",
+        "director": "Уильям Диксон",
+        "yearProduced": "1891",
+        "yearAdded": "2010",
+        "id": 403
+    },
+    {
+        "name": "Нэшвилл",
+        "originalName": "Nashville",
+        "director": "Роберт Олтмен",
+        "yearProduced": "1975",
+        "yearAdded": "1992",
+        "id": 404
+    },
+    {
+        "name": "Нюрнбергский процесс",
+        "originalName": "Judgment at Nuremberg",
+        "director": "Стэнли Крамер",
+        "yearProduced": "1961",
+        "yearAdded": "2013",
+        "id": 405
+    },
+    {
+        "name": "Обед в восемь",
+        "originalName": "Dinner at Eight",
+        "director": "Джордж Кьюкор",
+        "yearProduced": "1933",
+        "yearAdded": "2023",
+        "id": 2240
+    },
+    {
+        "name": "Обман",
+        "originalName": "The Cheat",
+        "director": "Сесил Блаунт Демилль",
+        "yearProduced": "1915",
+        "yearAdded": "1993",
+        "id": 406
+    },
+    {
+        "name": "Обнажённая шпора",
+        "originalName": "The Naked Spur",
+        "director": "Энтони Манн",
+        "yearProduced": "1953",
+        "yearAdded": "1997",
+        "id": 407
+    },
+    {
+        "name": "Обнажённый город",
+        "originalName": "The Naked City",
+        "director": "Жюль Дассен",
+        "yearProduced": "1948",
+        "yearAdded": "2007",
+        "id": 408
+    },
+    {
+        "name": "Образование коммунистов",
+        "originalName": "A Study in Reds",
+        "director": "Мириам Беннетт",
+        "yearProduced": "1932",
+        "yearAdded": "2009",
+        "id": 804
+    },
+    {
+        "name": "Обрушение Такомского моста",
+        "originalName": "Tacoma Narrows Bridge Collapse",
+        "director": "",
+        "yearProduced": "1940",
+        "yearAdded": "1998",
+        "id": 409
+    },
+    {
+        "name": "Обувь",
+        "originalName": "Shoes",
+        "director": "Лоис Уэбер",
+        "yearProduced": "1916",
+        "yearAdded": "2014",
+        "id": 637
+    },
+    {
+        "name": "Общие темы: Истории из-под одеяла",
+        "originalName": "Common Threads: Stories from the Quilt",
+        "director": "Роб Эпштейн и Джеффри Фридман",
+        "yearProduced": "1989",
+        "yearAdded": "2024",
+        "id": 2511
+    },
+    {
+        "name": "Объезд",
+        "originalName": "Detour",
+        "director": "Эдгар Георг Ульмер",
+        "yearProduced": "1945",
+        "yearAdded": "1992",
+        "id": 410
+    },
+    {
+        "name": "Огасты",
+        "originalName": "The Augustas",
+        "director": "Скотт Никсон",
+        "yearProduced": "1930-е — 1950-е",
+        "yearAdded": "2012",
+        "id": 729
+    },
+    {
+        "name": "Огни большого города",
+        "originalName": "City Lights",
+        "director": "Чарли Чаплин",
+        "yearProduced": "1931",
+        "yearAdded": "1991",
+        "id": 411
+    },
+    {
+        "name": "Один дома",
+        "originalName": "Home Alone",
+        "director": "Крис Коламбус",
+        "yearProduced": "1990",
+        "yearAdded": "2023",
+        "id": 2250
+    },
+    {
+        "name": "Один лягушачий вечер",
+        "originalName": "One Froggy Evening",
+        "director": "Чак Джонс",
+        "yearProduced": "1955",
+        "yearAdded": "2003",
+        "id": 412
+    },
+    {
+        "name": "Одинокие",
+        "originalName": "Lonesome",
+        "director": "Пал Фейош",
+        "yearProduced": "1928",
+        "yearAdded": "2010",
+        "id": 413
+    },
+    {
+        "name": "Одна неделя",
+        "originalName": "One Week",
+        "director": "Бастер Китон и Эдвард Клайн",
+        "yearProduced": "1920",
+        "yearAdded": "2008",
+        "id": 414
+    },
+    {
+        "name": "Однажды на Диком Западе",
+        "originalName": "Once Upon a Time in the West",
+        "director": "Серджо Леоне",
+        "yearProduced": "1968",
+        "yearAdded": "2009",
+        "id": 415
+    },
+    {
+        "name": "Одноглазые валеты",
+        "originalName": "One-Eyed Jacks",
+        "director": "Марлон Брандо",
+        "yearProduced": "1961",
+        "yearAdded": "2018",
+        "id": 416
+    },
+    {
+        "name": "Оклахома!",
+        "originalName": "Oklahoma!",
+        "director": "Фред Циннеман",
+        "yearProduced": "1955",
+        "yearAdded": "2007",
+        "id": 417
+    },
+    {
+        "name": "Окно во двор",
+        "originalName": "Rear Window",
+        "director": "Альфред Хичкок",
+        "yearProduced": "1954",
+        "yearAdded": "1997",
+        "id": 418
+    },
+    {
+        "name": "Округ Харлан, США",
+        "originalName": "Harlan County, USA",
+        "director": "Барбара Коппл",
+        "yearProduced": "1976",
+        "yearAdded": "1990",
+        "id": 419
+    },
+    {
+        "name": "Оловянная игрушка",
+        "originalName": "Tin Toy",
+        "director": "Джон Лассетер",
+        "yearProduced": "1988",
+        "yearAdded": "2003",
+        "id": 420
+    },
+    {
+        "name": "Она обошлась с ним нечестно",
+        "originalName": "She Done Him Wrong",
+        "director": "Лоуэлл Шерман",
+        "yearProduced": "1933",
+        "yearAdded": "1996",
+        "id": 421
+    },
+    {
+        "name": "Опасные похождения Полины",
+        "originalName": "The Perils of Pauline",
+        "director": "Луи Ганье и Дональд Маккензи",
+        "yearProduced": "1914",
+        "yearAdded": "2008",
+        "id": 422
+    },
+    {
+        "name": "Оркестр приюта Дженкинса",
+        "originalName": "Fox Movietone News: Jenkins Orphanage Band",
+        "director": "",
+        "yearProduced": "1928",
+        "yearAdded": "2003",
+        "id": 662
+    },
+    {
+        "name": "Осада",
+        "originalName": "Siege",
+        "director": "Джулиен Брайан",
+        "yearProduced": "1940",
+        "yearAdded": "2006",
+        "id": 423
+    },
+    {
+        "name": "Осведомитель",
+        "originalName": "The Informer",
+        "director": "Джон Форд",
+        "yearProduced": "1935",
+        "yearAdded": "2018",
+        "id": 424
+    },
+    {
+        "name": "Освещённое поле",
+        "originalName": "The Lighted Field",
+        "director": "Эндрю Норен",
+        "yearProduced": "1987",
+        "yearAdded": "2023",
+        "id": 2265
+    },
+    {
+        "name": "Оскорбление",
+        "originalName": "Outrage",
+        "director": "Айда Лупино",
+        "yearProduced": "1950",
+        "yearAdded": "2020",
+        "id": 425
+    },
+    {
+        "name": "От бревна до корабля",
+        "originalName": "From Stump to Ship",
+        "director": "Альфред Эймс и Ховард Кейн",
+        "yearProduced": "1930",
+        "yearAdded": "2002",
+        "id": 426
+    },
+    {
+        "name": "От яслей до креста, или Иисус из Назарета",
+        "originalName": "From the Manger to the Cross",
+        "director": "Сидней Олкотт",
+        "yearProduced": "1912",
+        "yearAdded": "1998",
+        "id": 427
+    },
+    {
+        "name": "Отверженная",
+        "originalName": "Pariah",
+        "director": "Ди Рис",
+        "yearProduced": "2011",
+        "yearAdded": "2022",
+        "id": 1326
+    },
+    {
+        "name": "Отныне и во веки веков",
+        "originalName": "From Here to Eternity",
+        "director": "Фред Циннеман",
+        "yearProduced": "1953",
+        "yearAdded": "2002",
+        "id": 428
+    },
+    {
+        "name": "Отчаянно ищу Сьюзен",
+        "originalName": "Desperately Seeking Susan",
+        "director": "Сьюзен Зейделман",
+        "yearProduced": "1985",
+        "yearAdded": "2023",
+        "id": 2271
+    },
+    {
+        "name": "Охотник на оленей",
+        "originalName": "The Deer Hunter",
+        "director": "Майкл Чимино",
+        "yearProduced": "1978",
+        "yearAdded": "1996",
+        "id": 429
+    },
+    {
+        "name": "Охотники",
+        "originalName": "The Hunters",
+        "director": "Джон Маршалл и Роберт Гарднер",
+        "yearProduced": "1957",
+        "yearAdded": "2003",
+        "id": 430
+    },
+    {
+        "name": "Охотники за привидениями",
+        "originalName": "Ghostbusters",
+        "director": "Айван Райтман",
+        "yearProduced": "1984",
+        "yearAdded": "2015",
+        "id": 431
+    },
+    {
+        "name": "Очарование",
+        "originalName": "Allures",
+        "director": "Джордан Белсон",
+        "yearProduced": "1961",
+        "yearAdded": "2011",
+        "id": 432
+    },
+    {
+        "name": "Ошибка Мэйбл",
+        "originalName": "Mabel’s Blunder",
+        "director": "Мэйбл Норманд",
+        "yearProduced": "1914",
+        "yearAdded": "2009",
+        "id": 433
+    },
+    {
+        "name": "Падение дома Ашеров",
+        "originalName": "House of Usher",
+        "director": "Роджер Корман",
+        "yearProduced": "1960",
+        "yearAdded": "2005",
+        "id": 435
+    },
+    {
+        "name": "Падение дома Ашеров",
+        "originalName": "The Fall of the House of Usher",
+        "director": "Джеймс Сибли Уотсон и Мелвилл Уэббер",
+        "yearProduced": "1928",
+        "yearAdded": "2000",
+        "id": 434
+    },
+    {
+        "name": "Падение западной цивилизации",
+        "originalName": "The Decline of Western Civilization",
+        "director": "Пенелопа Сфирис",
+        "yearProduced": "1981",
+        "yearAdded": "2016",
+        "id": 648
+    },
+    {
+        "name": "Парад в огнях рампы",
+        "originalName": "Footlight Parade",
+        "director": "Ллойд Бэкон и Басби Беркли",
+        "yearProduced": "1933",
+        "yearAdded": "1992",
+        "id": 436
+    },
+    {
+        "name": "Париж горит",
+        "originalName": "Paris Is Burning",
+        "director": "Дженни Ливингстон",
+        "yearProduced": "1990",
+        "yearAdded": "2016",
+        "id": 438
+    },
+    {
+        "name": "Парик: Фильм для людей с непослушными волосами",
+        "originalName": "Hair Piece: A Film for Nappyheaded People",
+        "director": "Айока Чензира",
+        "yearProduced": "1984",
+        "yearAdded": "2018",
+        "id": 758
+    },
+    {
+        "name": "Парк юрского периода",
+        "originalName": "Jurassic Park",
+        "director": "Стивен Спилберг",
+        "yearProduced": "1993",
+        "yearAdded": "2018",
+        "id": 439
+    },
+    {
+        "name": "Парни не плачут",
+        "originalName": "Boys Don’t Cry",
+        "director": "Кимберли Пирс",
+        "yearProduced": "1999",
+        "yearAdded": "2019",
+        "id": 440
+    },
+    {
+        "name": "Парни что надо",
+        "originalName": "The Right Stuff",
+        "director": "Филип Кауфман",
+        "yearProduced": "1983",
+        "yearAdded": "2013",
+        "id": 441
+    },
+    {
+        "name": "Пароходик Вилли",
+        "originalName": "Steamboat Willie",
+        "director": "Уолт Дисней и Аб Айверкс",
+        "yearProduced": "1928",
+        "yearAdded": "1998",
+        "id": 442
+    },
+    {
+        "name": "Пароходный Билл — младший",
+        "originalName": "Steamboat Bill, Jr.",
+        "director": "Чарльз Рейснер и Бастер Китон",
+        "yearProduced": "1928",
+        "yearAdded": "2016",
+        "id": 443
+    },
+    {
+        "name": "Патни Своуп",
+        "originalName": "Putney Swope",
+        "director": "Роберт Дауни-старший",
+        "yearProduced": "1969",
+        "yearAdded": "2016",
+        "id": 444
+    },
+    {
+        "name": "Паттон",
+        "originalName": "Patton",
+        "director": "Франклин Шеффнер",
+        "yearProduced": "1970",
+        "yearAdded": "2003",
+        "id": 445
+    },
+    {
+        "name": "Певец джаза",
+        "originalName": "The Jazz Singer",
+        "director": "Алан Кросланд",
+        "yearProduced": "1927",
+        "yearAdded": "1996",
+        "id": 446
+    },
+    {
+        "name": "Первая полоса",
+        "originalName": "The Front Page",
+        "director": "Льюис Майлстоун",
+        "yearProduced": "1931",
+        "yearAdded": "2010",
+        "id": 447
+    },
+    {
+        "name": "Первокурсник",
+        "originalName": "The Freshman",
+        "director": "Фред Ньюмейер и Сэм Тейлор",
+        "yearProduced": "1925",
+        "yearAdded": "1990",
+        "id": 448
+    },
+    {
+        "name": "Передайте соус",
+        "originalName": "Pass the Gravy",
+        "director": "Фред Гилл",
+        "yearProduced": "1928",
+        "yearAdded": "1998",
+        "id": 449
+    },
+    {
+        "name": "Песня барабана цветов",
+        "originalName": "Flower Drum Song",
+        "director": "Генри Костер",
+        "yearProduced": "1961",
+        "yearAdded": "2008",
+        "id": 450
+    },
+    {
+        "name": "Печать зла",
+        "originalName": "Touch of Evil",
+        "director": "Орсон Уэллс",
+        "yearProduced": "1958",
+        "yearAdded": "1993",
+        "id": 451
+    },
+    {
+        "name": "Пидж",
+        "originalName": "Peege",
+        "director": "Рэндал Клайзер",
+        "yearProduced": "1973",
+        "yearAdded": "2007",
+        "id": 452
+    },
+    {
+        "name": "Пиноккио",
+        "originalName": "Pinocchio",
+        "director": "Бен Шарпстин и Хэмилтон Ласк",
+        "yearProduced": "1940",
+        "yearAdded": "1994",
+        "id": 453
+    },
+    {
+        "name": "Письмо незнакомки",
+        "originalName": "Letter from an Unknown Woman",
+        "director": "Макс Офюльс",
+        "yearProduced": "1948",
+        "yearAdded": "1992",
+        "id": 454
+    },
+    {
+        "name": "Питер Пэн",
+        "originalName": "Peter Pan",
+        "director": "Герберт Бренон",
+        "yearProduced": "1924",
+        "yearAdded": "2000",
+        "id": 455
+    },
+    {
+        "name": "Плавучий театр",
+        "originalName": "Show Boat",
+        "director": "Джеймс Уэйл",
+        "yearProduced": "1936",
+        "yearAdded": "1996",
+        "id": 456
+    },
+    {
+        "name": "Планета обезьян",
+        "originalName": "Planet of the Apes",
+        "director": "Франклин Шеффнер",
+        "yearProduced": "1968",
+        "yearAdded": "2001",
+        "id": 457
+    },
+    {
+        "name": "Пленник Зенды",
+        "originalName": "The Prisoner of Zenda",
+        "director": "Джон Кромвелл и Вудбридж Ван Дайк",
+        "yearProduced": "1937",
+        "yearAdded": "1991",
+        "id": 458
+    },
+    {
+        "name": "Плоть и дьявол",
+        "originalName": "Flesh and the Devil",
+        "director": "Кларенс Браун",
+        "yearProduced": "1927",
+        "yearAdded": "2006",
+        "id": 459
+    },
+    {
+        "name": "Плохой день в Блэк-Роке",
+        "originalName": "Bad Day at Black Rock",
+        "director": "Джон Стёрджес",
+        "yearProduced": "1955",
+        "yearAdded": "2018",
+        "id": 460
+    },
+    {
+        "name": "Плуг, нарушивший равнины",
+        "originalName": "The Plow That Broke the Plains",
+        "director": "Пэр Лоренц",
+        "yearProduced": "1936",
+        "yearAdded": "1999",
+        "id": 461
+    },
+    {
+        "name": "Побег из Шоушенка",
+        "originalName": "The Shawshank Redemption",
+        "director": "Фрэнк Дарабонт",
+        "yearProduced": "1994",
+        "yearAdded": "2015",
+        "id": 462
+    },
+    {
+        "name": "Повелитель бури",
+        "originalName": "The Hurt Locker",
+        "director": "Кэтрин Бигелоу",
+        "yearProduced": "2008",
+        "yearAdded": "2020",
+        "id": 463
+    },
+    {
+        "name": "Погадай на ромашке",
+        "originalName": "Pull My Daisy",
+        "director": "Роберт Франк и Альфред Лесли",
+        "yearProduced": "1959",
+        "yearAdded": "1996",
+        "id": 464
+    },
+    {
+        "name": "Пограничная музыка",
+        "originalName": "Chulas Fronteras",
+        "director": "Лес Бланк",
+        "yearProduced": "1976",
+        "yearAdded": "1993",
+        "id": 465
+    },
+    {
+        "name": "Под западными звёздами",
+        "originalName": "Under Western Stars",
+        "director": "Джозеф Кейн",
+        "yearProduced": "1938",
+        "yearAdded": "2009",
+        "id": 466
+    },
+    {
+        "name": "Подружки",
+        "originalName": "Girlfriends",
+        "director": "Клаудия Вайлл",
+        "yearProduced": "1978",
+        "yearAdded": "2019",
+        "id": 467
+    },
+    {
+        "name": "Поездка по Джей-тауну",
+        "originalName": "Cruisin’ J Town",
+        "director": "Дуэйн Кубо",
+        "yearProduced": "1975",
+        "yearAdded": "2023",
+        "id": 2312
+    },
+    {
+        "name": "Поездка по Маркет-стрит",
+        "originalName": "A Trip Down Market Street",
+        "director": "Братья Майлз",
+        "yearProduced": "1906",
+        "yearAdded": "2010",
+        "id": 816
+    },
+    {
+        "name": "Пожалуйста, не хороните меня живьём!",
+        "originalName": "Please, Don’t Bury Me Alive!",
+        "director": "Эфрайн Гутьеррес",
+        "yearProduced": "1976",
+        "yearAdded": "2014",
+        "id": 469
+    },
+    {
+        "name": "Поле его мечты",
+        "originalName": "Field of Dreams",
+        "director": "Фил Олден Робинсон",
+        "yearProduced": "1989",
+        "yearAdded": "2017",
+        "id": 470
+    },
+    {
+        "name": "Полевые лилии",
+        "originalName": "Lilies of the Field",
+        "director": "Ральф Нельсон",
+        "yearProduced": "1963",
+        "yearAdded": "2020",
+        "id": 471
+    },
+    {
+        "name": "Полицейские",
+        "originalName": "Cops",
+        "director": "Эдвард Клайн и Бастер Китон",
+        "yearProduced": "1922",
+        "yearAdded": "1997",
+        "id": 472
+    },
+    {
+        "name": "Полицейский из Беверли-Хиллз",
+        "originalName": "Beverly Hills Cop",
+        "director": "Мартин Брест",
+        "yearProduced": "1984",
+        "yearAdded": "2024",
+        "id": 2508
+    },
+    {
+        "name": "Полночь",
+        "originalName": "Midnight",
+        "director": "Митчелл Лейзен",
+        "yearProduced": "1939",
+        "yearAdded": "2013",
+        "id": 473
+    },
+    {
+        "name": "Половая жизнь полипов",
+        "originalName": "The Sex Life of the Polyp",
+        "director": "Томас Харди Чалмерс",
+        "yearProduced": "1928",
+        "yearAdded": "2007",
+        "id": 255
+    },
+    {
+        "name": "Полуденные сети",
+        "originalName": "Meshes of the Afternoon",
+        "director": "Майя Дерен и Александр Хэммид",
+        "yearProduced": "1943",
+        "yearAdded": "1990",
+        "id": 474
+    },
+    {
+        "name": "Полуночная жара",
+        "originalName": "In the Heat of the Night",
+        "director": "Норман Джуисон",
+        "yearProduced": "1967",
+        "yearAdded": "2002",
+        "id": 200
+    },
+    {
+        "name": "Полуночный ковбой",
+        "originalName": "Midnight Cowboy",
+        "director": "Джон Шлезингер",
+        "yearProduced": "1969",
+        "yearAdded": "1994",
+        "id": 475
+    },
+    {
+        "name": "Помни",
+        "originalName": "Memento",
+        "director": "Кристофер Нолан",
+        "yearProduced": "2000",
+        "yearAdded": "2017",
+        "id": 476
+    },
+    {
+        "name": "Попутчик",
+        "originalName": "The Hitch-Hiker",
+        "director": "Айда Лупино",
+        "yearProduced": "1953",
+        "yearAdded": "1998",
+        "id": 478
+    },
+    {
+        "name": "Порги и Бесс",
+        "originalName": "Porgy and Bess",
+        "director": "Отто Премингер",
+        "yearProduced": "1959",
+        "yearAdded": "2011",
+        "id": 479
+    },
+    {
+        "name": "Порки в Стране чудес",
+        "originalName": "Porky in Wackyland",
+        "director": "Роберт Клэмпетт",
+        "yearProduced": "1938",
+        "yearAdded": "2000",
+        "id": 480
+    },
+    {
+        "name": "Портрет Джейсона",
+        "originalName": "Portrait of Jason",
+        "director": "Ширли Кларк",
+        "yearProduced": "1967",
+        "yearAdded": "2015",
+        "id": 481
+    },
+    {
+        "name": "Последний вальс",
+        "originalName": "The Last Waltz",
+        "director": "Мартин Скорсезе",
+        "yearProduced": "1978",
+        "yearAdded": "2019",
+        "id": 482
+    },
+    {
+        "name": "Последний из могикан",
+        "originalName": "The Last of the Mohicans",
+        "director": "Морис Турнёр и Кларенс Браун",
+        "yearProduced": "1920",
+        "yearAdded": "1995",
+        "id": 483
+    },
+    {
+        "name": "Последний киносеанс",
+        "originalName": "The Last Picture Show",
+        "director": "Питер Богданович",
+        "yearProduced": "1971",
+        "yearAdded": "1998",
+        "id": 484
+    },
+    {
+        "name": "Последний приказ",
+        "originalName": "The Last Command",
+        "director": "Джозеф фон Штернберг",
+        "yearProduced": "1928",
+        "yearAdded": "2006",
+        "id": 485
+    },
+    {
+        "name": "Потерянный горизонт",
+        "originalName": "Lost Horizon",
+        "director": "Фрэнк Капра",
+        "yearProduced": "1937",
+        "yearAdded": "2016",
+        "id": 486
+    },
+    {
+        "name": "Потерянный уикэнд",
+        "originalName": "The Lost Weekend",
+        "director": "Билли Уайлдер",
+        "yearProduced": "1945",
+        "yearAdded": "2011",
+        "id": 487
+    },
+    {
+        "name": "Похождения Элен",
+        "originalName": "The Exploits of Elaine",
+        "director": "Луи Ганье, Джордж Сайтц, Леопольд Уортон и Теодор Уортон",
+        "yearProduced": "1914",
+        "yearAdded": "1994",
+        "id": 489
+    },
+    {
+        "name": "Поцелуй",
+        "originalName": "The Kiss",
+        "director": "Вильям Хайзе",
+        "yearProduced": "1896",
+        "yearAdded": "1999",
+        "id": 490
+    },
+    {
+        "name": "Почему мы сражаемся",
+        "originalName": "Why We Fight",
+        "director": "Фрэнк Капра и Анатоль Литвак",
+        "yearProduced": "1942—1945",
+        "yearAdded": "2000",
+        "id": 491
+    },
+    {
+        "name": "Почему человек творит",
+        "originalName": "Why Man Creates",
+        "director": "Сол Басс",
+        "yearProduced": "1968",
+        "yearAdded": "2002",
+        "id": 492
+    },
+    {
+        "name": "Поющие под дождём",
+        "originalName": "Singin’ in the Rain",
+        "director": "Джин Келли и Стэнли Донен",
+        "yearProduced": "1952",
+        "yearAdded": "1989",
+        "id": 493
+    },
+    {
+        "name": "Преданность Белой Оленихи",
+        "originalName": "White Fawn’s Devotion",
+        "director": "Джеймс Янг Дир",
+        "yearProduced": "1910",
+        "yearAdded": "2008",
+        "id": 494
+    },
+    {
+        "name": "Предварительные выборы",
+        "originalName": "Primary",
+        "director": "Роберт Дрю",
+        "yearProduced": "1960",
+        "yearAdded": "1990",
+        "id": 495
+    },
+    {
+        "name": "Пригнись и накройся",
+        "originalName": "Duck and Cover",
+        "director": "Энтони Риццо",
+        "yearProduced": "1952",
+        "yearAdded": "2004",
+        "id": 496
+    },
+    {
+        "name": "Придворный шут",
+        "originalName": "The Court Jester",
+        "director": "Мелвин Фрэнк и Норман Панама",
+        "yearProduced": "1956",
+        "yearAdded": "2004",
+        "id": 497
+    },
+    {
+        "name": "Призрак Оперы",
+        "originalName": "The Phantom of the Opera",
+        "director": "Руперт Джулиан, Лон Чейни, Эрнст Леммле   и Эдвард Седжвик",
+        "yearProduced": "1925",
+        "yearAdded": "1998",
+        "id": 498
+    },
+    {
+        "name": "Призрак, который сидит у двери",
+        "originalName": "The Spook Who Sat by the Door",
+        "director": "Айван Диксон",
+        "yearProduced": "1973",
+        "yearAdded": "2012",
+        "id": 801
+    },
+    {
+        "name": "Приключения Робин Гуда",
+        "originalName": "The Adventures of Robin Hood",
+        "director": "Майкл Кёртис и Уильям Кейли",
+        "yearProduced": "1938",
+        "yearAdded": "1995",
+        "id": 499
+    },
+    {
+        "name": "Принцесса Никотин, или Фея курения",
+        "originalName": "Princess Nicotine; or, The Smoke Fairy",
+        "director": "Джеймс Стюарт Блэктон",
+        "yearProduced": "1909",
+        "yearAdded": "2003",
+        "id": 500
+    },
+    {
+        "name": "Принцесса-невеста",
+        "originalName": "The Princess Bride",
+        "director": "Роб Райнер",
+        "yearProduced": "1987",
+        "yearAdded": "2016",
+        "id": 501
+    },
+    {
+        "name": "Пристани Нью-Йорка",
+        "originalName": "The Docks of New York",
+        "director": "Джозеф фон Штернберг",
+        "yearProduced": "1928",
+        "yearAdded": "1999",
+        "id": 502
+    },
+    {
+        "name": "Пристанище Евы",
+        "originalName": "Eve’s Bayou",
+        "director": "Кейси Леммонс",
+        "yearProduced": "1997",
+        "yearAdded": "2018",
+        "id": 748
+    },
+    {
+        "name": "Притча",
+        "originalName": "Parable",
+        "director": "Рольф Форсберг и Том Рук",
+        "yearProduced": "1964",
+        "yearAdded": "2012",
+        "id": 789
+    },
+    {
+        "name": "Пробные снимки двухцветных Kodachrome № III",
+        "originalName": "Two-Color Kodachrome Test Shots No. III",
+        "director": "Джон Капстафф",
+        "yearProduced": "1922",
+        "yearAdded": "2012",
+        "id": 770
+    },
+    {
+        "name": "Проверка звука Теодора Кейса: Гас Виссер и его поющая утка",
+        "originalName": "Theodore Case Sound Test: Gus Visser and His Singing Duck",
+        "director": "Теодор Кейс",
+        "yearProduced": "1925",
+        "yearAdded": "2002",
+        "id": 130
+    },
+    {
+        "name": "Прогулка под солнцем",
+        "originalName": "A Walk in the Sun",
+        "director": "Льюис Майлстоун",
+        "yearProduced": "1945",
+        "yearAdded": "2016",
+        "id": 503
+    },
+    {
+        "name": "Продюсеры",
+        "originalName": "The Producers",
+        "director": "Мел Брукс",
+        "yearProduced": "1968",
+        "yearAdded": "1996",
+        "id": 504
+    },
+    {
+        "name": "Проездом",
+        "originalName": "Passing Through",
+        "director": "Ларри Кларк",
+        "yearProduced": "1977",
+        "yearAdded": "2023",
+        "id": 2355
+    },
+    {
+        "name": "Происшествие на Саут-стрит",
+        "originalName": "Pickup on South Street",
+        "director": "Сэмюэл Фуллер",
+        "yearProduced": "1953",
+        "yearAdded": "2018",
+        "id": 505
+    },
+    {
+        "name": "Пройдёмте в вестибюль",
+        "originalName": "Let’s All Go to the Lobby",
+        "director": "Дэйв Флейшер",
+        "yearProduced": "1957",
+        "yearAdded": "2000",
+        "id": 506
+    },
+    {
+        "name": "Проклятие Квон Гвона",
+        "originalName": "The Curse of Quon Gwon",
+        "director": "Мэрион Вонг",
+        "yearProduced": "1916/1917",
+        "yearAdded": "2006",
+        "id": 507
+    },
+    {
+        "name": "Пролетая над гнездом кукушки",
+        "originalName": "One Flew Over the Cuckoo’s Nest",
+        "director": "Милош Форман",
+        "yearProduced": "1975",
+        "yearAdded": "1993",
+        "id": 508
+    },
+    {
+        "name": "Процедурный вопрос",
+        "originalName": "Point of Order!",
+        "director": "Эмиль де Антонио",
+        "yearProduced": "1964",
+        "yearAdded": "1993",
+        "id": 99
+    },
+    {
+        "name": "Психо",
+        "originalName": "Psycho",
+        "director": "Альфред Хичкок",
+        "yearProduced": "1960",
+        "yearAdded": "1992",
+        "id": 509
+    },
+    {
+        "name": "Птицы",
+        "originalName": "The Birds",
+        "director": "Альфред Хичкок",
+        "yearProduced": "1963",
+        "yearAdded": "2016",
+        "id": 510
+    },
+    {
+        "name": "Пурпурный дождь",
+        "originalName": "Purple Rain",
+        "director": "Альберт Магноли",
+        "yearProduced": "1984",
+        "yearAdded": "2019",
+        "id": 511
+    },
+    {
+        "name": "Пустоши",
+        "originalName": "Badlands",
+        "director": "Терренс Малик",
+        "yearProduced": "1973",
+        "yearAdded": "1993",
+        "id": 512
+    },
+    {
+        "name": "Путаница из-за фотографии",
+        "originalName": "Fatty’s Tintype Tangle",
+        "director": "Роско Арбакл",
+        "yearProduced": "1915",
+        "yearAdded": "1995",
+        "id": 513
+    },
+    {
+        "name": "Пять лёгких пьес",
+        "originalName": "Five Easy Pieces",
+        "director": "Боб Рейфелсон",
+        "yearProduced": "1970",
+        "yearAdded": "2000",
+        "id": 515
+    },
+    {
+        "name": "Рагглз из Ред-Геп",
+        "originalName": "Ruggles of Red Gap",
+        "director": "Лео Маккэри",
+        "yearProduced": "1935",
+        "yearAdded": "2014",
+        "id": 517
+    },
+    {
+        "name": "Развязанные языки",
+        "originalName": "Tongues Untied",
+        "director": "Марлон Риггз",
+        "yearProduced": "1989",
+        "yearAdded": "2022",
+        "id": 1421
+    },
+    {
+        "name": "Разговор",
+        "originalName": "The Conversation",
+        "director": "Фрэнсис Форд Коппола",
+        "yearProduced": "1974",
+        "yearAdded": "1995",
+        "id": 518
+    },
+    {
+        "name": "Разоблачение",
+        "originalName": "Unmasked",
+        "director": "Грейс Кунард и Фрэнсис Форд",
+        "yearProduced": "1917",
+        "yearAdded": "2014",
+        "id": 519
+    },
+    {
+        "name": "Ранние абстракции",
+        "originalName": "Early Abstractions",
+        "director": "Гарри Эверетт Смит",
+        "yearProduced": "1939—1956",
+        "yearAdded": "2006",
+        "id": 520
+    },
+    {
+        "name": "Ребекка",
+        "originalName": "Rebecca",
+        "director": "Альфред Хичкок",
+        "yearProduced": "1940",
+        "yearAdded": "2018",
+        "id": 521
+    },
+    {
+        "name": "Ребёнок Розмари",
+        "originalName": "Rosemary’s Baby",
+        "director": "Роман Полански",
+        "yearProduced": "1968",
+        "yearAdded": "2014",
+        "id": 522
+    },
+    {
+        "name": "Ребро Адама",
+        "originalName": "Adam’s Rib",
+        "director": "Джордж Кьюкор",
+        "yearProduced": "1949",
+        "yearAdded": "1992",
+        "id": 523
+    },
+    {
+        "name": "Ребята по соседству",
+        "originalName": "Boyz n the Hood",
+        "director": "Джон Синглтон",
+        "yearProduced": "1991",
+        "yearAdded": "2002",
+        "id": 524
+    },
+    {
+        "name": "Река",
+        "originalName": "The River",
+        "director": "Пэр Лоренц",
+        "yearProduced": "1938",
+        "yearAdded": "1990",
+        "id": 525
+    },
+    {
+        "name": "Реквием-29",
+        "originalName": "Requiem-29",
+        "director": "Дэвид Гарсиа",
+        "yearProduced": "1970",
+        "yearAdded": "2021",
+        "id": 526
+    },
+    {
+        "name": "Римские каникулы",
+        "originalName": "Roman Holiday",
+        "director": "Уильям Уайлер",
+        "yearProduced": "1953",
+        "yearAdded": "1999",
+        "id": 527
+    },
+    {
+        "name": "Рио Браво",
+        "originalName": "Rio Bravo",
+        "director": "Говард Хоукс",
+        "yearProduced": "1959",
+        "yearAdded": "2014",
+        "id": 528
+    },
+    {
+        "name": "Рип ван Винкль",
+        "originalName": "Rip Van Winkle",
+        "director": "Уильям Диксон",
+        "yearProduced": "1896",
+        "yearAdded": "1995",
+        "id": 529
+    },
+    {
+        "name": "Ритм лунного дыхания",
+        "originalName": "Moon Breath Beat",
+        "director": "Лиз Бектольд",
+        "yearProduced": "1980",
+        "yearAdded": "2014",
+        "id": 603
+    },
+    {
+        "name": "Ричард Прайор: Запись концерта",
+        "originalName": "Richard Pryor: Live in Concert",
+        "director": "Джефф Марголис",
+        "yearProduced": "1979",
+        "yearAdded": "2021",
+        "id": 530
+    },
+    {
+        "name": "Ровно в полдень",
+        "originalName": "High Noon",
+        "director": "Фред Циннеман",
+        "yearProduced": "1952",
+        "yearAdded": "1989",
+        "id": 531
+    },
+    {
+        "name": "Роджер и я",
+        "originalName": "Roger & Me",
+        "director": "Майкл Мур",
+        "yearProduced": "1989",
+        "yearAdded": "2013",
+        "id": 532
+    },
+    {
+        "name": "Рождение нации",
+        "originalName": "The Birth of a Nation",
+        "director": "Дэвид Уорк Гриффит",
+        "yearProduced": "1915",
+        "yearAdded": "1992",
+        "id": 533
+    },
+    {
+        "name": "Рождённая вчера",
+        "originalName": "Born Yesterday",
+        "director": "Джордж Кьюкор",
+        "yearProduced": "1950",
+        "yearAdded": "2012",
+        "id": 535
+    },
+    {
+        "name": "Рождественская история",
+        "originalName": "A Christmas Story",
+        "director": "Боб Кларк",
+        "yearProduced": "1983",
+        "yearAdded": "2012",
+        "id": 534
+    },
+    {
+        "name": "Розовая пантера",
+        "originalName": "The Pink Panther",
+        "director": "Блейк Эдвардс",
+        "yearProduced": "1963",
+        "yearAdded": "2010",
+        "id": 536
+    },
+    {
+        "name": "Розовые фламинго",
+        "originalName": "Pink Flamingos",
+        "director": "Джон Уотерс",
+        "yearProduced": "1972",
+        "yearAdded": "2021",
+        "id": 537
+    },
+    {
+        "name": "Рокки",
+        "originalName": "Rocky",
+        "director": "Джон Эвилдсен",
+        "yearProduced": "1976",
+        "yearAdded": "2006",
+        "id": 538
+    },
+    {
+        "name": "Ростовщик",
+        "originalName": "The Pawnbroker",
+        "director": "Сидни Люмет",
+        "yearProduced": "1964",
+        "yearAdded": "2008",
+        "id": 539
+    },
+    {
+        "name": "Роуз Хобарт",
+        "originalName": "Rose Hobart",
+        "director": "Джозеф Корнелл",
+        "yearProduced": "1936",
+        "yearAdded": "2001",
+        "id": 540
+    },
+    {
+        "name": "Руки вверх!",
+        "originalName": "Hands Up!",
+        "director": "Кларенс Бэджер",
+        "yearProduced": "1926",
+        "yearAdded": "2005",
+        "id": 541
+    },
+    {
+        "name": "Русалочка",
+        "originalName": "The Little Mermaid",
+        "director": "Джон Маскер и Рон Клементс",
+        "yearProduced": "1989",
+        "yearAdded": "2022",
+        "id": 1448
+    },
+    {
+        "name": "Рытьё и кукареканье",
+        "originalName": "Scratch and Crow",
+        "director": "Хелен Хилл",
+        "yearProduced": "1995",
+        "yearAdded": "2009",
+        "id": 796
+    },
+    {
+        "name": "С автомобилем и камерой вокруг света",
+        "originalName": "With Car and Camera Around the World",
+        "director": "Алоха Вандервелл",
+        "yearProduced": "1929",
+        "yearAdded": "2020",
+        "id": 822
+    },
+    {
+        "name": "С бригадой имени Авраама Линкольна в Испании",
+        "originalName": "With the Abraham Lincoln Brigade in Spain",
+        "director": "Анри Картье-Брессон и Херберт Клайн",
+        "yearProduced": "1938",
+        "yearAdded": "2017",
+        "id": 823
+    },
+    {
+        "name": "С огоньком",
+        "originalName": "Ball of Fire",
+        "director": "Говард Хоукс",
+        "yearProduced": "1941",
+        "yearAdded": "2016",
+        "id": 542
+    },
+    {
+        "name": "Сабрина",
+        "originalName": "Sabrina",
+        "director": "Билли Уайлдер",
+        "yearProduced": "1954",
+        "yearAdded": "2002",
+        "id": 543
+    },
+    {
+        "name": "Саломея",
+        "originalName": "Salomé",
+        "director": "Алла Назимова и Чарльз Брайант",
+        "yearProduced": "1923",
+        "yearAdded": "2000",
+        "id": 544
+    },
+    {
+        "name": "Сансара: Смерть и возрождение в Камбодже",
+        "originalName": "Samsara: Death and Rebirth in Cambodia",
+        "director": "Эллен Бруно",
+        "yearProduced": "1989",
+        "yearAdded": "2012",
+        "id": 795
+    },
+    {
+        "name": "Саспенс",
+        "originalName": "Suspense",
+        "director": "Филлипс Смолли и Лоис Уэбер",
+        "yearProduced": "1913",
+        "yearAdded": "2020",
+        "id": 806
+    },
+    {
+        "name": "Саундер",
+        "originalName": "Sounder",
+        "director": "Мартин Ритт",
+        "yearProduced": "1972",
+        "yearAdded": "2021",
+        "id": 545
+    },
+    {
+        "name": "Свадебный банкет",
+        "originalName": "The Wedding Banquet",
+        "director": "Энг Ли",
+        "yearProduced": "1993",
+        "yearAdded": "2023",
+        "id": 2404
+    },
+    {
+        "name": "Свадебный марш",
+        "originalName": "The Wedding March",
+        "director": "Эрих фон Штрогейм",
+        "yearProduced": "1928",
+        "yearAdded": "2003",
+        "id": 546
+    },
+    {
+        "name": "Сверкающие сёдла",
+        "originalName": "Blazing Saddles",
+        "director": "Мел Брукс",
+        "yearProduced": "1974",
+        "yearAdded": "2006",
+        "id": 547
+    },
+    {
+        "name": "Свидание за завтраком",
+        "originalName": "The Lunch Date",
+        "director": "Адам Дэвидсон",
+        "yearProduced": "1989",
+        "yearAdded": "2013",
+        "id": 774
+    },
+    {
+        "name": "Свинцовые ботинки",
+        "originalName": "The Lead Shoes",
+        "director": "Сидни Питерсон",
+        "yearProduced": "1949",
+        "yearAdded": "2009",
+        "id": 771
+    },
+    {
+        "name": "Свит Свитбэк: Песня мерзавца",
+        "originalName": "Sweet Sweetback’s Baadasssss Song",
+        "director": "Мелвин Ван Пиблз",
+        "yearProduced": "1971",
+        "yearAdded": "2020",
+        "id": 808
+    },
+    {
+        "name": "Свободные радикалы",
+        "originalName": "Free Radicals",
+        "director": "Лен Лай",
+        "yearProduced": "1979",
+        "yearAdded": "2008",
+        "id": 548
+    },
+    {
+        "name": "Сделка",
+        "originalName": "The Bargain",
+        "director": "Реджинальд Баркер",
+        "yearProduced": "1914",
+        "yearAdded": "2010",
+        "id": 549
+    },
+    {
+        "name": "Север",
+        "originalName": "El Norte",
+        "director": "Грегори Нава",
+        "yearProduced": "1983",
+        "yearAdded": "1995",
+        "id": 550
+    },
+    {
+        "name": "Седьмое небо",
+        "originalName": "7th Heaven",
+        "director": "Фрэнк Борзейги",
+        "yearProduced": "1927",
+        "yearAdded": "1995",
+        "id": 551
+    },
+    {
+        "name": "Седьмое путешествие Синдбада",
+        "originalName": "The 7th Voyage of Sinbad",
+        "director": "Натан Юран",
+        "yearProduced": "1958",
+        "yearAdded": "2008",
+        "id": 552
+    },
+    {
+        "name": "Секреты Лос-Анджелеса",
+        "originalName": "L.A. Confidential",
+        "director": "Кёртис Хэнсон",
+        "yearProduced": "1997",
+        "yearAdded": "2015",
+        "id": 553
+    },
+    {
+        "name": "Секс, ложь и видео",
+        "originalName": "Sex, Lies, and Videotape",
+        "director": "Стивен Содерберг",
+        "yearProduced": "1989",
+        "yearAdded": "2006",
+        "id": 554
+    },
+    {
+        "name": "Селена",
+        "originalName": "Selena",
+        "director": "Грегори Нава",
+        "yearProduced": "1997",
+        "yearAdded": "2021",
+        "id": 555
+    },
+    {
+        "name": "Семь невест для семерых братьев",
+        "originalName": "Seven Brides for Seven Brothers",
+        "director": "Стэнли Донен",
+        "yearProduced": "1954",
+        "yearAdded": "2004",
+        "id": 556
+    },
+    {
+        "name": "Семья Миддлтонов на Всемирной выставке в Нью-Йорке",
+        "originalName": "The Middleton Family at the New York World’s Fair",
+        "director": "Роберт Сноди",
+        "yearProduced": "1939",
+        "yearAdded": "2012",
+        "id": 778
+    },
+    {
+        "name": "Сент-Луис Блюз",
+        "originalName": "St. Louis Blues",
+        "director": "Дадли Мёрфи",
+        "yearProduced": "1929",
+        "yearAdded": "2006",
+        "id": 557
+    },
+    {
+        "name": "Сердца и умы",
+        "originalName": "Hearts and Minds",
+        "director": "Питер Дэвис",
+        "yearProduced": "1974",
+        "yearAdded": "2018",
+        "id": 558
+    },
+    {
+        "name": "Сердце-обличитель",
+        "originalName": "The Tell-Tale Heart",
+        "director": "Тед Пармели",
+        "yearProduced": "1953",
+        "yearAdded": "2001",
+        "id": 559
+    },
+    {
+        "name": "Сержант Йорк",
+        "originalName": "Sergeant York",
+        "director": "Говард Хоукс",
+        "yearProduced": "1941",
+        "yearAdded": "2008",
+        "id": 560
+    },
+    {
+        "name": "Серые сады",
+        "originalName": "Grey Gardens",
+        "director": "Альберт и Дэвид Мэйслес, Эллен Ховд и Маффи Мейер",
+        "yearProduced": "1975",
+        "yearAdded": "2010",
+        "id": 561
+    },
+    {
+        "name": "Сила зла",
+        "originalName": "Force of Evil",
+        "director": "Абрахам Полонски",
+        "yearProduced": "1948",
+        "yearAdded": "1994",
+        "id": 562
+    },
+    {
+        "name": "Сила и слава",
+        "originalName": "The Power and the Glory",
+        "director": "Уильям Ховард",
+        "yearProduced": "1933",
+        "yearAdded": "2014",
+        "id": 563
+    },
+    {
+        "name": "Силач",
+        "originalName": "The Strong Man",
+        "director": "Фрэнк Капра",
+        "yearProduced": "1926",
+        "yearAdded": "2007",
+        "id": 564
+    },
+    {
+        "name": "Сильная жара",
+        "originalName": "The Big Heat",
+        "director": "Фриц Ланг",
+        "yearProduced": "1953",
+        "yearAdded": "2011",
+        "id": 565
+    },
+    {
+        "name": "Симбиопсихотаксиплазм: Дубль один",
+        "originalName": "Symbiopsychotaxiplasm: Take One",
+        "director": "Уильям Гривз",
+        "yearProduced": "1968",
+        "yearAdded": "2015",
+        "id": 809
+    },
+    {
+        "name": "Симфония ударов",
+        "originalName": "Punch Drunks",
+        "director": "Лу Бреслоу",
+        "yearProduced": "1934",
+        "yearAdded": "2002",
+        "id": 566
+    },
+    {
+        "name": "Синяя птица",
+        "originalName": "The Blue Bird",
+        "director": "Морис Турнёр",
+        "yearProduced": "1918",
+        "yearAdded": "2004",
+        "id": 567
+    },
+    {
+        "name": "Сирано де Бержерак",
+        "originalName": "Cyrano de Bergerac",
+        "director": "Майкл Гордон",
+        "yearProduced": "1950",
+        "yearAdded": "2022",
+        "id": 1485
+    },
+    {
+        "name": "Сияние",
+        "originalName": "The Shining",
+        "director": "Стэнли Кубрик",
+        "yearProduced": "1980",
+        "yearAdded": "2018",
+        "id": 568
+    },
+    {
+        "name": "Скачи по горам",
+        "originalName": "Ride the High Country",
+        "director": "Сэм Пекинпа",
+        "yearProduced": "1962",
+        "yearAdded": "1992",
+        "id": 569
+    },
+    {
+        "name": "Слава",
+        "originalName": "Fame",
+        "director": "Алан Паркер",
+        "yearProduced": "1980",
+        "yearAdded": "2023",
+        "id": 2435
+    },
+    {
+        "name": "Слава герою-победителю",
+        "originalName": "Hail the Conquering Hero",
+        "director": "Престон Стёрджес",
+        "yearProduced": "1944",
+        "yearAdded": "2015",
+        "id": 570
+    },
+    {
+        "name": "Славные парни",
+        "originalName": "Goodfellas",
+        "director": "Мартин Скорсезе",
+        "yearProduced": "1990",
+        "yearAdded": "2000",
+        "id": 571
+    },
+    {
+        "name": "Сладкий запах успеха",
+        "originalName": "Sweet Smell of Success",
+        "director": "Александр Маккендрик",
+        "yearProduced": "1957",
+        "yearAdded": "1993",
+        "id": 572
+    },
+    {
+        "name": "Сломанные побеги",
+        "originalName": "Broken Blossoms",
+        "director": "Дэвид Уорк Гриффит",
+        "yearProduced": "1919",
+        "yearAdded": "1996",
+        "id": 573
+    },
+    {
+        "name": "Служебный вход",
+        "originalName": "Employees’ Entrance",
+        "director": "Рой Дель Рут",
+        "yearProduced": "1933",
+        "yearAdded": "2019",
+        "id": 121
+    },
+    {
+        "name": "Случай в Окс-Боу",
+        "originalName": "The Ox-Bow Incident",
+        "director": "Уильям Уэллман",
+        "yearProduced": "1943",
+        "yearAdded": "1998",
+        "id": 574
+    },
+    {
+        "name": "Смешная девчонка",
+        "originalName": "Funny Girl",
+        "director": "Уильям Уайлер",
+        "yearProduced": "1968",
+        "yearAdded": "2016",
+        "id": 575
+    },
+    {
+        "name": "Снос и возведение Звёздного Театра",
+        "originalName": "Demolishing and Building Up the Star Theatre",
+        "director": "Фредерик Армитэдж",
+        "yearProduced": "1901",
+        "yearAdded": "2002",
+        "id": 576
+    },
+    {
+        "name": "Собака Звезда Человек",
+        "originalName": "Dog Star Man",
+        "director": "Стэн Брэкидж",
+        "yearProduced": "1961—1964",
+        "yearAdded": "1992",
+        "id": 577
+    },
+    {
+        "name": "Собачий полдень",
+        "originalName": "Dog Day Afternoon",
+        "director": "Сидни Люмет",
+        "yearProduced": "1975",
+        "yearAdded": "2009",
+        "id": 578
+    },
+    {
+        "name": "Создание американца",
+        "originalName": "The Making of an American",
+        "director": "Гай Хедлунд",
+        "yearProduced": "1920",
+        "yearAdded": "2005",
+        "id": 592
+    },
+    {
+        "name": "Сокровища Сьерра-Мадре",
+        "originalName": "The Treasure of the Sierra Madre",
+        "director": "Джон Хьюстон",
+        "yearProduced": "1948",
+        "yearAdded": "1990",
+        "id": 579
+    },
+    {
+        "name": "Соль земли",
+        "originalName": "Salt of the Earth",
+        "director": "Герберт Биберман",
+        "yearProduced": "1954",
+        "yearAdded": "1992",
+        "id": 580
+    },
+    {
+        "name": "Сон пожирателя гренок с сыром",
+        "originalName": "Dream of a Rarebit Fiend",
+        "director": "Уоллес Маккатчен и Эдвин Портер",
+        "yearProduced": "1906",
+        "yearAdded": "2015",
+        "id": 581
+    },
+    {
+        "name": "Сотворившая чудо",
+        "originalName": "The Miracle Worker",
+        "director": "Артур Пенн",
+        "yearProduced": "1962",
+        "yearAdded": "2024",
+        "id": 2499
+    },
+    {
+        "name": "Сохранение языка жестов",
+        "originalName": "Preservation of the Sign Language",
+        "director": "Джордж Ведиц",
+        "yearProduced": "1913",
+        "yearAdded": "2010",
+        "id": 582
+    },
+    {
+        "name": "Социальная сеть",
+        "originalName": "The Social Network",
+        "director": "Дэвид Финчер",
+        "yearProduced": "2010",
+        "yearAdded": "2024",
+        "id": 2519
+    },
+    {
+        "name": "Союз прислуги",
+        "originalName": "Union Maids",
+        "director": "Джим Клайн, Майлз Могулеску и Джулия Рейхерт",
+        "yearProduced": "1976",
+        "yearAdded": "2022",
+        "id": 1503
+    },
+    {
+        "name": "Спартак",
+        "originalName": "Spartacus",
+        "director": "Стэнли Кубрик",
+        "yearProduced": "1960",
+        "yearAdded": "2017",
+        "id": 583
+    },
+    {
+        "name": "Спасти рядового Райана",
+        "originalName": "Saving Private Ryan",
+        "director": "Стивен Спилберг",
+        "yearProduced": "1998",
+        "yearAdded": "2014",
+        "id": 584
+    },
+    {
+        "name": "Спекуляция пшеницей",
+        "originalName": "A Corner in Wheat",
+        "director": "Дэвид Уорк Гриффит",
+        "yearProduced": "1909",
+        "yearAdded": "1994",
+        "id": 585
+    },
+    {
+        "name": "Список Шиндлера",
+        "originalName": "Schindler’s List",
+        "director": "Стивен Спилберг",
+        "yearProduced": "1993",
+        "yearAdded": "2004",
+        "id": 586
+    },
+    {
+        "name": "Спящая красавица",
+        "originalName": "Sleeping Beauty",
+        "director": "Клайд Джероними",
+        "yearProduced": "1959",
+        "yearAdded": "2019",
+        "id": 587
+    },
+    {
+        "name": "Средняя школа",
+        "originalName": "High School",
+        "director": "Фредерик Уайзман",
+        "yearProduced": "1968",
+        "yearAdded": "1991",
+        "id": 588
+    },
+    {
+        "name": "Средняя школа Кули",
+        "originalName": "Cooley High",
+        "director": "Майкл Шульц",
+        "yearProduced": "1975",
+        "yearAdded": "2021",
+        "id": 589
+    },
+    {
+        "name": "Старая мельница",
+        "originalName": "The Old Mill",
+        "director": "Уилфред Джексон",
+        "yearProduced": "1937",
+        "yearAdded": "2015",
+        "id": 590
+    },
+    {
+        "name": "Старикам тут не место",
+        "originalName": "No Country for Old Men",
+        "director": "Братья Коэн",
+        "yearProduced": "2007",
+        "yearAdded": "2024",
+        "id": 2518
+    },
+    {
+        "name": "Старый Брехун",
+        "originalName": "Old Yeller",
+        "director": "Роберт Стивенсон",
+        "yearProduced": "1957",
+        "yearAdded": "2019",
+        "id": 591
+    },
+    {
+        "name": "Степени десяти",
+        "originalName": "Powers of Ten",
+        "director": "Чарлз и Рэй Имзы",
+        "yearProduced": "1977",
+        "yearAdded": "1998",
+        "id": 163
+    },
+    {
+        "name": "Страна по ту сторону заката",
+        "originalName": "The Land Beyond the Sunset",
+        "director": "Харольд Шоу",
+        "yearProduced": "1912",
+        "yearAdded": "2000",
+        "id": 593
+    },
+    {
+        "name": "Странствия Салливана",
+        "originalName": "Sullivan’s Travels",
+        "director": "Престон Стёрджес",
+        "yearProduced": "1941",
+        "yearAdded": "1990",
+        "id": 594
+    },
+    {
+        "name": "Строптивая Мариэтта",
+        "originalName": "Naughty Marietta",
+        "director": "Роберт Леонард и Вудбридж Ван Дайк",
+        "yearProduced": "1935",
+        "yearAdded": "2003",
+        "id": 275
+    },
+    {
+        "name": "Студенческие фильмы Зоры Латан",
+        "originalName": "Zora Lathan Student Films",
+        "director": "Зора Латан",
+        "yearProduced": "1975—1976",
+        "yearAdded": "2024",
+        "id": 2504
+    },
+    {
+        "name": "Стычка волков",
+        "originalName": "The Clash of the Wolves",
+        "director": "Ноэл Смит",
+        "yearProduced": "1925",
+        "yearAdded": "2004",
+        "id": 595
+    },
+    {
+        "name": "Субботний вечер на окраине города",
+        "originalName": "Uptown Saturday Night",
+        "director": "Сидни Пуатье",
+        "yearProduced": "1974",
+        "yearAdded": "2024",
+        "id": 2502
+    },
+    {
+        "name": "Супермен",
+        "originalName": "Superman",
+        "director": "Ричард Доннер",
+        "yearProduced": "1978",
+        "yearAdded": "2017",
+        "id": 596
+    },
+    {
+        "name": "Суперфлай",
+        "originalName": "Super Fly",
+        "director": "Гордон Паркс-младший",
+        "yearProduced": "1972",
+        "yearAdded": "2022",
+        "id": 1174
+    },
+    {
+        "name": "Суровая любовь",
+        "originalName": "Stark Love",
+        "director": "Карл Браун",
+        "yearProduced": "1927",
+        "yearAdded": "2009",
+        "id": 802
+    },
+    {
+        "name": "Сцена с кузнецами",
+        "originalName": "Blacksmith Scene",
+        "director": "Уильям Диксон",
+        "yearProduced": "1893",
+        "yearAdded": "1995",
+        "id": 597
+    },
+    {
+        "name": "Считайте меня человеком",
+        "originalName": "Think of Me First as a Person",
+        "director": "Джордж Ингмайр",
+        "yearProduced": "1960—1975",
+        "yearAdded": "2006",
+        "id": 598
+    },
+    {
+        "name": "Съёмка парада братьев Ринглинг",
+        "originalName": "Ringling Brothers Parade Film",
+        "director": "Уильям Селиг",
+        "yearProduced": "1902",
+        "yearAdded": "2021",
+        "id": 794
+    },
+    {
+        "name": "Сын шейха",
+        "originalName": "The Son of the Sheik",
+        "director": "Джордж Фицморис",
+        "yearProduced": "1926",
+        "yearAdded": "2003",
+        "id": 599
+    },
+    {
+        "name": "Сыновья пустыни",
+        "originalName": "Sons of the Desert",
+        "director": "Уильям Сейтер",
+        "yearProduced": "1933",
+        "yearAdded": "2012",
+        "id": 600
+    },
+    {
+        "name": "Сюзанна, Сюзанна",
+        "originalName": "Suzanne, Suzanne",
+        "director": "Камилль Биллопс и Джеймс Хэтч",
+        "yearProduced": "1982",
+        "yearAdded": "2016",
+        "id": 807
+    },
+    {
+        "name": "Табу",
+        "originalName": "Tabu: A Story of the South Seas",
+        "director": "Фридрих Вильгельм Мурнау",
+        "yearProduced": "1931",
+        "yearAdded": "1994",
+        "id": 601
+    },
+    {
+        "name": "Таксист",
+        "originalName": "Taxi Driver",
+        "director": "Мартин Скорсезе",
+        "yearProduced": "1976",
+        "yearAdded": "1994",
+        "id": 602
+    },
+    {
+        "name": "Танец Лои Фуллер",
+        "originalName": "Annabelle Serpentine Dance",
+        "director": "Уильям Диксон и Вильям Хайзе",
+        "yearProduced": "1895",
+        "yearAdded": "2024",
+        "id": 2517
+    },
+    {
+        "name": "Танцевальные фильмы Марты Грэм",
+        "originalName": "Martha Graham Dance Films",
+        "director": "",
+        "yearProduced": "1931—1944",
+        "yearAdded": "2013",
+        "id": 775
+    },
+    {
+        "name": "Танцуй, девочка, танцуй",
+        "originalName": "Dance, Girl, Dance",
+        "director": "Дороти Арзнер",
+        "yearProduced": "1940",
+        "yearAdded": "2007",
+        "id": 604
+    },
+    {
+        "name": "Танцующий с волками",
+        "originalName": "Dances with Wolves",
+        "director": "Кевин Костнер",
+        "yearProduced": "1990",
+        "yearAdded": "2007",
+        "id": 605
+    },
+    {
+        "name": "Тарантелла",
+        "originalName": "Tarantella",
+        "director": "Мэри Эллен Бьют",
+        "yearProduced": "1940",
+        "yearAdded": "2010",
+        "id": 606
+    },
+    {
+        "name": "Тарзан и его подруга",
+        "originalName": "Tarzan and His Mate",
+        "director": "Седрик Гиббонс",
+        "yearProduced": "1934",
+        "yearAdded": "2003",
+        "id": 607
+    },
+    {
+        "name": "Театральный фургон",
+        "originalName": "The Band Wagon",
+        "director": "Винсент Миннелли",
+        "yearProduced": "1953",
+        "yearAdded": "1995",
+        "id": 608
+    },
+    {
+        "name": "Тевье",
+        "originalName": "Tevya",
+        "director": "Морис Шварц",
+        "yearProduced": "1939",
+        "yearAdded": "1991",
+        "id": 609
+    },
+    {
+        "name": "Телевизионные новости",
+        "originalName": "Broadcast News",
+        "director": "Джеймс Брукс",
+        "yearProduced": "1987",
+        "yearAdded": "2018",
+        "id": 610
+    },
+    {
+        "name": "Телесеть",
+        "originalName": "Network",
+        "director": "Сидни Люмет",
+        "yearProduced": "1976",
+        "yearAdded": "2000",
+        "id": 611
+    },
+    {
+        "name": "Тело и душа",
+        "originalName": "Body and Soul",
+        "director": "Оскар Мишо",
+        "yearProduced": "1925",
+        "yearAdded": "2019",
+        "id": 612
+    },
+    {
+        "name": "Телониус Монк: Прямо и честно",
+        "originalName": "Thelonious Monk: Straight, No Chaser",
+        "director": "Шарлотт Цверин",
+        "yearProduced": "1988",
+        "yearAdded": "2017",
+        "id": 810
+    },
+    {
+        "name": "Тельма и Луиза",
+        "originalName": "Thelma & Louise",
+        "director": "Ридли Скотт",
+        "yearProduced": "1991",
+        "yearAdded": "2016",
+        "id": 613
+    },
+    {
+        "name": "Темнокожий солдат",
+        "originalName": "The Negro Soldier",
+        "director": "Стюарт Хейслер",
+        "yearProduced": "1944",
+        "yearAdded": "2011",
+        "id": 781
+    },
+    {
+        "name": "Тёмный рыцарь",
+        "originalName": "The Dark Knight",
+        "director": "Кристофер Нолан",
+        "yearProduced": "2008",
+        "yearAdded": "2020",
+        "id": 617
+    },
+    {
+        "name": "Тени",
+        "originalName": "Shadows",
+        "director": "Джон Кассаветис",
+        "yearProduced": "1959",
+        "yearAdded": "1993",
+        "id": 614
+    },
+    {
+        "name": "Тень сомнения",
+        "originalName": "Shadow of a Doubt",
+        "director": "Альфред Хичкок",
+        "yearProduced": "1943",
+        "yearAdded": "1991",
+        "id": 615
+    },
+    {
+        "name": "Терминатор",
+        "originalName": "The Terminator",
+        "director": "Джеймс Кэмерон",
+        "yearProduced": "1984",
+        "yearAdded": "2008",
+        "id": 616
+    },
+    {
+        "name": "Терминатор 2: Судный день",
+        "originalName": "Terminator 2: Judgment Day",
+        "director": "Джеймс Кэмерон",
+        "yearProduced": "1991",
+        "yearAdded": "2023",
+        "id": 2494
+    },
+    {
+        "name": "Тесс из страны бурь",
+        "originalName": "Tess of the Storm Country",
+        "director": "Эдвин Портер",
+        "yearProduced": "1914",
+        "yearAdded": "2006",
+        "id": 638
+    },
+    {
+        "name": "Техасская резня бензопилой",
+        "originalName": "The Texas Chain Saw Massacre",
+        "director": "Тоуб Хупер",
+        "yearProduced": "1974",
+        "yearAdded": "2024",
+        "id": 2503
+    },
+    {
+        "name": "Титаник",
+        "originalName": "Titanic",
+        "director": "Джеймс Кэмерон",
+        "yearProduced": "1997",
+        "yearAdded": "2017",
+        "id": 618
+    },
+    {
+        "name": "Тихий человек",
+        "originalName": "The Quiet Man",
+        "director": "Джон Форд",
+        "yearProduced": "1952",
+        "yearAdded": "2013",
+        "id": 619
+    },
+    {
+        "name": "Толпа",
+        "originalName": "The Crowd",
+        "director": "Кинг Видор",
+        "yearProduced": "1928",
+        "yearAdded": "1989",
+        "id": 620
+    },
+    {
+        "name": "Только у ангелов есть крылья",
+        "originalName": "Only Angels Have Wings",
+        "director": "Говард Хоукс",
+        "yearProduced": "1939",
+        "yearAdded": "2017",
+        "id": 621
+    },
+    {
+        "name": "Том, Том, сын дудочника",
+        "originalName": "Tom, Tom, the Piper’s Son",
+        "director": "Кен Джейкобс",
+        "yearProduced": "1969",
+        "yearAdded": "2007",
+        "id": 815
+    },
+    {
+        "name": "Тони или плыви",
+        "originalName": "Sink or Swim",
+        "director": "Сью Фридрих",
+        "yearProduced": "1990",
+        "yearAdded": "2015",
+        "id": 797
+    },
+    {
+        "name": "Тонкая голубая линия",
+        "originalName": "The Thin Blue Line",
+        "director": "Эррол Моррис",
+        "yearProduced": "1988",
+        "yearAdded": "2001",
+        "id": 622
+    },
+    {
+        "name": "Тонкий человек",
+        "originalName": "The Thin Man",
+        "director": "Вудбридж Ван Дайк",
+        "yearProduced": "1934",
+        "yearAdded": "1997",
+        "id": 623
+    },
+    {
+        "name": "Топаз",
+        "originalName": "Topaz",
+        "director": "Дэйв Тацуно",
+        "yearProduced": "1945",
+        "yearAdded": "1996",
+        "id": 624
+    },
+    {
+        "name": "Торговля душами",
+        "originalName": "Traffic in Souls",
+        "director": "Джордж Лоун Такер",
+        "yearProduced": "1913",
+        "yearAdded": "2006",
+        "id": 625
+    },
+    {
+        "name": "Тот, кто получает пощёчины",
+        "originalName": "He Who Gets Slapped",
+        "director": "Виктор Шёстрём",
+        "yearProduced": "1924",
+        "yearAdded": "2017",
+        "id": 626
+    },
+    {
+        "name": "Трава: Битва народа за выживание",
+        "originalName": "Grass: A Nation’s Battle for Life",
+        "director": "Мериан Купер и Эрнест Шидсэк",
+        "yearProduced": "1925",
+        "yearAdded": "1997",
+        "id": 627
+    },
+    {
+        "name": "Трагический фестиваль",
+        "originalName": "Verbena Tragica",
+        "director": "Чарльз Ламонт",
+        "yearProduced": "1939",
+        "yearAdded": "1996",
+        "id": 628
+    },
+    {
+        "name": "Трамвай «Желание»",
+        "originalName": "A Streetcar Named Desire",
+        "director": "Элиа Казан",
+        "yearProduced": "1951",
+        "yearAdded": "1999",
+        "id": 629
+    },
+    {
+        "name": "Транс и танец на Бали",
+        "originalName": "Trance and Dance in Bali",
+        "director": "Маргарет Мид и Грегори Бейтсон",
+        "yearProduced": "1952",
+        "yearAdded": "1999",
+        "id": 630
+    },
+    {
+        "name": "Три поросёнка",
+        "originalName": "Three Little Pigs",
+        "director": "Берт Джиллетт",
+        "yearProduced": "1933",
+        "yearAdded": "2007",
+        "id": 631
+    },
+    {
+        "name": "Триллер",
+        "originalName": "Michael Jackson’s Thriller",
+        "director": "Джон Лэндис",
+        "yearProduced": "1983",
+        "yearAdded": "2009",
+        "id": 632
+    },
+    {
+        "name": "Тропы славы",
+        "originalName": "Paths of Glory",
+        "director": "Стэнли Кубрик",
+        "yearProduced": "1957",
+        "yearAdded": "1992",
+        "id": 633
+    },
+    {
+        "name": "Туз в рукаве",
+        "originalName": "Ace in the Hole",
+        "director": "Билли Уайлдер",
+        "yearProduced": "1951",
+        "yearAdded": "2017",
+        "id": 634
+    },
+    {
+        "name": "Туман войны",
+        "originalName": "The Fog of War",
+        "director": "Эррол Моррис",
+        "yearProduced": "2003",
+        "yearAdded": "2019",
+        "id": 635
+    },
+    {
+        "name": "Тутси",
+        "originalName": "Tootsie",
+        "director": "Сидни Поллак",
+        "yearProduced": "1982",
+        "yearAdded": "1998",
+        "id": 636
+    },
+    {
+        "name": "Тюльпаны будут расти",
+        "originalName": "Tulips Shall Grow",
+        "director": "Джордж Пал",
+        "yearProduced": "1942",
+        "yearAdded": "1997",
+        "id": 639
+    },
+    {
+        "name": "Тюремный рок",
+        "originalName": "Jailhouse Rock",
+        "director": "Ричард Торп",
+        "yearProduced": "1957",
+        "yearAdded": "2004",
+        "id": 640
+    },
+    {
+        "name": "Убийство Фреда Хэмптона",
+        "originalName": "The Murder of Fred Hampton",
+        "director": "Ховард Элк",
+        "yearProduced": "1971",
+        "yearAdded": "2021",
+        "id": 641
+    },
+    {
+        "name": "Убийцы",
+        "originalName": "The Killers",
+        "director": "Роберт Сиодмак",
+        "yearProduced": "1946",
+        "yearAdded": "2008",
+        "id": 642
+    },
+    {
+        "name": "Убить пересмешника",
+        "originalName": "To Kill a Mockingbird",
+        "director": "Роберт Маллиган",
+        "yearProduced": "1962",
+        "yearAdded": "1995",
+        "id": 643
+    },
+    {
+        "name": "Увольнение в город",
+        "originalName": "On the Town",
+        "director": "Джин Келли и Стэнли Донен",
+        "yearProduced": "1949",
+        "yearAdded": "2018",
+        "id": 644
+    },
+    {
+        "name": "Угадай, кто придёт к обеду?",
+        "originalName": "Guess Who’s Coming to Dinner",
+        "director": "Стэнли Крамер",
+        "yearProduced": "1967",
+        "yearAdded": "2017",
+        "id": 645
+    },
+    {
+        "name": "Ужасная правда",
+        "originalName": "The Awful Truth",
+        "director": "Лео Маккэри",
+        "yearProduced": "1937",
+        "yearAdded": "1996",
+        "id": 646
+    },
+    {
+        "name": "Уилл",
+        "originalName": "Will",
+        "director": "Джесси Мэйпл",
+        "yearProduced": "1981",
+        "yearAdded": "2024",
+        "id": 2506
+    },
+    {
+        "name": "Укуренные",
+        "originalName": "Up in Smoke",
+        "director": "Лу Адлер",
+        "yearProduced": "1978",
+        "yearAdded": "2024",
+        "id": 2505
+    },
+    {
+        "name": "Унесённые ветром",
+        "originalName": "Gone with the Wind",
+        "director": "Виктор Флеминг",
+        "yearProduced": "1939",
+        "yearAdded": "1989",
+        "id": 647
+    },
+    {
+        "name": "Уоббли",
+        "originalName": "The Wobblies",
+        "director": "Стюарт Бёрд и Дебора Шаффер",
+        "yearProduced": "1979",
+        "yearAdded": "2021",
+        "id": 824
+    },
+    {
+        "name": "Уоттстакс",
+        "originalName": "Wattstax",
+        "director": "Мел Стюарт",
+        "yearProduced": "1973",
+        "yearAdded": "2020",
+        "id": 820
+    },
+    {
+        "name": "Уродцы",
+        "originalName": "Freaks",
+        "director": "Тод Браунинг",
+        "yearProduced": "1932",
+        "yearAdded": "1994",
+        "id": 649
+    },
+    {
+        "name": "Уступи место завтрашнему дню",
+        "originalName": "Make Way for Tomorrow",
+        "director": "Лео Маккэри",
+        "yearProduced": "1937",
+        "yearAdded": "2010",
+        "id": 650
+    },
+    {
+        "name": "Утиный суп",
+        "originalName": "Duck Soup",
+        "director": "Лео Маккэри",
+        "yearProduced": "1933",
+        "yearAdded": "1990",
+        "id": 651
+    },
+    {
+        "name": "Утро Бронкса",
+        "originalName": "A Bronx Morning",
+        "director": "Джей Лейда",
+        "yearProduced": "1931",
+        "yearAdded": "2004",
+        "id": 652
+    },
+    {
+        "name": "Фабрика по производству искусственных фруктов",
+        "originalName": "Fake Fruit Factory",
+        "director": "Чик Стрэнд",
+        "yearProduced": "1986",
+        "yearAdded": "2011",
+        "id": 749
+    },
+    {
+        "name": "Фантазия",
+        "originalName": "Fantasia",
+        "director": "Джеймс Алгар, Сэмюел Армстронг, Форд Биби, Уилфред Джексон, Хэмилтон Ласк, Билл Робертс, Пол Сэттерфилд, Норман Фергюсон, Т. Хи, Дэвид Хэнд, Джим Хэндли, Бен Шарпстин",
+        "yearProduced": "1940",
+        "yearAdded": "1990",
+        "id": 653
+    },
+    {
+        "name": "Фарго",
+        "originalName": "Fargo",
+        "director": "Братья Коэн",
+        "yearProduced": "1996",
+        "yearAdded": "2006",
+        "id": 654
+    },
+    {
+        "name": "Фелиция",
+        "originalName": "Felicia",
+        "director": "Боб Диксон, Алан Горг и Тревор Гринвуд",
+        "yearProduced": "1965",
+        "yearAdded": "2014",
+        "id": 655
+    },
+    {
+        "name": "Феррис Бьюллер берёт выходной",
+        "originalName": "Ferris Bueller’s Day Off",
+        "director": "Джон Хьюз",
+        "yearProduced": "1986",
+        "yearAdded": "2014",
+        "id": 656
+    },
+    {
+        "name": "Филадельфийская история",
+        "originalName": "The Philadelphia Story",
+        "director": "Джордж Кьюкор",
+        "yearProduced": "1940",
+        "yearAdded": "1995",
+        "id": 657
+    },
+    {
+        "name": "Фильм",
+        "originalName": "A Movie",
+        "director": "Брюс Коннер",
+        "yearProduced": "1958",
+        "yearAdded": "1994",
+        "id": 658
+    },
+    {
+        "name": "Фильм Запрудера",
+        "originalName": "Zapruder Film",
+        "director": "Абрахам Запрудер",
+        "yearProduced": "1963",
+        "yearAdded": "1994",
+        "id": 659
+    },
+    {
+        "name": "Фильм Фрэнка",
+        "originalName": "Frank Film",
+        "director": "Кэролин и Фрэнк Мурис",
+        "yearProduced": "1973",
+        "yearAdded": "1996",
+        "id": 660
+    },
+    {
+        "name": "Фильмы Преподобного Соломона Сира Джонса",
+        "originalName": "Reverend Solomon Sir Jones Films",
+        "director": "Соломон Сир Джонс",
+        "yearProduced": "1924—1928",
+        "yearAdded": "2016",
+        "id": 799
+    },
+    {
+        "name": "Флэш Гордон",
+        "originalName": "Flash Gordon",
+        "director": "Фредерик Стефани",
+        "yearProduced": "1936",
+        "yearAdded": "1996",
+        "id": 661
+    },
+    {
+        "name": "Форрест Гамп",
+        "originalName": "Forrest Gump",
+        "director": "Роберт Земекис",
+        "yearProduced": "1994",
+        "yearAdded": "2011",
+        "id": 663
+    },
+    {
+        "name": "Франкенштейн",
+        "originalName": "Frankenstein",
+        "director": "Джеймс Уэйл",
+        "yearProduced": "1931",
+        "yearAdded": "1991",
+        "id": 664
+    },
+    {
+        "name": "Французский связной",
+        "originalName": "The French Connection",
+        "director": "Уильям Фридкин",
+        "yearProduced": "1971",
+        "yearAdded": "2005",
+        "id": 665
+    },
+    {
+        "name": "Фред Отт. Чихание",
+        "originalName": "Fred Ott’s Sneeze",
+        "director": "Уильям Диксон",
+        "yearProduced": "1894",
+        "yearAdded": "2015",
+        "id": 666
+    },
+    {
+        "name": "Фудзи",
+        "originalName": "Fuji",
+        "director": "Роберт Брир",
+        "yearProduced": "1974",
+        "yearAdded": "2002",
+        "id": 667
+    },
+    {
+        "name": "Хад",
+        "originalName": "Hud",
+        "director": "Мартин Ритт",
+        "yearProduced": "1963",
+        "yearAdded": "2018",
+        "id": 668
+    },
+    {
+        "name": "Халявщик",
+        "originalName": "Slacker",
+        "director": "Ричард Линклейтер",
+        "yearProduced": "1990",
+        "yearAdded": "2012",
+        "id": 669
+    },
+    {
+        "name": "Хестер-стрит",
+        "originalName": "Hester Street",
+        "director": "Джоан Миклин Силвер",
+        "yearProduced": "1975",
+        "yearAdded": "2011",
+        "id": 760
+    },
+    {
+        "name": "Хижина дяди Тома",
+        "originalName": "Uncle Tom’s Cabin",
+        "director": "Уильям Роберт Дэли",
+        "yearProduced": "1914",
+        "yearAdded": "2012",
+        "id": 671
+    },
+    {
+        "name": "Хижина на небесах",
+        "originalName": "Cabin in the Sky",
+        "director": "Винсент Миннелли и Басби Беркли",
+        "yearProduced": "1943",
+        "yearAdded": "2020",
+        "id": 670
+    },
+    {
+        "name": "Хладнокровное убийство",
+        "originalName": "In Cold Blood",
+        "director": "Ричард Брукс",
+        "yearProduced": "1967",
+        "yearAdded": "2008",
+        "id": 672
+    },
+    {
+        "name": "Хладнокровный Люк",
+        "originalName": "Cool Hand Luke",
+        "director": "Стюарт Розенберг",
+        "yearProduced": "1967",
+        "yearAdded": "2005",
+        "id": 673
+    },
+    {
+        "name": "Хлеб",
+        "originalName": "Bread",
+        "director": "Айда Мэй Парк",
+        "yearProduced": "1918",
+        "yearAdded": "2020",
+        "id": 674
+    },
+    {
+        "name": "Хлеб наш насущный",
+        "originalName": "Our Daily Bread",
+        "director": "Кинг Видор",
+        "yearProduced": "1934",
+        "yearAdded": "2015",
+        "id": 675
+    },
+    {
+        "name": "Холодным взором",
+        "originalName": "Medium Cool",
+        "director": "Хаскелл Векслер",
+        "yearProduced": "1969",
+        "yearAdded": "2003",
+        "id": 676
+    },
+    {
+        "name": "Хот-доги для Гогена",
+        "originalName": "Hot Dogs for Gauguin",
+        "director": "Мартин Брест",
+        "yearProduced": "1972",
+        "yearAdded": "2009",
+        "id": 762
+    },
+    {
+        "name": "Хроника забастовки на заводе Republic Steel",
+        "originalName": "Republic Steel Strike Riot Newsreel Footage",
+        "director": "",
+        "yearProduced": "1937",
+        "yearAdded": "1997",
+        "id": 218
+    },
+    {
+        "name": "Хроника катастрофы дирижабля «Гинденбург»",
+        "originalName": "Hindenburg Disaster Newsreel Footage",
+        "director": "",
+        "yearProduced": "1937",
+        "yearAdded": "1997",
+        "id": 279
+    },
+    {
+        "name": "Художник дракона",
+        "originalName": "The Dragon Painter",
+        "director": "Уильям Уортингтон",
+        "yearProduced": "1919",
+        "yearAdded": "2014",
+        "id": 677
+    },
+    {
+        "name": "Хэллоуин",
+        "originalName": "Halloween",
+        "director": "Джон Карпентер",
+        "yearProduced": "1978",
+        "yearAdded": "2006",
+        "id": 678
+    },
+    {
+        "name": "Цветы и деревья",
+        "originalName": "Flowers and Trees",
+        "director": "Берт Джиллетт",
+        "yearProduced": "1932",
+        "yearAdded": "2021",
+        "id": 679
+    },
+    {
+        "name": "Целуй меня насмерть",
+        "originalName": "Kiss Me Deadly",
+        "director": "Роберт Олдрич",
+        "yearProduced": "1955",
+        "yearAdded": "1999",
+        "id": 680
+    },
+    {
+        "name": "Церковь хранителей заповедей, Бьюфорт, Южная Каролина, май 1940 года",
+        "originalName": "Commandment Keeper Church, Beaufort South Carolina, May 1940",
+        "director": "Зора Ниэл Хёрстон",
+        "yearProduced": "1940",
+        "yearAdded": "2005",
+        "id": 681
+    },
+    {
+        "name": "Цивилизация",
+        "originalName": "Civilization",
+        "director": "Реджинальд Баркер, Томас Инс и Рэймонд Уэст",
+        "yearProduced": "1916",
+        "yearAdded": "1999",
+        "id": 682
+    },
+    {
+        "name": "Цилиндр",
+        "originalName": "Top Hat",
+        "director": "Марк Сэндрич",
+        "yearProduced": "1935",
+        "yearAdded": "1990",
+        "id": 683
+    },
+    {
+        "name": "Часы для Джерома",
+        "originalName": "Hours for Jerome",
+        "director": "Натаниэль Дорски",
+        "yearProduced": "1982",
+        "yearAdded": "2012",
+        "id": 763
+    },
+    {
+        "name": "Человек с золотой рукой",
+        "originalName": "The Man with the Golden Arm",
+        "director": "Отто Премингер",
+        "yearProduced": "1955",
+        "yearAdded": "2020",
+        "id": 686
+    },
+    {
+        "name": "Человек-невидимка",
+        "originalName": "The Invisible Man",
+        "director": "Джеймс Уэйл",
+        "yearProduced": "1933",
+        "yearAdded": "2008",
+        "id": 685
+    },
+    {
+        "name": "Человек, который застрелил Либерти Вэланса",
+        "originalName": "The Man Who Shot Liberty Valance",
+        "director": "Джон Форд",
+        "yearProduced": "1962",
+        "yearAdded": "2007",
+        "id": 684
+    },
+    {
+        "name": "Челюсти",
+        "originalName": "Jaws",
+        "director": "Стивен Спилберг",
+        "yearProduced": "1975",
+        "yearAdded": "2001",
+        "id": 687
+    },
+    {
+        "name": "Чёрно-коричневые",
+        "originalName": "Black and Tan",
+        "director": "Дадли Мёрфи",
+        "yearProduced": "1929",
+        "yearAdded": "2015",
+        "id": 733
+    },
+    {
+        "name": "Чёрный пират",
+        "originalName": "The Black Pirate",
+        "director": "Альберт Паркер",
+        "yearProduced": "1926",
+        "yearAdded": "1993",
+        "id": 693
+    },
+    {
+        "name": "Чёрный скакун",
+        "originalName": "The Black Stallion",
+        "director": "Кэррол Бэллард",
+        "yearProduced": "1979",
+        "yearAdded": "2002",
+        "id": 694
+    },
+    {
+        "name": "Чеснок стоит десяти матерей",
+        "originalName": "Garlic Is as Good as Ten Mothers",
+        "director": "Лес Бланк",
+        "yearProduced": "1980",
+        "yearAdded": "2004",
+        "id": 689
+    },
+    {
+        "name": "Четыре всадника Апокалипсиса",
+        "originalName": "The Four Horsemen of the Apocalypse",
+        "director": "Рекс Ингрэм",
+        "yearProduced": "1921",
+        "yearAdded": "1995",
+        "id": 690
+    },
+    {
+        "name": "Чехословакия 1968",
+        "originalName": "Czechoslovakia 1968",
+        "director": "Роберт Фреско и Денис Сандерс",
+        "yearProduced": "1969",
+        "yearAdded": "1997",
+        "id": 691
+    },
+    {
+        "name": "Чечакос",
+        "originalName": "The Chechahcos",
+        "director": "Льюис Мумоу",
+        "yearProduced": "1924",
+        "yearAdded": "2003",
+        "id": 692
+    },
+    {
+        "name": "Чикана",
+        "originalName": "Chicana",
+        "director": "Сильвия Моралес",
+        "yearProduced": "1979",
+        "yearAdded": "2021",
+        "id": 737
+    },
+    {
+        "name": "Чокнутый профессор",
+        "originalName": "The Nutty Professor",
+        "director": "Джерри Льюис",
+        "yearProduced": "1963",
+        "yearAdded": "2004",
+        "id": 695
+    },
+    {
+        "name": "Что за опера, док?",
+        "originalName": "What’s Opera, Doc?",
+        "director": "Чак Джонс",
+        "yearProduced": "1957",
+        "yearAdded": "1992",
+        "id": 696
+    },
+    {
+        "name": "Что случилось с Бэби Джейн?",
+        "originalName": "What Ever Happened to Baby Jane?",
+        "director": "Роберт Олдрич",
+        "yearProduced": "1962",
+        "yearAdded": "2021",
+        "id": 697
+    },
+    {
+        "name": "Что-то хорошее — поцелуй негров",
+        "originalName": "Something Good — Negro Kiss",
+        "director": "Уильям Селиг",
+        "yearProduced": "1898",
+        "yearAdded": "2018",
+        "id": 800
+    },
+    {
+        "name": "Чудо в Морганс-Крик",
+        "originalName": "The Miracle of Morgan’s Creek",
+        "director": "Престон Стёрджес",
+        "yearProduced": "1944",
+        "yearAdded": "2001",
+        "id": 698
+    },
+    {
+        "name": "Чудо на 34-й улице",
+        "originalName": "Miracle on 34th Street",
+        "director": "Джордж Ситон",
+        "yearProduced": "1947",
+        "yearAdded": "2005",
+        "id": 699
+    },
+    {
+        "name": "Чужой",
+        "originalName": "Alien",
+        "director": "Ридли Скотт",
+        "yearProduced": "1979",
+        "yearAdded": "2002",
+        "id": 700
+    },
+    {
+        "name": "Чэн исчез",
+        "originalName": "Chan Is Missing",
+        "director": "Уэйн Ван",
+        "yearProduced": "1982",
+        "yearAdded": "1995",
+        "id": 688
+    },
+    {
+        "name": "Шарада",
+        "originalName": "Charade",
+        "director": "Стэнли Донен",
+        "yearProduced": "1963",
+        "yearAdded": "2022",
+        "id": 1639
+    },
+    {
+        "name": "Шафт",
+        "originalName": "Shaft",
+        "director": "Гордон Паркс",
+        "yearProduced": "1971",
+        "yearAdded": "2000",
+        "id": 701
+    },
+    {
+        "name": "Шейн",
+        "originalName": "Shane",
+        "director": "Джордж Стивенс",
+        "yearProduced": "1953",
+        "yearAdded": "1993",
+        "id": 702
+    },
+    {
+        "name": "Шерлок-младший",
+        "originalName": "Sherlock Jr.",
+        "director": "Бастер Китон",
+        "yearProduced": "1924",
+        "yearAdded": "1991",
+        "id": 703
+    },
+    {
+        "name": "Школьные джунгли",
+        "originalName": "Blackboard Jungle",
+        "director": "Ричард Брукс",
+        "yearProduced": "1955",
+        "yearAdded": "2016",
+        "id": 704
+    },
+    {
+        "name": "Шоковый коридор",
+        "originalName": "Shock Corridor",
+        "director": "Сэмюэл Фуллер",
+        "yearProduced": "1963",
+        "yearAdded": "1996",
+        "id": 705
+    },
+    {
+        "name": "Шоу ужасов Рокки Хоррора",
+        "originalName": "The Rocky Horror Picture Show",
+        "director": "Джим Шарман",
+        "yearProduced": "1975",
+        "yearAdded": "2005",
+        "id": 707
+    },
+    {
+        "name": "Шоу T.A.M.I.",
+        "originalName": "T.A.M.I. Show",
+        "director": "Стив Байндер",
+        "yearProduced": "1964",
+        "yearAdded": "2006",
+        "id": 706
+    },
+    {
+        "name": "Шрек",
+        "originalName": "Shrek",
+        "director": "Эндрю Адамсон и Вики Дженсон",
+        "yearProduced": "2001",
+        "yearAdded": "2020",
+        "id": 708
+    },
+    {
+        "name": "Щенки есть щенки",
+        "originalName": "Pups Is Pups",
+        "director": "Роберт Макгоуэн",
+        "yearProduced": "1930",
+        "yearAdded": "2004",
+        "id": 709
+    },
+    {
+        "name": "Эбботт и Костелло встречают Франкенштейна",
+        "originalName": "Abbott and Costello Meet Frankenstein",
+        "director": "Чарльз Бартон",
+        "yearProduced": "1948",
+        "yearAdded": "2001",
+        "id": 710
+    },
+    {
+        "name": "Эдвард Мейбридж, зупраксископист",
+        "originalName": "Eadweard Muybridge, Zoopraxographer",
+        "director": "Том Андерсен",
+        "yearProduced": "1975",
+        "yearAdded": "2015",
+        "id": 744
+    },
+    {
+        "name": "Экспедиция Диксона-Ванамейкера в Кроу-Эдженси",
+        "originalName": "Dixon-Wanamaker Expedition to Crow Agency",
+        "director": "Джозеф Диксон и Роланд Диксон",
+        "yearProduced": "1908",
+        "yearAdded": "2018",
+        "id": 711
+    },
+    {
+        "name": "Экспериментальный звуковой фильм Диксона",
+        "originalName": "Dickson Experimental Sound Film",
+        "director": "Уильям Диксон",
+        "yearProduced": "1894/1895",
+        "yearAdded": "2003",
+        "id": 712
+    },
+    {
+        "name": "Электронный лабиринт: THX 1138 4EB",
+        "originalName": "Electronic Labyrinth: THX 1138 4EB",
+        "director": "Джордж Лукас",
+        "yearProduced": "1967",
+        "yearAdded": "2010",
+        "id": 713
+    },
+    {
+        "name": "Элла Синдерс",
+        "originalName": "Ella Cinders",
+        "director": "Альфред Грин",
+        "yearProduced": "1926",
+        "yearAdded": "2013",
+        "id": 745
+    },
+    {
+        "name": "Эмпайр",
+        "originalName": "Empire",
+        "director": "Энди Уорхол и Джон Палмер",
+        "yearProduced": "1965",
+        "yearAdded": "2004",
+        "id": 714
+    },
+    {
+        "name": "Энни Холл",
+        "originalName": "Annie Hall",
+        "director": "Вуди Аллен",
+        "yearProduced": "1977",
+        "yearAdded": "1992",
+        "id": 715
+    },
+    {
+        "name": "Эта замечательная жизнь",
+        "originalName": "It’s a Wonderful Life",
+        "director": "Фрэнк Капра",
+        "yearProduced": "1946",
+        "yearAdded": "1990",
+        "id": 716
+    },
+    {
+        "name": "Это",
+        "originalName": "It",
+        "director": "Кларенс Бэджер и Джозеф фон Штернберг",
+        "yearProduced": "1927",
+        "yearAdded": "2001",
+        "id": 717
+    },
+    {
+        "name": "Это — Spinal Tap!",
+        "originalName": "This Is Spinal Tap",
+        "director": "Роб Райнер",
+        "yearProduced": "1984",
+        "yearAdded": "2002",
+        "id": 721
+    },
+    {
+        "name": "Это называется профессиональным футболом",
+        "originalName": "They Call It Pro Football",
+        "director": "Джон Хентц",
+        "yearProduced": "1966",
+        "yearAdded": "2012",
+        "id": 811
+    },
+    {
+        "name": "Это подарок",
+        "originalName": "It’s a Gift",
+        "director": "Норман Маклеод",
+        "yearProduced": "1934",
+        "yearAdded": "2010",
+        "id": 719
+    },
+    {
+        "name": "Это Синерама",
+        "originalName": "This Is Cinerama",
+        "director": "Майкл Тодд, Майкл Тодд-младший, Уолтер Томпсон и Фред Рикки",
+        "yearProduced": "1952",
+        "yearAdded": "2002",
+        "id": 718
+    },
+    {
+        "name": "Это случилось однажды ночью",
+        "originalName": "It Happened One Night",
+        "director": "Фрэнк Капра",
+        "yearProduced": "1934",
+        "yearAdded": "1993",
+        "id": 720
+    },
+    {
+        "name": "Юмореска",
+        "originalName": "Humoresque",
+        "director": "Фрэнк Борзейги",
+        "yearProduced": "1920",
+        "yearAdded": "2015",
+        "id": 722
+    },
+    {
+        "name": "Я — беглый каторжник",
+        "originalName": "I Am a Fugitive from a Chain Gang",
+        "director": "Мервин Лерой",
+        "yearProduced": "1932",
+        "yearAdded": "1991",
+        "id": 723
+    },
+    {
+        "name": "Я кто-то",
+        "originalName": "I Am Somebody",
+        "director": "Мэдлин Андерсон",
+        "yearProduced": "1970",
+        "yearAdded": "2019",
+        "id": 724
+    },
+    {
+        "name": "Я Хоакин",
+        "originalName": "I Am Joaquin",
+        "director": "Луис Вальдес",
+        "yearProduced": "1969",
+        "yearAdded": "2010",
+        "id": 725
+    },
+    {
+        "name": "Я, актриса",
+        "originalName": "I, An Actress",
+        "director": "Джордж Кучар",
+        "yearProduced": "1977",
+        "yearAdded": "2011",
+        "id": 764
+    },
+    {
+        "name": "Яма",
+        "originalName": "The Hole",
+        "director": "Джон Хьюбли",
+        "yearProduced": "1962",
+        "yearAdded": "2013",
+        "id": 761
+    },
+    {
+        "name": "Янки Дудл Денди",
+        "originalName": "Yankee Doodle Dandy",
+        "director": "Майкл Кёртис",
+        "yearProduced": "1942",
+        "yearAdded": "1993",
+        "id": 726
+    },
+    {
+        "name": "Ярмарка штата",
+        "originalName": "State Fair",
+        "director": "Генри Кинг",
+        "yearProduced": "1933",
+        "yearAdded": "2014",
+        "id": 727
+    },
+    {
+        "name": "Ярость",
+        "originalName": "Fury",
+        "director": "Фриц Ланг",
+        "yearProduced": "1936",
+        "yearAdded": "1995",
+        "id": 728
+    },
+    {
+        "name": "H2O",
+        "originalName": "H2O",
+        "director": "Ральф Стайнер",
+        "yearProduced": "1929",
+        "yearAdded": "2005",
+        "id": 5
+    },
+    {
+        "name": "V-E +1",
+        "originalName": "V-E +1",
+        "director": "Сэмюэл Фуллер",
+        "yearProduced": "1945",
+        "yearAdded": "2014",
+        "id": 817
+    }
+]

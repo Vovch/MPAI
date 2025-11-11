@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Skip generated declaration helpers under /types.
+    "types/**",
   ]),
 ]);
 

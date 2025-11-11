@@ -136,7 +136,7 @@ export default function MoviePage({ movie, composition, revalidatedAt }: MoviePa
 export const getStaticPaths: GetStaticPaths = async () => {
   const movies = await loadMovies();
   return {
-    paths: movies.map((movie) => ({ params: { slug: movie.slug } })),
+    paths: [movies.map((movie) => ({ params: { slug: movie.slug } }))[0]],
     fallback: "blocking",
   };
 };
@@ -152,7 +152,7 @@ export const getStaticProps: GetStaticProps<MoviePageProps> = async ({ params })
     return { notFound: true };
   }
 
-  const prompt = getPrompt(slug);
+  const prompt = getPrompt('detail', movie.title);
   const composition = await generateStylePayload({
     scope: "detail",
     prompt,
