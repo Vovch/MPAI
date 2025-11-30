@@ -30,6 +30,47 @@ function normalizeHtmlFragment(html: string): string {
         .replace(/\sdata-([\w]+)=/g, (match) => match.toLowerCase());
 }
 
+function ensureRandomButtonAttribute(html: string): string {
+    // Check if there's already a data-random-button attribute
+    if (html.includes('data-random-button')) {
+        return html;
+    }
+
+    // Fix all types of malformed HTML in one comprehensive pass
+    // 1. Fix self-closing spans: <span ... /> -> <span ...></span>
+    html = html.replace(/<span([^>]*?)\s*\/>/gi, '<span$1></span>');
+
+    // 2. Fix spans with /> in content: <span>Content /> -> <span>Content</span>
+    html = html.replace(/<span([^>]*?)>(.*?)\s*\/>/gi, '<span$1>$2</span>');
+
+    // 3. Fix self-closing button tags: <button ... /> -> <button ...></button>
+    html = html.replace(/<button([^>]*?)\s*\/>/gi, '<button$1></button>');
+
+    // 4. Fix buttons with /> in content: <button>Content /> -> <button>Content</button>
+    html = html.replace(/<button([^>]*?)>(.*?)\s*\/>/gi, '<button$1>$2</button>');
+
+    // Now add the data-random-button attribute to buttons with relevant keywords
+    // Use a more permissive regex that works even with nested tags
+    html = html.replace(
+        /<button([^>]*?)>([\s\S]*?)<\/button>/gi,
+        (match, attributes, content) => {
+            // Check if this button is about spinning/random selection
+            const lowerContent = content.toLowerCase();
+            const lowerAttrs = attributes.toLowerCase();
+
+            if ((lowerContent.includes('spin') || lowerContent.includes('random') ||
+                lowerContent.includes('reel') || lowerContent.includes('discover') ||
+                lowerContent.includes('another')) && !lowerAttrs.includes('data-random-button')) {
+                // Add the data-random-button attribute
+                return `<button${attributes} data-random-button>${content}</button>`;
+            }
+            return match;
+        }
+    );
+
+    return html;
+}
+
 export async function generateOpenAI(prompt: string): Promise<GeminiComposition | null> {
     const config = getLLMConfig();
     if (!config.apiKey) {
@@ -97,7 +138,7 @@ export async function generateOpenAI(prompt: string): Promise<GeminiComposition 
 
             const filteredNotes = notes.filter((note): note is string => typeof note === "string");
             return {
-                html: normalizeHtmlFragment(html),
+                html: ensureRandomButtonAttribute(normalizeHtmlFragment(html)),
                 css,
                 notes: filteredNotes,
             };
