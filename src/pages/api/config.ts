@@ -10,7 +10,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     const config = req.body as Partial<LLMConfig>;
 
     // Basic validation
-    if (config.provider && !["gemini", "openai"].includes(config.provider)) {
+    if (config.provider && !["gemini", "openai", "openrouter"].includes(config.provider)) {
         return res.status(400).json({ error: "Invalid provider" });
     }
 

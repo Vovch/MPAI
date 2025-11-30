@@ -19,7 +19,7 @@ export async function generateStylePayload(options: StyleOptions): Promise<Gemin
 
     let result: GeminiComposition | null = null;
 
-    if (config.provider === "openai") {
+    if (config.provider === "openai" || config.provider === "openrouter") {
         const prompt = composePrompt(options);
         result = await generateOpenAI(prompt);
     } else {

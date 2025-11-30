@@ -80,7 +80,7 @@ export function setPrompt(prompt: string, scope?: ScopeKey): void {
   listPromptOverridden = true;
 }
 
-export type LLMProvider = "gemini" | "openai";
+export type LLMProvider = "gemini" | "openai" | "openrouter";
 
 export interface LLMConfig {
   provider: LLMProvider;
@@ -89,7 +89,7 @@ export interface LLMConfig {
   baseURL?: string;
 }
 
-// Initialize with default values (Gemini, env var key)
+// Initialize with default values (OpenRouter GLM-4, env var key)
 // Note: In a real app, we might want to persist this or handle it differently.
 // For this local dev tool, in-memory is fine, but we need to be careful about
 // the API route vs getStaticProps context.
@@ -97,10 +97,10 @@ export interface LLMConfig {
 // with API routes in a serverless env. But for "npm run dev" or "start", it usually does.
 // However, to be safe for a "demo", we can just use this.
 let llmConfig: LLMConfig = {
-  provider: "gemini",
-  apiKey: process.env.GEMINI_API_KEY ?? "",
-  model: "gemini-2.0-flash",
-  baseURL: "",
+  provider: "openrouter",
+  apiKey: process.env.OPENROUTER_API_KEY ?? "",
+  model: "z-ai/glm-4.6",
+  baseURL: "https://openrouter.ai/api/v1",
 };
 
 export function getLLMConfig(): LLMConfig {

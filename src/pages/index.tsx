@@ -333,7 +333,7 @@ export default function Home({ movies, composition, revalidatedAt, initialHighli
 }
 
 function SettingsModal({ onClose }: { onClose: () => void }) {
-  const [provider, setProvider] = useState<"gemini" | "openai">("gemini");
+  const [provider, setProvider] = useState<"gemini" | "openai" | "openrouter">("openrouter");
   const [apiKey, setApiKey] = useState("");
   const [model, setModel] = useState("");
   const [baseURL, setBaseURL] = useState("");
@@ -368,11 +368,19 @@ function SettingsModal({ onClose }: { onClose: () => void }) {
             <label className="block text-xs uppercase tracking-wider text-white/50 mb-1">Provider</label>
             <select
               value={provider}
-              onChange={(e) => setProvider(e.target.value as "gemini" | "openai")}
+              onChange={(e) => {
+                const newProvider = e.target.value as "gemini" | "openai" | "openrouter";
+                setProvider(newProvider);
+                if (newProvider === "openrouter") {
+                  setBaseURL("https://openrouter.ai/api/v1");
+                  setModel("z-ai/glm-4.6");
+                }
+              }}
               className="w-full rounded-lg border border-white/20 bg-white/5 px-3 py-2 text-white focus:border-amber-300 focus:outline-none"
             >
               <option value="gemini">Google Gemini</option>
               <option value="openai">OpenAI / Compatible</option>
+              <option value="openrouter">OpenRouter</option>
             </select>
           </div>
 
@@ -393,12 +401,12 @@ function SettingsModal({ onClose }: { onClose: () => void }) {
               type="text"
               value={model}
               onChange={(e) => setModel(e.target.value)}
-              placeholder={provider === "gemini" ? "gemini-2.0-flash" : "gpt-4o"}
+              placeholder={provider === "gemini" ? "gemini-2.0-flash" : provider === "openrouter" ? "z-ai/glm-4.6" : "gpt-4o"}
               className="w-full rounded-lg border border-white/20 bg-white/5 px-3 py-2 text-white focus:border-amber-300 focus:outline-none"
             />
           </div>
 
-          {provider === "openai" && (
+          {(provider === "openai" || provider === "openrouter") && (
             <div>
               <label className="block text-xs uppercase tracking-wider text-white/50 mb-1">Base URL (Optional)</label>
               <input
