@@ -1,32 +1,32 @@
 import type { GeminiComposition, NationalFilm } from "@/types/movies";
 
 const GEMINI_ENDPOINT =
-    "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent";
+  "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent";
 
 type GeminiScope = "list" | "detail";
 
 interface StyleOptions {
-    scope: GeminiScope;
-    prompt: string;
-    movies?: NationalFilm[];
-    highlight?: NationalFilm | null;
-    movie?: NationalFilm | null;
+  scope: GeminiScope;
+  prompt: string;
+  movies?: NationalFilm[];
+  highlight?: NationalFilm | null;
+  movie?: NationalFilm | null;
 }
 
 interface GeminiTextPart {
-    text?: string;
+  text?: string;
 }
 
 interface GeminiCandidateContent {
-    parts?: GeminiTextPart[];
+  parts?: GeminiTextPart[];
 }
 
 interface GeminiCandidate {
-    content?: GeminiCandidateContent;
+  content?: GeminiCandidateContent;
 }
 
 interface GeminiSuccessResponse {
-    candidates: GeminiCandidate[];
+  candidates: GeminiCandidate[];
 }
 
 const MAX_MOVIES_FOR_PROMPT = 12;
@@ -46,35 +46,35 @@ Rules:
 - Never wrap the JSON inside markdown fences or commentary.`;
 
 function escapeHtml(value: string): string {
-    return value
-        .replace(/&/g, "&amp;")
-        .replace(/</g, "&lt;")
-        .replace(/>/g, "&gt;")
-        .replace(/"/g, "&quot;")
-        .replace(/'/g, "&#39;");
+  return value
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
 }
 
 function simplifyMovie(movie: NationalFilm) {
-    return {
-        slug: movie.slug,
-        title: movie.title,
-        releaseYear: movie.releaseYear,
-        registryYear: movie.registryYear,
-        runtimeMinutes: movie.runtimeMinutes,
-        genres: movie.genres,
-        logline: movie.logline,
-        summary: movie.summary,
-        whyImportant: movie.whyImportant,
-        watchUrl: movie.watchUrl,
-        directors: movie.directors,
-        cast: movie.cast,
-    };
+  return {
+    slug: movie.slug,
+    title: movie.title,
+    releaseYear: movie.releaseYear,
+    registryYear: movie.registryYear,
+    runtimeMinutes: movie.runtimeMinutes,
+    genres: movie.genres,
+    logline: movie.logline,
+    summary: movie.summary,
+    whyImportant: movie.whyImportant,
+    watchUrl: movie.watchUrl,
+    directors: movie.directors,
+    cast: movie.cast,
+  };
 }
 
-function composePrompt({ scope, prompt, movies, highlight, movie }: StyleOptions): string {
-    if (scope === "detail" && movie) {
-        const movieBlob = JSON.stringify(simplifyMovie(movie), null, 2);
-        return `${baseGuidelines}
+export function composePrompt({ scope, prompt, movies, highlight, movie }: StyleOptions): string {
+  if (scope === "detail" && movie) {
+    const movieBlob = JSON.stringify(simplifyMovie(movie), null, 2);
+    return `${baseGuidelines}
 
 User prompt or requested mood:
 ${prompt}
@@ -89,13 +89,13 @@ Film metadata to weave into markup:
 ${movieBlob}
 
 Deliver JSON with html/css/notes.`;
-    }
+  }
 
-    const trimmedMovies = (movies ?? []).slice(0, MAX_MOVIES_FOR_PROMPT).map(simplifyMovie);
-    const movieBlob = JSON.stringify(trimmedMovies, null, 2);
-    const highlightBlob = highlight ? JSON.stringify(simplifyMovie(highlight), null, 2) : "null";
+  const trimmedMovies = (movies ?? []).slice(0, MAX_MOVIES_FOR_PROMPT).map(simplifyMovie);
+  const movieBlob = JSON.stringify(trimmedMovies, null, 2);
+  const highlightBlob = highlight ? JSON.stringify(simplifyMovie(highlight), null, 2) : "null";
 
-    return `${baseGuidelines}
+  return `${baseGuidelines}
 
 User prompt or requested mood:
 ${prompt}
@@ -121,108 +121,108 @@ Return only the JSON payload.`;
 }
 
 function extractJsonFromText(text: string): string | null {
-    if (!text) {
-        return null;
-    }
+  if (!text) {
+    return null;
+  }
 
-    const fencedMatch = text.match(/```(?:json)?\s*([\s\S]*?)```/i);
-    if (fencedMatch && fencedMatch[1]) {
-        return fencedMatch[1].trim();
-    }
+  const fencedMatch = text.match(/```(?:json)?\s*([\s\S]*?)```/i);
+  if (fencedMatch && fencedMatch[1]) {
+    return fencedMatch[1].trim();
+  }
 
-    const firstBrace = text.indexOf("{");
-    const lastBrace = text.lastIndexOf("}");
-    if (firstBrace !== -1 && lastBrace !== -1 && lastBrace > firstBrace) {
-        return text.slice(firstBrace, lastBrace + 1).trim();
-    }
+  const firstBrace = text.indexOf("{");
+  const lastBrace = text.lastIndexOf("}");
+  if (firstBrace !== -1 && lastBrace !== -1 && lastBrace > firstBrace) {
+    return text.slice(firstBrace, lastBrace + 1).trim();
+  }
 
-    return text.trim();
+  return text.trim();
 }
 
 function normalizeHtmlFragment(html: string): string {
-    if (!html) {
-        return "";
-    }
+  if (!html) {
+    return "";
+  }
 
-    return html
-        .replace(/\bclassName=/g, "class=")
-        .replace(/\bhtmlFor=/g, "for=")
-        .replace(/\sdata-([\w]+)=/g, (match) => match.toLowerCase());
+  return html
+    .replace(/\bclassName=/g, "class=")
+    .replace(/\bhtmlFor=/g, "for=")
+    .replace(/\sdata-([\w]+)=/g, (match) => match.toLowerCase());
 }
 
 function isGeminiResponse(body: unknown): body is GeminiSuccessResponse {
-    if (!body || typeof body !== "object" || !("candidates" in body)) {
-        return false;
-    }
+  if (!body || typeof body !== "object" || !("candidates" in body)) {
+    return false;
+  }
 
-    const { candidates } = body as { candidates?: unknown };
-    return Array.isArray(candidates);
+  const { candidates } = body as { candidates?: unknown };
+  return Array.isArray(candidates);
 }
 
 function parseGeminiResponse(body: unknown): GeminiComposition | null {
-    if (!isGeminiResponse(body)) {
-        return null;
-    }
-
-    const text =
-        body.candidates?.[0]?.content?.parts
-            ?.map((part) => part?.text ?? "")
-            .join(" ")
-            .trim() ?? "";
-
-    if (!text) {
-        return null;
-    }
-
-    const sanitized = extractJsonFromText(text);
-    if (!sanitized) {
-        return null;
-    }
-
-    try {
-        const parsed: unknown = JSON.parse(sanitized);
-        if (
-            parsed &&
-            typeof parsed === "object" &&
-            "html" in parsed &&
-            "css" in parsed &&
-            "notes" in parsed
-        ) {
-            const { html, css, notes } = parsed as {
-                html: unknown;
-                css: unknown;
-                notes: unknown;
-            };
-
-            if (typeof html !== "string" || typeof css !== "string" || !Array.isArray(notes)) {
-                return null;
-            }
-
-            const filteredNotes = notes.filter((note): note is string => typeof note === "string");
-            return {
-                html: normalizeHtmlFragment(html),
-                css,
-                notes: filteredNotes,
-            };
-        }
-    } catch (error) {
-        console.warn("Failed to parse Gemini JSON. Raw text:", text, error);
-        return null;
-    }
-
+  if (!isGeminiResponse(body)) {
     return null;
+  }
+
+  const text =
+    body.candidates?.[0]?.content?.parts
+      ?.map((part) => part?.text ?? "")
+      .join(" ")
+      .trim() ?? "";
+
+  if (!text) {
+    return null;
+  }
+
+  const sanitized = extractJsonFromText(text);
+  if (!sanitized) {
+    return null;
+  }
+
+  try {
+    const parsed: unknown = JSON.parse(sanitized);
+    if (
+      parsed &&
+      typeof parsed === "object" &&
+      "html" in parsed &&
+      "css" in parsed &&
+      "notes" in parsed
+    ) {
+      const { html, css, notes } = parsed as {
+        html: unknown;
+        css: unknown;
+        notes: unknown;
+      };
+
+      if (typeof html !== "string" || typeof css !== "string" || !Array.isArray(notes)) {
+        return null;
+      }
+
+      const filteredNotes = notes.filter((note): note is string => typeof note === "string");
+      return {
+        html: normalizeHtmlFragment(html),
+        css,
+        notes: filteredNotes,
+      };
+    }
+  } catch (error) {
+    console.warn("Failed to parse Gemini JSON. Raw text:", text, error);
+    return null;
+  }
+
+  return null;
 }
 
 function buildDefaultListComposition(options: StyleOptions): GeminiComposition {
-    const movies = options.movies ?? [];
-    const highlight = options.highlight ?? movies[0] ?? null;
+  const movies = options.movies ?? [];
+  const highlight = options.highlight ?? movies[0] ?? null;
 
-    const heroCopy =
-        "Fallback style: archival midnight waltz. Supply your own prompt to let Gemini rewrite this entire layout.";
+  const heroCopy =
+    "Fallback style: archival midnight waltz. Supply your own prompt to let Gemini rewrite this entire layout.";
 
-    const cards = movies
-        .map(
-            (movie) => `
+  const cards = movies
+    .map(
+      (movie) => `
       <article class="nf-card" data-movie-card>
         <div class="nf-card__meta">
           <p class="nf-card__year">${escapeHtml(String(movie.releaseYear))} | Registry ${movie.registryYear}</p>
@@ -232,10 +232,10 @@ function buildDefaultListComposition(options: StyleOptions): GeminiComposition {
         <p class="nf-card__summary">${escapeHtml(movie.summary)}</p>
         <a class="nf-card__link" href="/movies/${movie.slug}">View dossier</a>
       </article>`
-        )
-        .join("\n");
+    )
+    .join("\n");
 
-    const html = normalizeHtmlFragment(`
+  const html = normalizeHtmlFragment(`
   <section class="nf-hero">
     <p class="nf-hero__eyebrow">United States National Film Registry</p>
     <h1 class="nf-hero__title">Manual fallback layout</h1>
@@ -248,11 +248,11 @@ function buildDefaultListComposition(options: StyleOptions): GeminiComposition {
       <p class="nf-random-eyebrow">Tonight's pick</p>
       <h2 class="nf-random-title" data-random-title>${highlight ? escapeHtml(highlight.title) : "Select a film"}</h2>
       <p class="nf-random-meta" data-random-meta>${highlight
-            ? `${highlight.releaseYear} | Registry ${highlight.registryYear} | ${highlight.runtimeMinutes} min`
-            : "Click the spin button to generate a title"
-        }</p>
+      ? `${highlight.releaseYear} | Registry ${highlight.registryYear} | ${highlight.runtimeMinutes} min`
+      : "Click the spin button to generate a title"
+    }</p>
       <p class="nf-random-logline" data-random-logline>${highlight ? escapeHtml(highlight.logline) : "We will display a logline once a film is selected."
-        }</p>
+    }</p>
       <a class="nf-random-link" data-random-link href="${highlight ? `/movies/${highlight.slug}` : "#"}">
         Explore dossier
       </a>
@@ -267,7 +267,7 @@ function buildDefaultListComposition(options: StyleOptions): GeminiComposition {
   </section>
   `.trim());
 
-    const css = `
+  const css = `
   :root {
     color-scheme: dark;
     font-family: "Geist Sans", "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -352,63 +352,63 @@ function buildDefaultListComposition(options: StyleOptions): GeminiComposition {
   }
   `;
 
-    return {
-        html,
-        css,
-        notes: [
-            "Fallback theme: midnight archive with aurora gradients.",
-            "Random panel + button are wired via data attributes.",
-        ],
-    };
+  return {
+    html,
+    css,
+    notes: [
+      "Fallback theme: midnight archive with aurora gradients.",
+      "Random panel + button are wired via data attributes.",
+    ],
+  };
 }
 
 function buildDefaultDetailComposition(options: StyleOptions): GeminiComposition {
-    const movie = options.movie;
-    if (!movie) {
-        return {
-            html: `<section class="nf-detail-empty"><h1>Film not found</h1><p>The requested registry entry was unavailable.</p></section>`,
-            css: `
+  const movie = options.movie;
+  if (!movie) {
+    return {
+      html: `<section class="nf-detail-empty"><h1>Film not found</h1><p>The requested registry entry was unavailable.</p></section>`,
+      css: `
       body { background: #020617; color: #f8fafc; font-family: "Geist Sans", system-ui, sans-serif; padding: 3rem; }
       .nf-detail-empty { max-width: 40rem; margin: 0 auto; text-align: center; }
       `,
-            notes: ["Fallback detail view when no film metadata is present."],
-        };
-    }
+      notes: ["Fallback detail view when no film metadata is present."],
+    };
+  }
 
-    const html = normalizeHtmlFragment(`
+  const html = normalizeHtmlFragment(`
   <article class="nf-detail-shell">
     <header class="nf-detail-hero">
       <p class="nf-detail-eyebrow">Registry dossier | ${movie.registryYear}</p>
       <h1>${escapeHtml(movie.title)}</h1>
       <p class="nf-detail-meta">${movie.releaseYear} | ${movie.runtimeMinutes} min | Directed by ${escapeHtml(
-        movie.directors.join(", ")
-    )}</p>
+    movie.directors.join(", ")
+  )}</p>
     </header>
     <section class="nf-detail-body">
       <p class="nf-detail-logline">${escapeHtml(movie.logline)}</p>
       <p class="nf-detail-summary">${escapeHtml(movie.summary)}</p>
       ${movie.whyImportant
-            ? `<div class="nf-detail-why">
+      ? `<div class="nf-detail-why">
         <h2>Why the Library of Congress preserved it</h2>
         <p>${escapeHtml(movie.whyImportant)}</p>
       </div>`
-            : ""
-        }
+      : ""
+    }
       ${movie.cast.length > 0
-            ? `<p class="nf-detail-cast"><strong>Cast:</strong> ${escapeHtml(movie.cast.join(", "))}</p>`
-            : ""
-        }
+      ? `<p class="nf-detail-cast"><strong>Cast:</strong> ${escapeHtml(movie.cast.join(", "))}</p>`
+      : ""
+    }
     </section>
     <footer class="nf-detail-footer">
       <a class="nf-detail-link" href="${escapeHtml(
-            movie.watchUrl
-        )}" target="_blank" rel="noreferrer">Visit the Library of Congress record</a>
+      movie.watchUrl
+    )}" target="_blank" rel="noreferrer">Visit the Library of Congress record</a>
       <a class="nf-detail-link nf-detail-link--ghost" href="/">Back to registry list</a>
     </footer>
   </article>
   `.trim());
 
-    const css = `
+  const css = `
   :root {
     color-scheme: dark;
   }
@@ -475,55 +475,58 @@ function buildDefaultDetailComposition(options: StyleOptions): GeminiComposition
   }
   `;
 
-    return {
-        html,
-        css,
-        notes: [
-            "Fallback detail shell uses aurora gradients and glassmorphism.",
-            "Primary CTA always links to the Library of Congress resource.",
+  return {
+    html,
+    css,
+    notes: [
+      "Fallback detail shell uses aurora gradients and glassmorphism.",
+      "Primary CTA always links to the Library of Congress resource.",
+    ],
+  };
+}
+
+export function buildDefaultComposition(options: StyleOptions): GeminiComposition {
+  return options.scope === "detail"
+    ? buildDefaultDetailComposition(options)
+    : buildDefaultListComposition(options);
+}
+
+import { getLLMConfig } from "@/lib/styleState";
+
+export async function generateGemini(options: StyleOptions): Promise<GeminiComposition | null> {
+  const config = getLLMConfig();
+  const apiKey = config.apiKey;
+
+  if (!apiKey) {
+    return null;
+  }
+
+  try {
+    const response = await fetch(`${GEMINI_ENDPOINT}?key=${apiKey}`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        contents: [
+          {
+            role: "user",
+            parts: [{ text: composePrompt(options) }],
+          },
         ],
-    };
-}
+      }),
+    });
 
-function buildDefaultComposition(options: StyleOptions): GeminiComposition {
-    return options.scope === "detail"
-        ? buildDefaultDetailComposition(options)
-        : buildDefaultListComposition(options);
-}
-
-export async function generateStylePayload(options: StyleOptions): Promise<GeminiComposition> {
-    const fallback = buildDefaultComposition(options);
-    const apiKey = process.env.GEMINI_API_KEY;
-    if (!apiKey) {
-        return fallback;
+    if (!response.ok) {
+      console.warn("Gemini API returned non-OK status", await response.text());
+      return null;
     }
 
-    try {
-        const response = await fetch(`${GEMINI_ENDPOINT}?key=${apiKey}`, {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-            },
-            body: JSON.stringify({
-                contents: [
-                    {
-                        role: "user",
-                        parts: [{ text: composePrompt(options) }],
-                    },
-                ],
-            }),
-        });
-
-        if (!response.ok) {
-            console.warn("Gemini API returned non-OK status", await response.text());
-            return fallback;
-        }
-
-        const data = await response.json();
-        const parsed = parseGeminiResponse(data);
-        return parsed ?? fallback;
-    } catch (error) {
-        console.error("Gemini API failed", error);
-        return fallback;
-    }
+    const data = await response.json();
+    const parsed = parseGeminiResponse(data);
+    return parsed;
+  } catch (error) {
+    console.error("Gemini API failed", error);
+    return null;
+  }
 }

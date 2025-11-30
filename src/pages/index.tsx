@@ -1,8 +1,9 @@
 import { ChangeEvent, FormEvent, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { GetStaticProps } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Link from "next/link";
 
-import { generateStylePayload } from "@/lib/gemini";
+import { generateStylePayload } from "@/lib/generator";
 import { loadMovies } from "@/lib/movies";
 import { getPrompt } from "@/lib/styleState";
 import type { GeminiComposition, NationalFilm } from "@/types/movies";
@@ -170,6 +171,8 @@ export default function Home({ movies, composition, revalidatedAt, initialHighli
     });
   }, [movies, normalizedQuery]);
 
+  const [isSettingsOpen, setIsSettingsOpen] = useState(false);
+
   return (
     <div className={`${geistSans.variable} ${geistMono.variable} flex min-h-screen flex-col`}>
       <style dangerouslySetInnerHTML={{ __html: composition.css }} />
@@ -183,7 +186,15 @@ export default function Home({ movies, composition, revalidatedAt, initialHighli
 
       <section className="manual-panel mx-auto my-8 flex w-full max-w-5xl flex-col gap-4 rounded-3xl border border-neutral-900/40 bg-black/80 px-6 py-8 text-white shadow-2xl backdrop-blur">
         <div className="flex flex-col gap-2">
-          <p className="text-xs uppercase tracking-[0.4em] text-white/40">Live controls</p>
+          <div className="flex items-center justify-between">
+            <p className="text-xs uppercase tracking-[0.4em] text-white/40">Live controls</p>
+            <button
+              onClick={() => setIsSettingsOpen(true)}
+              className="text-xs uppercase tracking-[0.2em] text-white/40 hover:text-white transition-colors"
+            >
+              Settings
+            </button>
+          </div>
           <h2 className="text-2xl font-semibold">Regenerate this page with your own prompt</h2>
           <p className="text-sm text-white/70">
             Gemini authored every bit of CSS and markup inside the experience above. Send a mood or design direction to
@@ -219,7 +230,7 @@ export default function Home({ movies, composition, revalidatedAt, initialHighli
             <button
               type="button"
               onClick={handleManualSpin}
-              className="rounded-full border border-white/30 px-4 py-2 text-xs uppercase tracking-[0.3em] text-white hover:border-white"
+              className="rounded-full border border-white/30 px-4 py-2 text-xs uppercase tracking-[0.3em] text-white hover:border-white active:scale-95 transition-transform"
             >
               Spin random film (fallback)
             </button>
@@ -246,7 +257,7 @@ export default function Home({ movies, composition, revalidatedAt, initialHighli
                 Search titles, directors, or genres below. Results update instantly so the full catalog is always within reach.
               </p>
             </div>
-            <div className="w-full max-w-md">
+            <div className="w-full max-w-md relative">
               <label htmlFor="movie-search" className="sr-only">
                 Search registry films
               </label>
@@ -256,41 +267,54 @@ export default function Home({ movies, composition, revalidatedAt, initialHighli
                 value={searchQuery}
                 onChange={handleSearchChange}
                 placeholder="Search by title, director, year, or genre"
-                className="w-full rounded-2xl border border-white/20 bg-white/10 px-5 py-3 text-sm text-white placeholder:text-white/50 focus:border-amber-300 focus:outline-none"
+                className="w-full rounded-2xl border border-white/20 bg-white/10 px-5 py-3 text-sm text-white placeholder:text-white/50 focus:border-amber-300 focus:outline-none pr-10"
               />
+              {searchQuery && (
+                <button
+                  type="button"
+                  onClick={() => setSearchQuery("")}
+                  className="absolute right-3 top-1/2 -translate-y-1/2 p-2 text-white/50 hover:text-white"
+                  aria-label="Clear search"
+                >
+                  ✕
+                </button>
+              )}
+
               <p className="mt-2 text-xs uppercase tracking-[0.3em] text-white/40">
                 {normalizedQuery
                   ? `Showing ${filteredMovies.length} match${filteredMovies.length === 1 ? "" : "es"}`
                   : `Showing all ${movies.length} films`}
               </p>
+
             </div>
           </div>
+
           <div className="mt-6 grid gap-4 sm:grid-cols-2">
             {filteredMovies.length > 0 ? (
               filteredMovies.map((movie) => (
-                <article
+                <Link
                   key={movie.slug}
-                  className="flex flex-col rounded-2xl border border-white/10 bg-white/5 p-5 transition hover:border-amber-200/40"
+                  href={`/movies/${movie.slug}`}
+                  className="flex flex-col rounded-2xl border border-white/10 bg-white/5 p-5 transition hover:border-amber-200/40 hover:bg-white/10 group"
                 >
                   <div className="text-xs uppercase tracking-[0.3em] text-white/40">
                     <span>{movie.releaseYear || "Year N/A"}</span>
                     <span className="px-2 text-white/20">|</span>
                     <span>Registry {movie.registryYear || "—"}</span>
                   </div>
-                  <h3 className="mt-2 text-lg font-semibold text-white">{movie.title}</h3>
+                  <h3 className="mt-2 text-lg font-semibold text-white group-hover:text-amber-200 transition-colors">{movie.title}</h3>
                   <p className="text-sm text-white/60">
                     {movie.directors.length > 0 ? movie.directors.join(", ") : "Director information unavailable"}
                   </p>
                   <p className="mt-2 text-sm text-white/70">
                     {movie.summary || movie.logline || "Visit the dossier for synopsis and preservation notes."}
                   </p>
-                  <a
-                    className="mt-4 text-sm font-semibold text-amber-300 hover:text-amber-100"
-                    href={`/movies/${movie.slug}`}
+                  <span
+                    className="mt-4 text-sm font-semibold text-amber-300 group-hover:text-amber-100"
                   >
                     Open dossier →
-                  </a>
-                </article>
+                  </span>
+                </Link>
               ))
             ) : (
               <p className="rounded-2xl border border-white/10 bg-white/5 p-6 text-sm text-white/70">
@@ -300,6 +324,112 @@ export default function Home({ movies, composition, revalidatedAt, initialHighli
           </div>
         </section>
       )}
+
+      {isSettingsOpen && (
+        <SettingsModal onClose={() => setIsSettingsOpen(false)} />
+      )}
+    </div>
+  );
+}
+
+function SettingsModal({ onClose }: { onClose: () => void }) {
+  const [provider, setProvider] = useState<"gemini" | "openai">("gemini");
+  const [apiKey, setApiKey] = useState("");
+  const [model, setModel] = useState("");
+  const [baseURL, setBaseURL] = useState("");
+  const [status, setStatus] = useState<string | null>(null);
+
+  const handleSave = async (e: FormEvent) => {
+    e.preventDefault();
+    setStatus("Saving...");
+
+    try {
+      const res = await fetch("/api/config", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ provider, apiKey, model, baseURL }),
+      });
+
+      if (!res.ok) throw new Error("Failed to save");
+
+      setStatus("Saved!");
+      setTimeout(onClose, 1000);
+    } catch (error) {
+      setStatus("Error saving config");
+    }
+  };
+
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4">
+      <div className="w-full max-w-md rounded-2xl border border-white/10 bg-[#0a0a0a] p-6 shadow-2xl">
+        <h2 className="text-xl font-bold text-white mb-4">LLM Settings</h2>
+        <form onSubmit={handleSave} className="flex flex-col gap-4">
+          <div>
+            <label className="block text-xs uppercase tracking-wider text-white/50 mb-1">Provider</label>
+            <select
+              value={provider}
+              onChange={(e) => setProvider(e.target.value as "gemini" | "openai")}
+              className="w-full rounded-lg border border-white/20 bg-white/5 px-3 py-2 text-white focus:border-amber-300 focus:outline-none"
+            >
+              <option value="gemini">Google Gemini</option>
+              <option value="openai">OpenAI / Compatible</option>
+            </select>
+          </div>
+
+          <div>
+            <label className="block text-xs uppercase tracking-wider text-white/50 mb-1">API Key</label>
+            <input
+              type="password"
+              value={apiKey}
+              onChange={(e) => setApiKey(e.target.value)}
+              placeholder="sk-..."
+              className="w-full rounded-lg border border-white/20 bg-white/5 px-3 py-2 text-white focus:border-amber-300 focus:outline-none"
+            />
+          </div>
+
+          <div>
+            <label className="block text-xs uppercase tracking-wider text-white/50 mb-1">Model (Optional)</label>
+            <input
+              type="text"
+              value={model}
+              onChange={(e) => setModel(e.target.value)}
+              placeholder={provider === "gemini" ? "gemini-2.0-flash" : "gpt-4o"}
+              className="w-full rounded-lg border border-white/20 bg-white/5 px-3 py-2 text-white focus:border-amber-300 focus:outline-none"
+            />
+          </div>
+
+          {provider === "openai" && (
+            <div>
+              <label className="block text-xs uppercase tracking-wider text-white/50 mb-1">Base URL (Optional)</label>
+              <input
+                type="text"
+                value={baseURL}
+                onChange={(e) => setBaseURL(e.target.value)}
+                placeholder="https://api.openai.com/v1"
+                className="w-full rounded-lg border border-white/20 bg-white/5 px-3 py-2 text-white focus:border-amber-300 focus:outline-none"
+              />
+              <p className="text-xs text-white/40 mt-1">For LM Studio, Ollama, etc.</p>
+            </div>
+          )}
+
+          <div className="flex justify-end gap-2 mt-4">
+            <button
+              type="button"
+              onClick={onClose}
+              className="px-4 py-2 text-sm text-white/60 hover:text-white"
+            >
+              Cancel
+            </button>
+            <button
+              type="submit"
+              className="rounded-full bg-amber-300 px-6 py-2 text-sm font-semibold text-black hover:bg-amber-200"
+            >
+              Save Configuration
+            </button>
+          </div>
+          {status && <p className="text-center text-sm text-white/70">{status}</p>}
+        </form>
+      </div>
     </div>
   );
 }
